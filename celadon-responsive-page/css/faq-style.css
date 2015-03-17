@@ -1,0 +1,80 @@
+﻿
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+/* template style */
+body {
+    padding: 0 10px 0 10px;
+}
+
+.containerCeladonLogo {
+    text-align: center;
+    min-width: 20%;
+    padding: 20px 0 5px 0px;
+    margin: 0 5px 0 5px;
+}
+
+.celadonLogo {
+    height: auto;
+    min-width: 20%;
+    text-align: center;
+}
+
+.driverBlueBox {
+    position: relative;
+    z-index: 1;
+    margin: -54px auto -28px auto;
+    background: #0e76bb;
+    color: white;
+    height: 35px;
+    max-width: 75%;
+    font: bold x-large Arial, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.driverBlueBox label {
+        font-size: large;
+    }
+
+
+.container {
+    margin-top: 30px;
+    padding: 20px 10px 20px 10px;
+    background: gainsboro;
+    border-radius: 35px;
+    min-width: 310px;
+    border: 1px solid #cccccb;
+}
+
+.top40 {
+    padding-top: 40px;
+}
+
+
+
+
+/* Custom Style*/
+
+/*width: 300px; margin: 0 auto; text-align: center;*/
+
+.table-center {
+    text-align: center;
+    width: 100%;
+}
+
+.text-left {
+    text-align: left;
+    width: 100%;
+}
+
+.top10 {
+    margin-top: 10px;
+}
+
+.top5 {
+    margin-top: 5px;
+}

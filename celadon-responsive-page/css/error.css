@@ -1,0 +1,199 @@
+/* Media Queries */
+
+/*
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+
+body {
+     font-family: 'Abel', sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+.header,
+.marketing,
+.footer {
+    padding-right: 0;
+    padding-left: 0;
+	}
+}
+  
+  
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+/* Custom page header */
+.header {
+  border-bottom: none;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+
+
+/* Customize container */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  
+  
+}
+.jumbotron .btn {
+  margin-top: 30px;
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+/* Space out the masthead */
+.header {
+   margin-bottom: 30px;
+}
+  
+  
+/* Remove the bottom border on the jumbotron for visual effect */
+.jumbotron {
+   border-bottom: 0;
+}
+
+
+/* 404 Styles */
+
+.logo {
+	position: absolute;
+	top: 80px;
+}
+
+
+.tire {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	text-align: right;
+}
+
+.jumbotron {
+  margin-bottom: 30px;
+  padding: 20px;
+  color: inherit;
+  background-color: #ffffff;
+}
+
+.jumbotron .btn {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 14px 50px;
+  font-size: 21px;
+}
+
+
+.jumbotron .left {
+	position: relative;
+	top: 158px;
+	text-align: left;
+}
+
+@media (max-width: 500px){ 
+	   .jumbotron, 
+	   .left {
+	     font-size: 25px;
+	   }
+	 }
+
+
+.jumbotron .much-text {
+	text-align: left;
+	font-size: 48px;
+}
+
+@media (max-width: 767px){ 
+	.jumbotron, 
+    .much-text {
+	   font-size: 21px;
+	   text-align: center;
+	   }
+	 }
+
+
+@media (max-width: 500px){ 
+	.jumbotron, 
+    .much-text {
+	   font-size: 21px;
+	   text-align: center;
+	   }
+	 }
+	 
+	 
+.jumbotron .sorry {
+	position: relative;
+	padding-bottom: 40px;
+}
+
+
+.jumbotron .small {
+	padding-bottom: 0px;
+	font-size: 18px;
+}
+
+
+/* Custom page footer */
+.footer {
+  padding-top: 5px;
+  color: #777;
+  text-align: right;
+}

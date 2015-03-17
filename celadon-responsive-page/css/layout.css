@@ -1,0 +1,187 @@
+.gray-box {
+    background-color: #BBBDC0;
+    height: 100px;
+    width: 100%;
+}
+
+.table-container {
+    background-color: #ffffff;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+
+.table-container2 {
+    background-color: #ffffff;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 130px;
+}
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: none;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+
+
+.pwd-color table {
+    background-color: #eee;
+    width: 300px;
+}
+
+.pwd-color table tbody tr td {
+    padding: 20px;
+    width: 300px;
+    }
+
+.solid-block {
+    width: 255px !important;
+}
+
+
+.bottom-textbox {
+    text-align: left;
+    background-color: #eeeeee;
+    padding: 10px 0px 0px 10px;
+}
+
+.bottom-textbox span {
+    margin-left: 45px;
+    font-size: large;
+}
+
+.year-dropdown {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+/* I don't think this is being used */
+
+.pager {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pager-inner div {
+    text-align: left;
+}
+
+.pager-heading {
+    font-weight: bold;
+}
+
+/* end pager */
+
+
+.sidemenu {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.sidemenu ul li {
+    border-bottom: 1px solid #a9a9a9;
+    color: #ffffff;
+}
+
+.sidemenu ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.sidemenu ul li:hover {
+    background-color: #0066CC;
+    color: #ffffff;
+}
+
+
+.breathing-room {
+    margin-top: 10px;
+}
+
+.btn-space {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.center-buttons {
+    margin-left: 15px;
+}
+
+
+.left-side {
+    text-align: left;
+}
+
+
+.password-box {
+    background-color: #dcdcdc;
+    max-width: 100%;
+}
+
+.pwd-left {
+    text-align: left;
+}
+
+
+.menu-space {
+    margin-top: 30px;
+}
+
+.block {
+    width: 400px !important;
+}
+
+
+.indent {
+   margin-left: 70px;
+}
+
+.small-indent {
+   margin-left: 20px;
+}
+
+.space{
+   margin-top: 20px;
+}
+
+
+.cp-table{
+   border:0px; 
+   border-color:#FFFFFF; 
+   background-color:#FFFFFF; 
+   width:500px; 
+   padding:0px; 
+   margin:0px;
+}
+
+.wd-380{
+   width: 380px !important;
+    }
+
+
+
+.clear-table {
+    border:0px;
+    border-color:#FFFFFF; 
+    background-color:#FFFFFF; 
+    width: auto;  
+    border-spacing: 10px;
+    border-collapse: separate;
+    
+}
+
+.mg-bottom-20 {
+    margin-bottom: 20px;
+}

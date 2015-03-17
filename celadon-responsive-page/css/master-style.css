@@ -1,0 +1,1287 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Armata);
+
+
+/* Style Architecture 
+   Author: Michael Douglas
+   Date: 04/08/2014
+   Last Updated: 11/10/2014
+   URL: https://driver.celadontrucking.com/
+*/
+
+/* 
+Simplifed Style Structure
+---------
+Folders are in CAPS and individual pages are lower case.
+
+GLOBAL
+MEDIA QUERIES 
+PRINT STYLE
+ACCOUNT-MANAGEMENT
+ADMIN
+EMAIL-TEMPLATES
+ERROR
+PUBLIC
+SECURE
+*/
+
+/* GLOBAL */
+body {
+    padding-top: 32px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-image: url(../img/diamond-plate-tile.jpg);
+    background-repeat: repeat;
+    color: #333333;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+    .container .jumbotron {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding: 0;
+        margin: 0;
+    }
+
+.jumbotron {
+    /*background-image: url(../img/header-backgrounds/dont-fall.jpg);*/
+    margin: 0;
+    padding: 0;
+}
+
+    .jumbotron img {
+        /*width: 100%;*/
+    }
+
+a {
+    outline: 0;
+}
+
+    a:hover, a:active, a:focus {
+        outline: 0;
+    }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Armata', sans-serif;
+}
+
+    h1 .h1 {
+        color: #005293;
+        font-size: 30px;
+    }
+
+    h2 .h2 {
+        color: #005293;
+        font-size: 22px;
+    }
+
+    h3 .h3 {
+        color: #222222;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    h4 .h4 {
+        color: #222222;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    h5 .h5 {
+        color: #222222;
+        font-size: 12px;
+    }
+
+.master-gutters {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-position {
+    padding-left: 5px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.side-menu-level-1-style {
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: #efefef;
+}
+
+.side-menu-level-2-style {
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
+
+.sidemenu {
+    margin-left: 5px;
+    margin-right: -5px;
+}
+
+    .sidemenu ul li a:hover {
+        text-decoration: underline !important;
+        color: #555555;
+    }
+
+/* 2014-09-10 Gabe Harris asked me to create
+"One Button To Rule them All!" */
+.btn-action-celadon {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-family: 'Armata', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #005293;
+    border-color: #357ebd;
+}
+
+    .btn-action-celadon:hover,
+    .btn-action-celadon:focus,
+    .btn-action-celadon:active,
+    .btn-action-celadon.active,
+    .open .dropdown-toggle.btn-action-celadon {
+        color: #fff;
+        background-color: #3276b1;
+        border-color: #285e8e;
+    }
+
+    .btn-action-celadon:active,
+    .btn-action-celadon.active,
+    .open .dropdown-toggle.btn-action-celadon {
+        background-image: none;
+    }
+/* End "One Button To Rule them All!" */
+
+
+.btn-jumbotron {
+    font-family: 'Armata', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13pt;
+    min-width: 170px;
+}
+
+.btn-center {
+    width: 150px;
+    margin: 0 auto 0 auto;
+}
+
+div ul li {
+    list-style: none;
+    padding: 4px;
+}
+
+    div ul li a:link {
+        color: #0066CC;
+    }
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+label {
+    display: inline-block;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+
+.top10 {
+    margin-top: 10px;
+}
+
+.panel-title {
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+
+table {
+    border: 0;
+}
+
+/* END GLOBAL */
+
+/* MEDIA QUERIES 
+@media(max-width:767px){}  = col-xs-*
+@media(min-width:768px){}   = col-sm-*
+@media(min-width:992px){}   = col-md-*
+@media(min-width:1200px){} = col-lg-*
+*/
+
+
+@media (max-width: 949px) {
+    menu-position {
+        visibility: hidden;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .margin-top60 {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .map {
+        width: 200px;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .margin-top60 {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .map {
+        width: 200px;
+        height: auto;
+    }
+}
+
+
+/* Error Pages */
+@media (max-width: 500px) {
+    .logo {
+        height: auto;
+        width: 60%;
+    }
+}
+
+/* trip card */
+@media (max-width: 600px) {
+    .panel {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/*Used for no gutter gridviews*/
+@media (max-width: 400px) {
+
+    h3 {
+        font-size: 14pt;
+    }
+
+    .table td {
+        line-height: 1em;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+/* Flexible iFrame */
+@media (max-width: 500) {
+    .Flexible-container iframe,
+    .Flexible-container object,
+    .Flexible-container embed {
+        left: 30px;
+    }
+}
+
+/* END MEDIA QUERIES */
+
+
+/* PRINT STYLE */
+/* Print turns all graphics, buttons, controls, CSS layout, and colors off. 
+   Leaving only formated text behind. 
+   The text is left-aligned.  */
+
+@media print {
+
+    .body-master {
+        font: 12pt Georgia, "Times New Roman", Times, serif;
+        line-height: 1.3;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+
+    header h1, header nav, footer, img {
+        display: none;
+    }
+
+
+    h1 {
+        font-size: 24pt;
+    }
+
+    h2 {
+        font-size: 14pt;
+        margin-top: 25px;
+    }
+
+
+    blockquote, ul {
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        content: "» ";
+    }
+
+    p a[href^="http://"]:after {
+        content: " (" attr(href) ")";
+        font-size: 90%;
+    }
+
+    p a[href^="#"]:after {
+        display: none;
+    }
+
+    p a[href^="http://"]:after, a[href^="https://"]:after {
+        content: " (" attr(href) ")";
+    }
+
+    p a {
+        word-wrap: break-word;
+    }
+
+    a {
+        color: #000;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td,
+    .table-striped > tbody > tr:nth-child(odd) > th {
+        background-color: #f9f9f9;
+    }
+
+    .table-striped tbody .table-striped tbody tr:nth-child(odd) {
+        background-color: #eee;
+    }
+
+    tr:nth-child(even) {
+        background-color: #fff;
+    }
+
+    aside {
+        border-top: 1px solid #bbb;
+        margin-top: 30px;
+        display: block;
+    }
+}
+
+/* mla-signup */
+@media (max-width: 800px) {
+    .header-space h2 {
+        font-size: 16pt;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .clientcontainer {
+        padding: 10px;
+    }
+}
+
+/* driver-lounge */
+@media (max-width: 900px) {
+    .social-widget {
+        margin: 0;
+        margin-top: 20px;
+        padding-right: 0;
+        padding-left: 60px;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+
+    .driver-lounge-header {
+        text-align: left;
+        font-size: 32px;
+        color: #ffffff;
+        margin-top: 30px;
+        margin-left: 43px;
+    }
+
+    .widget {
+        width: 275px;
+    }
+
+    .twitter-timeline {
+        width: 275px !important;
+    }
+
+    .twitter-timeline-rendered {
+        width: 275px;
+    }
+
+    .facebook-widget {
+        margin-left: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* mla-thank-you */
+@media (max-width: 800px) {
+    .header-space h2 {
+        font-size: 18pt;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .wrapper-space {
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .label-space {
+        margin-left: 130px;
+    }
+}
+
+/* mobile-menu-more */
+@media (max-width: 900px) {
+    .right-gutter {
+        padding-top: 0;
+        padding-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* contact-us */
+@media (max-width: 500px) {
+    .center-button {
+        text-align: center;
+    }
+}
+
+/* ss-company-driver-send-to-fax */
+@media (max-width: 500px) {
+    .center-button {
+        text-align: center;
+    }
+}
+
+/*--- END PRINT STYLE ---*/
+
+/* ACCOUNT-MANAGEMENT
+        change-password - no head styles
+        mla-signup - no head styles
+        update-password - no head styles 
+    END ACCOUNT-MANAGEMENT
+ */
+
+/* ADMIN 
+    load-driver - still has style in the head
+    report-access-useage - no head style 
+    END ADMIN 
+ */
+
+/* EMAIL-TEMPLATES */
+
+/* contact-us-thank-you*/
+.thank-you-underline {
+    text-decoration: underline;
+}
+
+/* driver-contact-us */
+.bottom-padding {
+    padding-bottom: 30px;
+}
+/* END EMAIL-TEMPLATES */
+
+/* 
+    ERROR 
+    404 - no head style
+    500 - no head style
+    account-error - no head style
+    END
+ */
+
+/* PUBLIC */
+
+/* default */
+.rounded-text-box {
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    border: 2px solid #CFD0D3;
+}
+
+.text-spacing {
+    padding: 20px 20px 20px 20px;
+}
+
+@media (max-width: 765px) {
+    .center-large-buttons {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Payroll Messages */
+.payroll-background {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+    border: 1px solid #D0D1D5;
+}
+
+.payroll-message-box {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.payroll-message-header {
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+
+.payroll-message-title {
+    font-weight: bold;
+    margin-left: 11px;
+}
+
+.payroll-message-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 6px;
+    border-top: 1px solid #E5E6E9;
+    border-right: 1px solid #E5E6E9;
+    border-left: 1px solid #E5E6E9;
+    border-bottom: 2px solid #D0D1D5;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.payroll-message-hr {
+    background-color: #E8E8E8;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.payroll-message-card > p {
+    text-transform: lowercase;
+}
+
+    .payroll-message-card > p::first-letter {
+        text-transform: uppercase;
+    }
+
+/* End Payroll Messages */
+
+
+/* end default */
+
+/* driver-lounge - no head style */
+
+/* faq - no head style */
+
+/* forgot-password */
+.text-date-slash-big {
+    font-size: x-large;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* end forgot-password */
+
+/* google-terminal-map  - no head styles */
+
+/* login */
+.container-login {
+    background: gainsboro;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid #cccccb;
+}
+
+.container-login {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.driverBlueBox {
+    position: relative;
+    z-index: 1;
+    background: #0e76bb;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -28px;
+    height: 35px;
+    width: 200px;
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+    .driverBlueBox label {
+        font-size: large;
+    }
+
+.iconIdentity {
+    background: url('../img/identity.png') no-repeat #fff;
+    background-position: 5% center;
+    padding: 6px 45px;
+}
+
+.iconSecurity {
+    background: url('../img/security.png') no-repeat #fff;
+    background-position: 5% center;
+    padding: 6px 45px;
+}
+
+.containerActionButtons {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.containerFAQ {
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.container-attention {
+    width: 300px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* end login */
+
+/* lost-trailers - no head styles*/
+/* pivot gridview */
+.pivot-gridview {
+    border: none;
+    margin: 0;
+}
+
+    .pivot-gridview th {
+        background-color: #555!important;
+        color: #fff;
+        border: none;
+    }
+
+    .pivot-gridview td {
+        background-color: #ddd;
+        border: none;
+    }
+
+    .pivot-gridview tbody {
+        width: 700px;
+    }
+
+    .pivot-gridview > ul > li {
+        margin-left: -35px;
+        padding: 0;
+    }
+
+.pivot-gridview-mobile {
+    color: #fff;
+    background-color: #555;
+    text-align: left;
+}
+
+.rowWhite {
+    background-color: #ffffff !important;
+}
+
+.rowGray {
+    background-color: #BBBDC0;
+}
+
+.table-celadon-colors {
+    background-color: #BBBDC0;
+}
+
+    .table-celadon-colors th {
+        background-color: #00649C;
+        color: white;
+    }
+
+.table-shim {
+    border: none;
+}
+
+    .table-shim td {
+        border: none;
+    }
+
+    .table-shim th {
+        border: none;
+    }
+    /* end pivot gridview */
+
+
+
+
+
+
+/* mla-thank-you */
+@media (max-width: 800px) {
+    .mla-top-label h2 {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.alert {
+    margin-bottom: 10px;
+}
+
+.mla-profile-label {
+    margin-left: 10px;
+    width: 300px;
+}
+
+@media (max-width: 800px) {
+    .mla-profile-label {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.mla-content-background {
+    padding: 10px;
+    height: 290px;
+    background-color: #DDDDDD;
+    color: #000;
+    border-radius: 5px;
+}
+
+.mla-thank-you-txt {
+    width: 300px;
+    margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+    .mla-thank-you-txt {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* end mla-thank-you */
+
+/* mobile-menu-more */
+.box-link-divs a div label {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.where-to-next {
+    padding-top: 20px;
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.hr-mobile-menu {
+    color: #000;
+    background-color: #000;
+    height: 2px;
+    width: 85.5%;
+    border: 2px solid black;
+    border-width: 0;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-truck-shadow {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+/* end mobile-menu-more */
+
+/* photo-verifications - no head styles */
+
+/* register */
+.text-date-slash-big {
+    font-size: x-large;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.panel-title-register {
+    font-size: 18px;
+}
+
+.center {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end register */
+
+/* terminals - no head styles */
+.RegionColumnHeader {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00649C;
+    padding-top: 20px;
+}
+
+/* transflo-download-instructions - no head styles*/
+/* unanswerd-question - no head styles */
+/* END PUBLIC */
+
+/* SECURE */
+/* 1099 - no head styles */
+/* contact-us - no head styles */
+
+/* documents */
+.panel {
+    padding: 0;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    height: auto !important;
+    width: auto !important;
+}
+
+.panel-standard {
+    border-color: #BBBDC0;
+}
+
+    .panel-standard > .panel-heading {
+        color: #fff;
+        background-color: #BBBDC0;
+        border-color: #BBBDC0;
+    }
+/* end documents */
+
+
+/* my-profile - no head styles */
+
+/* ss-company-driver-date-range - no head styles */
+
+/* ss-company-driver-no-settlement-data - no head styles */
+
+/* ss-company-driver-report  - no head styles */
+
+/* ss-company-driver-send-to-email  - no head styles */
+
+/* ss-company-driver-send-to-fax - no head styles */
+
+/* ss-company-driver-source */
+.body-source {
+    font-family: Courier New;
+    font-size: small;
+    background-color: #fff;
+    background-image: none;
+}
+
+.center-source {
+    width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+.gridview-simple table, td, tr {
+    border: 0px;
+}
+/* end ss-company-driver-source */
+
+/* ss-company-driver-summary */
+.trip-pay {
+    padding: 0;
+    margin: 50px 0 0 10px;
+    font-size: 38px;
+    margin-left: 6px;
+    color: #005b08;
+}
+
+.trip-card-state-image {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+}
+
+.trip-header-center {
+    text-align: center;
+}
+
+.trip-table-fixed-height {
+    height: 105px;
+    width: 280px;
+}
+
+.trip-table {
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: 0px solid #FFCC00;
+    color: #000000;
+    vertical-align: middle;
+}
+
+    .trip-table tr td {
+        font-size: 12px;
+    }
+
+.trip-table-label {
+    margin-bottom: 2px;
+}
+
+.trip-card-silotte-font {
+    margin: 55px 0 0 20px;
+    font-size: 14px;
+}
+
+.trip-total-truck-milage {
+    margin: 0 0 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.trip-numbers-container {
+    width: 290px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.trip-numbers {
+    visibility: hidden;
+    height: 0;
+    color: #000000;
+    opacity: 0;
+    -webkit-transition: height 2s ease-in-out;
+    transition: height 2s ease-in-out;
+    transition: 0.3s;
+    padding: 0;
+    margin: 0;
+}
+
+    .trip-numbers table {
+        margin-top: 10px;
+    }
+
+.span2:focus ~ .trip-numbers {
+    -webkit-transition: height 2s ease-in-out;
+    transition: height 2s ease-in-out;
+    visibility: visible;
+    height: 60px;
+    opacity: 1;
+    transition: 0.3s;
+    padding: 0;
+    margin: 0;
+}
+
+.trip-numbers-table {
+    width: 100%;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: 0px solid #FFFFFF;
+    color: #000000;
+}
+/* end ss-company-driver-summary */
+
+/* ss-company-driver-ytd-accumulated - no head styles */
+
+/* ss-company-driver */
+.text-click-here {
+    text-decoration: underline;
+    color: #00649C;
+}
+/* end ss-company-driver */
+
+/* ss-owner-operator-report - no head styles */
+
+/* ss-owner-operator-source */
+.body-operator-source {
+    font-family: Courier New;
+    font-size: small;
+    background-color: #fff;
+    background-image: none;
+}
+
+.center-operator-source {
+    width: 1062px;
+    margin: 0 auto 0 auto;
+}
+
+.gridview-simple table, td, tr {
+    border: 0px;
+}
+/* end ss-owner-operator-source */
+
+/* ss-owner-operator-summary */
+table {
+    width: 100%;
+}
+/* end ss-owner-operator-summary */
+
+/* ss-owner-operator-ytd-accumulated - no head styles */
+
+/* ss-owner-operator  - no head styles */
+
+/* vacation */
+.panel-vacation {
+    width: auto;
+    min-width: 120px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-heading-vacation {
+    text-align: center;
+    min-height: 65px;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #00649C;
+    border-color: #00649C;
+}
+
+.panel-title-vacation {
+    font-size: 12pt;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.panel-body-vacation {
+    text-align: center;
+    font-size: 14pt;
+    padding: 15px;
+}
+/* end vacation */
+
+/* w2 - no head styles */
+
+/* END SECURE */
+
+
+/* MasterPage.master */
+
+@media (max-width: 767px) {
+    body {
+        margin-top: 20px;
+    }
+}
+
+.glyphicon {
+    color: #005393;
+}
+/*Bottom fixed mobile nav bar*/
+.mobile-btn-box {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BBBDC0;
+}
+
+.button-footer-div {
+    float: left;
+    margin: 2px;
+    height: 70px;
+    font-size: small;
+    width: 60px;
+    text-align: center;
+    background-color: white;
+}
+
+.logout-side-menu {
+    margin-left: 18px;
+}
+
+.menu-font-space li {
+    font-size: larger;
+}
+
+.login-status {
+    font-size: larger;
+    margin-left: 30px;
+}
+
+.menu-mobile-button-image {
+    height: 35px;
+    width: 35px;
+}
+/*End fixed mobile nav bar*/
+
+
+.menu-top-banner-position {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-top-banner {
+    background-color: white;
+}
+
+.StaticMenuStyle {
+    background-color: wheat;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+    .StaticMenuStyle li a:hover {
+        color: green;
+    }
+
+
+.DynamicMenuStyle {
+    background-color: wheat;
+}
+
+
+@media (max-width: 800px) {
+    .navbar-nav {
+        padding: 0;
+        padding-left: 3px;
+    }
+}
+
+.nav-bottom-border {
+    border-bottom: 2px solid #c5c3c3;
+}
+
+.mobile-menu-list-icons {
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .mobile-menu-list-icons li {
+        display: inline;
+        float: left;
+        padding: 0px 5px 3px 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 20pt;
+        line-height: 0.5;
+    }
+
+    .mobile-menu-list-icons li {
+        width: 300px;
+        margin: 0px 20px 0px 20px;
+    }
+
+        .mobile-menu-list-icons li span {
+            text-align: center;
+            font-size: 8pt;
+        }
+
+        .mobile-menu-list-icons li a {
+            text-decoration: none;
+        }
+
+.mobile-menu-icon-card {
+    height: 45px;
+    width: 45px;
+    border-right: 1px solid #ccc;
+}
+
+.navbar-nav {
+    margin-top: -5px;
+}
+
+    .navbar-nav ul li {
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav ul li {
+        margin-top: -15px;
+    }
+
+        .navbar-nav ul li:first-child {
+            margin-top: 5px;
+        }
+
+.navbar-header ul {
+    padding-top: -15px;
+    margin-top: -15px;
+}
+
+.mobile-menu-label {
+    font-size: 8pt;
+    white-space: normal;
+}
+
+.col-xs-1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer {
+    position: relative;
+    width: auto;
+    height: 60px;
+    width: 100%;
+    background-color: #bbbdc0;
+}
+
+
+.footer-text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333333;
+}
