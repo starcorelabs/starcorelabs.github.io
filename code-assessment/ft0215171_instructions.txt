@@ -1,0 +1,10 @@
+﻿Coding Task:  FT021715.1Requirements:Please find enclosed two  .PSD’s for the newsletter called Newslever. 
+
+Please code to emailing standards for responsive design, based on the enclosed mockups. 
+All URL’s should link to; http://www.fulcrumtech.net  and images should be referenced to a local folder. 
+When you are happy with the code please send a .zip  containing the email code and images for our review. You have 24 hours to complete this coding task. 
+
+We anticipate that you’d spend at least 2 hours on this assessment..Zip naming convention: [FirstName_LastName]_ft0217151.zipBest of luck!----
+
+<!--==================== Respmail ====================
+Respmail is a response HTML email designed to workon all major devices and responsive for smartphonesthat support media queries.** NOTE **This template comes with a lot of standard featuresthat has been thoroughly tested on major platformsand devices, it is extremely flexible to use andcan be easily customized by removing any row thatyou do not need.it is gauranteed to work 95% without any major flaws,any changes or adjustments should thoroughly betested and reviewed to match with the generalstructure.** Profile **Licensed under MIT (https://github.com/charlesmudy/Respmail/blob/master/LICENSE)Designed by Shina Charles MemudRespmail v1.2 (http://charlesmudy.com/respmail/)** Quick modification **We are using width of 500 for the whole content,you can change it any size you want (e.g. 600).The fastest and safest way is to use find & replaceSizes: [    wrapper   : '500',    columns   : '210',    x-columns : [            left : '90',            right: '350'        ]    }--><!--This template was motified by Michael Douglas on 03/17/2015Used as a sample responsive email.  -->
