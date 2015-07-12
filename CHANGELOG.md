@@ -1,9 +1,9 @@
 # Starcore Labs Site
+### 0.2 2015-07 12 at 4:35 PM
+* Added LinkedIn Link to top menu
 
-### 2015-07-12 at 12:05 PM
+### 0.1 2015-07-12 at 12:05 PM
 * Added Social Media Icons and links to the footer
 * Created a Video page and a Blog page but have not finished or linked them to the index.
-* Instead of creating a seperate resume page I decided to just use LinkedIn. 
+* Instead of creating a separate resume page I decided to just use LinkedIn. 
 * Decided to add skill levels to my LinkedIn profile instead of on my web site.
-* I have a few blog posts I want to write out and add to the blog page before making it live. 
-
