@@ -520,3 +520,12 @@ display: inline;
 height: 30px;
 width:  auto;
 }
+
+
+.footer-social-icons{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
