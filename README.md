@@ -1,6 +1,9 @@
 
-#Starcore Labs LLC
+# Starcore Labs LLC
 
-This is my freelance developer page created in bootstrap. 
-Served by Github Pages.
+### Created by Michael Douglas
 
+### Last updated 2015-11-04 @ 02:01 PM
+
+* This is my portfolio site for my creative content. 
+* Hosted on Github Pages.
