@@ -1,10 +1,12 @@
 # Starcore Labs Site
 
-### 0.3 2015-11-04 at 01:59 PM
-* Replaced site with landing page and Mail Chimp email form.
-* Refocusing site on creative content. 
+### 1.0 2015-11-16 at 06:30pm
+* Complete redesign and rewrite of the site.
+* Added videos, imported feeds from twitter and tumblr.
+* Made a Portfolio page to detail all the major projects I worked on and what I did.
+* Made a FAQ page to address common questions.
 
-### 0.2 2015-07-12 at 4:35 PM
+### 0.2 2015-07 12 at 4:35 PM
 * Added LinkedIn Link to top menu
 
 ### 0.1 2015-07-12 at 12:05 PM

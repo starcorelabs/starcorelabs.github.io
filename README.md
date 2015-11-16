@@ -1,9 +1,12 @@
 
-# Starcore Labs LLC
+#Starcore Labs LLC
+### Owned by Michael Douglas
+###2015-11-16 at 06:30pm 
+### Complete Redesign and Rewrite of Starcore Labs Website
 
-### Created by Michael Douglas
+* Focus is on Front-End Responsive Development in HTML, CSS, and Bootstrap.
+* This is itself an experiment in development to host a free static site on Github that includes dynamic data from other online services. 
+* Offering my web development and other skills for hire. 
 
-### Last updated 2015-11-04 @ 02:01 PM
 
-* This is my portfolio site for my creative content. 
-* Hosted on Github Pages.
+
