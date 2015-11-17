@@ -292,3 +292,11 @@ ol.tumblr_posts
 .faq-list ul li{
     list-style-type: none;
 }
+
+
+/* about */
+
+.headshot{
+    float: left;
+    margin-right: 10px;
+}
