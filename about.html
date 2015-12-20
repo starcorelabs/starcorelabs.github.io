@@ -46,6 +46,7 @@ Using HTML5, CSS3, Bootstrap 3.3.5.
                 <a class="blog-nav-item" href="index.html">Home</a>
                 <a class="blog-nav-item" href="blog.html">Blog</a>
                 <a class="blog-nav-item" href="portfolio.html">Portfolio</a>
+                <a class="blog-nav-item" href="video.html">Video</a>
                 <a class="blog-nav-item" href="faq.html">FAQ</a>
                 <a class="blog-nav-item active" href="about.html">About</a>
             </nav>
@@ -56,7 +57,7 @@ Using HTML5, CSS3, Bootstrap 3.3.5.
 
         <div class="blog-header">
             <h1 class="blog-title"><img src="img/beaker-star-header-small.png" class="beaker">Starcore Labs</h1>
-            <p class="lead blog-description">Front-End Web Development</p>
+            <p class="lead blog-description">Web Development</p>
         </div>
 
         <div class="row">
@@ -65,6 +66,22 @@ Using HTML5, CSS3, Bootstrap 3.3.5.
 
                 <div class="blog-post">
                     <h2 class="blog-post-title">About</h2>
+<<<<<<< HEAD
+                    <div class="portfolio-image">
+                        <img src="img/indy.png" class="img-responsive">
+                    </div>
+
+                    <p>Starcore Labs LLC is a front-end web development company based in Indianapolis, IN.</p>
+
+                    <p><img src="img/michael-douglas.png" class="img-responsive headshot">Hello, my name is Michael Douglas. I have 3 years of experience in front-end responsive web development. I enjoy working with clients to create easy to use mobile-friendly web pages.</p>
+
+                    <p>I am proficient with HTML5, CSS3, Bootstrap, JavaScript/jQuery, Git, PHP, Wordpress, and some Photoshop skills. I prefer to hand code pages to make sure they are clean and web standards compliant.</p>
+                    <p>&nbsp;</p>
+                    <p>Please visit my Portfolio and FAQ to learn more about my skills and experience.</p>
+                    <p>If you have a website you want built please send me an email.</p>
+                    <p>Thank you,
+                        <br> Michael Douglas</p>
+=======
 <div class="portfolio-image">
 <img src="img/indy.png" class="img-responsive">
 </div> 
@@ -79,6 +96,7 @@ Using HTML5, CSS3, Bootstrap 3.3.5.
 <p>If you have a project or position you think I might be a great fit for, please send me an email or give me a call.</p>
                <p>Thank you, <br>
                Michael Douglas</p>
+>>>>>>> 4090dcca5925914dfe41507af4ba0385b863538d
                 </div>
                 <!-- /.blog-post -->
 
@@ -96,9 +114,15 @@ Using HTML5, CSS3, Bootstrap 3.3.5.
                 </div>
                 <div class="sidebar-module">
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/pages/Starcore-Labs/499812420161287?sk=timeline" target="_blank"><img src="img/social/facebook-small.png"></a></li>
-                        <li><a href="https://www.youtube.com/user/StarcoreLabs" target="_blank"><img src="img/social/youtube-small.png" ></a></li>
-                        <li><a href="https://github.com/starcorelabs" target="_blank"><img src="img/social/github-small.png"></a></li>
+                        <li>
+                            <a href="https://www.facebook.com/pages/Starcore-Labs/499812420161287?sk=timeline" target="_blank"><img src="img/social/facebook-small.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/StarcoreLabs" target="_blank"><img src="img/social/youtube-small.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/starcorelabs" target="_blank"><img src="img/social/github-small.png"></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="sidebar-module">
@@ -141,27 +165,39 @@ Using HTML5, CSS3, Bootstrap 3.3.5.
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script>
-$(window).on(‘load’, function() {
-setTimeout(function(){
-$(‘iframe[id^=twitter-widget-‘).each(function () {
-var head = $(this).contents().find(‘head’);
-if (head.length) {
-head.append(‘.timeline { max-width: none !important; width: 100% !important; } .timeline .stream { max-width: none !important; width: 100% !important; }’);
-}
-});
-},2000)
-});
+        $(window).on(‘load’, function () {
+                    setTimeout(function () {
+                            $(‘iframe[id ^= twitter - widget - ‘).each(function () {
+                                    var head = $(this).contents().find(‘head’);
+                                    if (head.length) {
+                                        head.append(‘.timeline {
+                                            max - width: none!important;
+                                            width: 100 % !important;
+                                        }.timeline.stream {
+                                            max - width: none!important;
+                                            width: 100 % !important;
+                                        }’);
+                                    }
+                                });
+                            }, 2000)
+                    });
     </script>
-    
-   <!-- Google Analytics Code -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-28666402-3', 'auto');
-  ga('send', 'pageview');
-</body>
+    <!-- Google Analytics Code -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-</html>
+        ga('create', 'UA-28666402-3', 'auto');
+        ga('send', 'pageview'); < /body>
+
+        < /html>
