@@ -226,6 +226,43 @@ h6,
     margin-top: 30px;
 }
 
+.text-space {
+    margin-top: 30px;
+}
+
+@media (max-width: 320px){
+    .text-space {
+    margin-top: 150px;
+    }
+}
+
+@media (max-width: 420px){
+    .text-space {
+    margin-top: 70px;
+    }
+}
+
+@media (max-width: 550px){
+    .text-space {
+    margin-top: 70px;
+    }
+}
+
+.action-call{
+    max-width: 600px;
+    background-color: #26A65B;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.action-call h3{
+     color: #ffffff;
+}
+
+.call-email{
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 /* social icons */
 
