@@ -318,6 +318,13 @@ header .header-content .header-content-inner p {
     }
 }
 
+.portfolio-item{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
 .call-to-action h2 {
     margin: 0 auto 20px;
 }
