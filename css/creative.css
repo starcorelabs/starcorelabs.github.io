@@ -481,3 +481,13 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.post-link{
+    text-decoration: underline;
+}
+
+.attention{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+}
