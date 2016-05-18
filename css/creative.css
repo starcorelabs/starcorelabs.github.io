@@ -491,3 +491,13 @@ body {
     text-decoration: underline;
     color: #000;
 }
+
+.skill-list{
+    list-style-type: none;
+}
+
+.skill-link{
+    color: #4183D7;
+    text-decoration: underline;   
+}
+
