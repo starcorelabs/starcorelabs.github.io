@@ -498,7 +498,7 @@ body {
 
 .skill-link{
     color: #4183D7;
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 
 /* Mail Chimp Sign Up Form */
@@ -647,7 +647,7 @@ body {
 /* Over Ride*/
 
 #mc_embed_signup {
-    background:#472B56; 
-    clear:left; 
-    font:14px Merriweather,'Helvetica Neue',Arial,sans-serif; 
+    background:#472B56;
+    clear:left;
+    font:14px Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
