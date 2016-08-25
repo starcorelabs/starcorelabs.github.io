@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Starcore Labs. Experiments in Creativity.">
+    <meta name="author" content="Starcore Labs">
+    <link rel="icon" href="../img/favicon.ico">
+
+    <title>Starcore Labs | Web Development on Linux</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="../index.html#page-top">Starcore Labs</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="../index.html#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../index.html#skills">Skills</a>
+                    </li>
+                                        <li>
+                        <a class="page-scroll" href="../blog.html#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1><img src="../img/website-logo.png"> STARCORE LABS</h1>
+                <hr>
+                <p>Mobile First Responsive Web Development</p>
+                <a href="../blog.html#blog" class="btn btn-primary btn-xl page-scroll">BACK TO BLOG</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <br><br>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-12">
+
+                    <img class="img-responsive" src="../img/post-images/web-development-on-linux.png" alt="tools" id="fonts">
+
+            </div>
+            <div class="col-md-12">
+<h3>Web Development on Linux- Part 1</h3>
+<p>In this tutorial I’m going to show you how to setup a Web Development Lab like the one show above using VirtualBox and <a href="https://ubuntu-mate.org/" class="skill-link" target="_blank">Ubuntu Mate</a>.</p>
+
+<p>Disclaimer: Use this tutorial at your own risk! I will not be responsible for any damages or data loss that may result from using this tutorial. Before you get started please backup all your data (photos, documents, books, music, movies, and software) to an external drive or a cloud-based service like <a href="https://db.tt/3lzOcjYv" class="skill-link" target="_blank">Dropbox</a>.</p>
+
+
+<p>Usually installing VirtualBox and setting up a guest operating system will not cause your system any problems. For the sake of safety please backup your data.</p>
+
+<p>This tutorial will work for all versions of Windows and Mac OS X.</p>
+
+<p>Here’s the step-by-step process:</p>
+    <ol>
+        <li>Download the <a href="https://ubuntu-mate.org/download/" class="skill-link" target="_blank">Ubuntu Mate ISO</a>. At the time of this writing it is 16.04.1 LTS. If your computer is less than three years old pick the 64-bit version. If you are unsure, pick the 32-bit version.</li>
+        <li>Go to <a href="https://www.virtualbox.org/wiki/Downloads" class="skill-link" target="_blank">VirtualBox.org</a> and download the installer for your system, either Windows or OS X</li>
+        <li>Install VirtualBox on your system. Then run it. It should look similar to this.</li>
+    </ol>
+<img class="img-responsive" src="../img/post-images/virtualbox.png"  alt="virtualbox">
+<p>Click the “New” button in the top left. You’ll get a new window.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-new.png"  alt="virtualbox-new">
+<p>Write “DevLab” in the name field. Then click the “Type” drop-down and select Linux. Click the version drop-down and select “Ubuntu (64-bit)” if you are using the 64-bit ISO or 32-bit if you are using the 32-bit ISO. It should look like this.
+</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-name.png"  alt="virtualbox-name">
+<p>Now press “Next” and you’ll see the Memory size window. This is the system memory your Virtual OS will use when it is running. This is taking away from your host system memory so be careful not to move the slider into the red zone. At minimum you want to set at least 2GB of memory for your Lab. If your computer doesn’t have that much ram you might need to add ram or use a different system. In the screenshot below you can see that I’m using 4GB of 12GB in my system. </p>
+
+<img class="img-responsive" class="img-responsive" src="../img/post-images/virtualbox-memory.png"  alt="virtualbox-memory">
+<p>The next step is to set up a virtual hard disk. This is a file that will act like a hard drive where the operating system and all of your files will be stored.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-hard-disk.png"  alt="virtualbox-hard-disk">
+<p>When you press “Create” at the bottom you’ll get a screen that asks you what type of hard disk you want to create. Just leave the default VDI at the top and click next.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-hard-disk-type.png"  alt="virtualbox-hard-disk-type">
+<p>The next screen will ask you about the storage on the physical hard disk. You have two options, “Dynamically allocated” or “Fixed size”. For our test we will stick with the default of “Dynamically allocated” and press next.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-storage.png"  alt="virtualbox-storage">
+<p>The next screen will ask you two things. First, where do you want to store this virtual hard disk? Just leave the default and focus on the slider. It is asking how much space do you want your virtual hard disk to have? I’m giving mine 20GB of space. You can use this size as a minimum or give yours more space. This does take up space on your actual hard drive. If your host computer has 100GB and you give your virtual drive 20GB, you’ll have 80 left for your host computer. Of course these days most people have much bigger hard drives. In this situation we will only be using the virtual OS for writing code. So we don’t need a lot of space.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-size.png"  alt="virtualbox-size">
+<p>When you click the “Create” button it will flash another window briefly and then go back to the main screen. This is normal and tells you we are almost ready to start our Lab. You will see a new virtual OS in the list name “DevLab”. </p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-list.png"  alt="virtualbox-list">
+<p>We need to make a few adjustments to our setting before starting the Lab. Click the yellow gear icon at the top that says “Settings” under it. A new window will open up showing you the specific settings for your new virtual OS</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-lab-settings.png"  alt="virtualbox-settings">
+<p>We are only going to make a few minor changes and then we can run our Virtualbox and install our OS. The first change I like to make is under General to click the “Advanced” tab and set the “Shared Clipboard” drop-down to “Bidirectional”. This way I can copy and paste text back and forth from my host to my Lab.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-clipboard.png"  alt="virtualbox-clipboard">
+<p>On the left click the “System” button and the main window will change. In the main window on the right you’ll again see how much ram we set for the virtual OS. You can come in here and adjust it if you need to. Below that you’ll see a list of items in “Boot Order”. Uncheck the “Floppy” option. We won’t need it and it saves us time if we remove it.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-system.png"  alt="virtualbox-system">
+<p>On the left again click the next item “Display”. The main window will show you “Video Memory”. Move the slider or type in the box and set it to 32MB.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-display.png"  alt="virtualbox-display">
+<p>On the left click on “Storage”. Under the “Storage Tree” area you’ll see Controller: IDE. You’ll see what looks like an empty CD icon. Click on that and it will highlight. The Attributes menu on the right will change to show “Optical Drive” with a drop-down menu on the right. Click the CD icon to the right of the drop-down menu. That is where we will select the ISO we downloaded.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-menu.png"  alt="virtualbox-menu">
+<p>With the menu open you’ll click the “Choose Virtual Optical Disc File…” option and get a folder window which will allow you to navigate your computer to find the file you want to use. Click on the file to highlight it and then click open.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-iso.png"  alt="virtualbox-iso">
+<p>After you click open the folder will close and you’ll see in the “DevLab Settings” Under “Storage Tree” the controller: IDE little CD Icon now says “ubuntu-mate-16.04.1-desktop-am…” Basically this means when we start our Virtual OS it will try to load that ISO image as if it was a CD.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-iso-loaded.png"  alt="virtualbox-iso-loaded">
+<p>Now we can click “OK” at the bottom right and it will close the settings. It will take us back to the main VirtualBox screen. DevLab is now ready to run for the first time. So we can install the Ubuntu Mate OS. Click the green “Start” button.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-mate-boot.png"  alt="virtualbox-mate-boot">
+<p>A new window will open. This is Virtual OS loading. You’ll see a black screen with white writing, just as if you were booting up a physical computer. Then you’ll see the screen above as Ubuntu Mate boots up. It will take a few minutes as it loads a live desktop. Then you’ll see the screen below. This gives you the option to try Ubuntu Mate or to Install it.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-install.png"  alt="virtualbox-install">
+<p>Since we are creating a persistent web developer lab you can click the “Install” button. The next screen will show you two check boxes. Check both of them and click “Continue”.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-preparing.png"  alt="virtualbox-preparing">
+<p>Depending on how fast your computer and internet connect is, and how much ram you assigned your virtual OS, this part can take a while to load. Please be patient. Once its finish the screen will change and ask you what type of installation do you want? The first option should be “Erase disk and install Ubuntu Mate”. Remember this is not your physical hard disk in your host computer. This is the virtual disk we created. Just click the “Install Now” button at the bottom right.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-type.png"  alt="virtualbox-type.png">
+<p>The next screen will be a pop-up asking you for permission to write changes to the disks. Just click “Continue”.</p>
+
+
+<img class="img-responsive" src="../img/post-images/virtualbox-changes.png"  alt="virtualbox-changes">
+<p>The system will start writing writing files to the virtual hard disk. At the same time it will open up the next screen and ask you for some information to setup your account. Just read the screens and answer appropriately. Like, what time zone are you in?</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-time-zone.png"  alt="virtualbox-time-zone">
+<p>Once you have your timezone in place click the “Continue” button on the bottom right.
+This next screen asks you what language you want the operating system to use. The default is English. In the screenshot below you can see the window seems to be too wide for the screen it is being displayed inside of. You can click on the top border of the inner box and move it to the left. Then you’ll see the “Continue” button.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-language.png"  alt="virtualbox-language">
+<p>Almost done. The next screen will ask you to type in a username and password for your account. Since this is a demo account for this tutorial I put in throw away credentials. You should use your name and a decent password. That’s the last setup screen. Now you click “Continue” at the bottom.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-account.png"  alt="virtualbox-account">
+<p>The screen below will open up and you’ll see a progress bar along the bottom. It shows how much of the system is installed. This part takes about 10 to 15 minutes. Just sit back and relax. Once it’s done you’ll get one final screen saying the system is ready for a reboot.</p>
+
+<img class="img-responsive" src="../img/post-images/virtualbox-progress-bar.png"  alt="virtualbox-progress-bar">
+<p>Once you see the screen below you can click “Restart Now” and it will restart your VirtualBox and boot into your new Ubuntu MATE installation.</p>
+
+
+
+<img class="img-responsive" src="../img/post-images/virtualbox-reboot.png"  alt="virtualbox-reboot">
+<p>Once you get to the login screen put in the username and password you created. The desktop will load and you’ll be ready to set up your virtual lab for web development. Check out part 2 for installing and configuring your web development tools.</p>
+
+<p>
+You can download part 1 of this tutorial as a PDF: <a href="https://dl.dropboxusercontent.com/u/4375798/Starcore%20Labs/Starcore%20Labs%20-%20Web%20Development%20on%20Linux%20-%20Part%201.pdf" class="skill-link" target="_blank">Starcore Labs - Web Development on Linux- Part 1.pdf</a>.
+</p>
+
+<p>
+  If you like this post or have suggestions let me know on Twitter<a href="https://twitter.com/starcorelabs">@starcorelabs</a>
+</p>
+    </div>
+</div>
+<!-- /.row -->
+
+
+
+        <br><br>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Starcore Labs 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.fittext.js"></script>
+    <script src="../js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/creative.js"></script>
+
+</body>
+
+</html>
