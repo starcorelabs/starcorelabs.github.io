@@ -60,7 +60,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside {
@@ -84,12 +84,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #472B56;
+    color: #777;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #fff;
 }
 
 .navbar-default .nav > li>a,
@@ -97,12 +97,12 @@ aside {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    color: #777;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #fff;
 }
 
 .navbar-default .nav > li.active>a,
@@ -176,7 +176,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    height: 420px;
     text-align: center;
     color: #fff;
     background-image: url(../img/space.png);
@@ -214,7 +214,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 100%;
+        height: 420px;
     }
 
     header .header-content {
@@ -777,4 +777,12 @@ body {
     background:#472B56;
     clear:left;
     font:14px Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+
+
+/* services */
+
+.service-icon-size{
+  height: 75px;
+  width: 75px;
 }
