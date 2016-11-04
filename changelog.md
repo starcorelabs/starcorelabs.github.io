@@ -1,16 +1,28 @@
-# Changelog for Starbase Theme
+# Changelog for Website
 
 ## To Do
-* Create intro video and embed it into the jumbotron
+* Create intro video and embed it into the header on home page
 * Write new post geared toward non-techinal Wordpress users
 * Create a short video course for YouTube that explains the barebone basics of Wordpress
 * Look for a Yoast SEO like service or plugin for GitHub Pages sites
 * Scan CSS file and remove conflicts and duplicates
+* Blog Post Ideas
+  * Pre-build Website SEO - (Picking your domain and keywords)
+  * UX Website Design & Planning
+  * Google Analytics Basics
+  * Wordpress Basics
+  * Graphic Design Resources
+  * Front-End Development
+  * Corporate Confusion
 
+
+## 2016-11-03 @ 8:00pm
+* Updated meta description to say, "Starcore Labs is a Web Development Company located in Indianapolis, IN. We Build Wordpress Websites and Landing Pages for Small Business."
+* Made sure Google Analytics is on every page.
 
 ## 2016-11-03 @ 4:18 pm
 * Changed header height to 420px
-* Updating services section
+* Updating services section with new icons
 
 
 ## 2016-10-31 @ 2:33 pm
