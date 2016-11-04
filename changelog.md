@@ -15,8 +15,14 @@
   * Front-End Development
   * Corporate Confusion
 
+## 2016-11-04 @ 1:40 am
+* Made changes to posts
+* Added footer
+* Google analytics
+* Removed container-fluid
+* Edited nav
 
-## 2016-11-03 @ 8:00pm
+## 2016-11-03 @ 8:00 pm
 * Updated meta description to say, "Starcore Labs is a Web Development Company located in Indianapolis, IN. We Build Wordpress Websites and Landing Pages for Small Business."
 * Made sure Google Analytics is on every page.
 
