@@ -779,10 +779,30 @@ body {
     font:14px Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
-
 /* services */
 
 .service-icon-size{
   height: 75px;
   width: 75px;
+}
+
+/* front-end development table */
+
+.front-end-frameworks-table{
+  width: 50%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.front-end-frameworks-table, tbody, tr, td{
+  border-width: 2px;
+  border-color: #d6d6d6;
+  border-style: solid;
+  padding: 3px;
+  font-size: 16px;
 }

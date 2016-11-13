@@ -2,18 +2,21 @@
 
 ## To Do
 * Create intro video and embed it into the header on home page
-* Write new post geared toward non-techinal Wordpress users
 * Create a short video course for YouTube that explains the barebone basics of Wordpress
 * Look for a Yoast SEO like service or plugin for GitHub Pages sites
-* Scan CSS file and remove conflicts and duplicates
+* CSS Audit - Scan CSS file and remove conflicts and duplicates
 * Blog Post Ideas
   * Pre-build Website SEO - (Picking your domain and keywords)
   * UX Website Design & Planning
   * Google Analytics Basics
-  * Wordpress Basics
+  * Wordpress Basics (for non-techinal users)
   * Graphic Design Resources
-  * Front-End Development
   * Corporate Confusion
+
+## 2016-11-13 @ 5:18pm
+* Added front end development post to blog
+* Updated dev-spectrum image
+* Added table to page and styles to css
 
 ## 2016-11-04 @ 1:40 am
 * Made changes to posts
