@@ -5,6 +5,7 @@
 * Create a short video course for YouTube that explains the barebone basics of Wordpress
 * Look for a Yoast SEO like service or plugin for GitHub Pages sites
 * CSS Audit - Scan CSS file and remove conflicts and duplicates
+* Remote Development Lab Post
 * Blog Post Ideas
   * Pre-build Website SEO - (Picking your domain and keywords)
   * UX Website Design & Planning
