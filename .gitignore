@@ -1,0 +1,5 @@
+# Don't add these folders or files to github
+
+node_modules
+
+out

@@ -4,7 +4,6 @@
 ###2016-11-25 at 09:37pm
 ### Converted Starcore Labs to a landing page.
 
-* We Help Entrepreneurs Build Businesses.
-
-
-
+* Decided to turn my website into a landing page.
+* It points to my blog and twitter feed.
+* On my blog I write about Entrepreneurship and Self Development.
