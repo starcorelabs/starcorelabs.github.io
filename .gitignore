@@ -1,5 +1,7 @@
-# Don't add these folders or files to github
-
-node_modules
-
-out
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
