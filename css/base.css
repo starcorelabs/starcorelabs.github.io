@@ -13,7 +13,7 @@
 .serif,
 body,
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Droid Sans', Arial, sans-serif;
 }
 .sans-serif,
 h1,
@@ -29,10 +29,10 @@ h6,
 .btn,
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans', Arial, sans-serif;
 }
 body {
-  font-size: 20px;
+  font-size: 22px;
   color: #404040;
 }
 p {
@@ -76,11 +76,12 @@ hr.small {
   z-index: 3;
 }
 .navbar-custom .navbar-brand {
+  font-size: 23px;
   font-weight: 800;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 800;
   letter-spacing: 1px;
   text-decoration: none;
@@ -189,7 +190,7 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.1;
   display: block;
   font-weight: 300;
@@ -198,7 +199,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 65px;
   }
 }
 .intro-header .post-heading h1 {
@@ -244,7 +245,7 @@ hr.small {
   margin-bottom: 10px;
 }
 .post-preview > a > .post-title.archive {
-  font-size: 22px;
+  font-size: 30px;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
