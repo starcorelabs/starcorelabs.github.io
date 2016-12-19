@@ -4,7 +4,7 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Starcore Labs</title>
-    <link>http://yoursite.com/</link>
+    <link>http://starcorelabs.com/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>UX Developer Blog</description>
@@ -13,8 +13,8 @@
     
     <item>
       <title>The Beauty of Sass</title>
-      <link>http://yoursite.com/2016/12/18/the-beauty-of-sass/</link>
-      <guid>http://yoursite.com/2016/12/18/the-beauty-of-sass/</guid>
+      <link>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</link>
+      <guid>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</guid>
       <pubDate>Sun, 18 Dec 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -46,17 +46,17 @@
 <ul>
 <li><a href="https://www.youtube.com/playlist?list=PLUoqTnNH-2XxOt7UsKlTqbfrA2ucGosCR" target="_blank" rel="external">Learn Sass by Brad Hussey</a></li>
 </ul>
-<p>Once you have the basics of CSS and SASS down you can check out my previous post on refactoring and organizing your SASS codebase.<br><a href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/" target="_blank" rel="external">How Do You Refactor CSS?</a></p>
+<p>Once you have the basics of CSS and SASS down you can check out my previous post on refactoring and organizing your SASS codebase.<br><a href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/">How Do You Refactor CSS?</a></p>
 <p>Using a preprocessor for medium to large websites and web applications is a must. Trying to do it with vanilla CSS is a nightmare, I’ve done it.<br>Whatever your skill level or project. Invest the time to learn SASS. You’ll thank yourself later.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/12/18/the-beauty-of-sass/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Wordpress Development</title>
-      <link>http://yoursite.com/2016/12/13/wordpress-development/</link>
-      <guid>http://yoursite.com/2016/12/13/wordpress-development/</guid>
+      <link>http://starcorelabs.com/2016/12/13/wordpress-development/</link>
+      <guid>http://starcorelabs.com/2016/12/13/wordpress-development/</guid>
       <pubDate>Tue, 13 Dec 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -82,13 +82,13 @@
 <p>Remember learning Wordpress is a process that takes time.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/12/13/wordpress-development/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/12/13/wordpress-development/#disqus_thread</comments>
     </item>
     
     <item>
       <title>How Do You Refactor CSS?</title>
-      <link>http://yoursite.com/2016/12/12/how-do-you-refactor-css/</link>
-      <guid>http://yoursite.com/2016/12/12/how-do-you-refactor-css/</guid>
+      <link>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/</link>
+      <guid>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/</guid>
       <pubDate>Mon, 12 Dec 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -139,13 +139,13 @@
 <p>These are the current best practices. I plan on staying updated on the topics of refactoring and writing organized, scalable, modular CSS.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/12/12/how-do-you-refactor-css/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Upgrade to Hexo</title>
-      <link>http://yoursite.com/2016/12/08/upgrade-to-hexo/</link>
-      <guid>http://yoursite.com/2016/12/08/upgrade-to-hexo/</guid>
+      <link>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</link>
+      <guid>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</guid>
       <pubDate>Thu, 08 Dec 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -163,13 +163,13 @@
 <p>Now I have the best of both worlds with Hexo.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/12/08/upgrade-to-hexo/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Becoming an Entrepreneur</title>
-      <link>http://yoursite.com/2016/11/25/becoming-an-entrepreneur/</link>
-      <guid>http://yoursite.com/2016/11/25/becoming-an-entrepreneur/</guid>
+      <link>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</link>
+      <guid>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</guid>
       <pubDate>Fri, 25 Nov 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -188,13 +188,13 @@
 <p>Keep following this blog for more updates on my progress.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/11/25/becoming-an-entrepreneur/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Why I quit posting on Facebook</title>
-      <link>http://yoursite.com/2016/11/24/why-i-quit-posting-on-facebook/</link>
-      <guid>http://yoursite.com/2016/11/24/why-i-quit-posting-on-facebook/</guid>
+      <link>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</link>
+      <guid>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</guid>
       <pubDate>Thu, 24 Nov 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -223,13 +223,13 @@
 <p>Instead I’ll stick with post my thoughts here.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/11/24/why-i-quit-posting-on-facebook/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/#disqus_thread</comments>
     </item>
     
     <item>
       <title>UX Developer</title>
-      <link>http://yoursite.com/2016/11/09/ux-developer/</link>
-      <guid>http://yoursite.com/2016/11/09/ux-developer/</guid>
+      <link>http://starcorelabs.com/2016/11/09/ux-developer/</link>
+      <guid>http://starcorelabs.com/2016/11/09/ux-developer/</guid>
       <pubDate>Wed, 09 Nov 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -252,13 +252,13 @@
 <p>That’s pretty much everything I use on a daily basis.<br>If you have any questions feel free to message me on Twitter.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/11/09/ux-developer/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/11/09/ux-developer/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Corporate Confusion</title>
-      <link>http://yoursite.com/2016/11/03/corporate-confusion/</link>
-      <guid>http://yoursite.com/2016/11/03/corporate-confusion/</guid>
+      <link>http://starcorelabs.com/2016/11/03/corporate-confusion/</link>
+      <guid>http://starcorelabs.com/2016/11/03/corporate-confusion/</guid>
       <pubDate>Thu, 03 Nov 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -310,13 +310,13 @@
 <p>Keep in mind that talented developers will see through low-ball charades and won’t apply for unrealistic job offers.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/11/03/corporate-confusion/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/11/03/corporate-confusion/#disqus_thread</comments>
     </item>
     
     <item>
       <title>Front End Development</title>
-      <link>http://yoursite.com/2016/11/02/front-end-development/</link>
-      <guid>http://yoursite.com/2016/11/02/front-end-development/</guid>
+      <link>http://starcorelabs.com/2016/11/02/front-end-development/</link>
+      <guid>http://starcorelabs.com/2016/11/02/front-end-development/</guid>
       <pubDate>Wed, 02 Nov 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -370,13 +370,13 @@
 <p>Like I said before, learning Front-End Development is very much like learning to read, write, and speak a foreign language. It will take consistent study and practice to develop professional level skills.</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/11/02/front-end-development/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/11/02/front-end-development/#disqus_thread</comments>
     </item>
     
     <item>
       <title>How to Build a Website for Beginners</title>
-      <link>http://yoursite.com/2016/11/01/how-to-build-a-website-for-beginners/</link>
-      <guid>http://yoursite.com/2016/11/01/how-to-build-a-website-for-beginners/</guid>
+      <link>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</link>
+      <guid>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</guid>
       <pubDate>Tue, 01 Nov 2016 05:00:00 GMT</pubDate>
       <description>
       
@@ -421,7 +421,7 @@
 <p>If you need help with any part of your website setup, custom code, design, or logo. You can contact me at starcorelabs@gmail.com. My rate is $60 an hour and I’ve been building websites since 2006. I have in corporate environments for big companies and now currently run my own freelance development company. Hire me today and let’s build your site the right way!</p>
 ]]></content:encoded>
       
-      <comments>http://yoursite.com/2016/11/01/how-to-build-a-website-for-beginners/#disqus_thread</comments>
+      <comments>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/#disqus_thread</comments>
     </item>
     
   </channel>
