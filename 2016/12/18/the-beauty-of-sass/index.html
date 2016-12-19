@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="UX Developer Blog">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Michael Douglas">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="The Beauty of Sass"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="UX Developer Blog" />
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Starcore Labs"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+        <meta name="twitter:card" content="summary" />
+    
+        <meta name="twitter:site" content="starcorelabs>" />
+    
+
+    <!-- Title -->
+    
+    <title>The Beauty of Sass - Starcore Labs</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-28666402-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    <!-- favicon -->
+    
+    <link rel="icon" href="favicon.ico">
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Starcore Labs</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/portfolio">
+                            
+                                Portfolio
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/img/background.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>The Beauty of Sass</h1>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p><img src="/img/sass.jpg" alt="alt text" title="Sass"></p>
+<p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a> stands for Syntactically Awesome Stylesheets. It is a preprocessor for CSS. Which is <a href="http://www.css3-tutorial.net/" target="_blank" rel="external">Cascading Style Sheets</a>.  </p>
+<p>CSS is a simple language that allows designers and developers to control the layout and “style” of webpages.<br>CSS itself is simple and the basics can be learned quickly.</p>
+<p>The problem with CSS is that it is simple. Every element on a page, font-size, background color, and image position needs its own set of styles. Some styles can be reused if written correctly. Even with expert skill, CSS written for large projects can quickly become a mess. This is because CSS lacks any kind of programming varibles, if-then logic, or functions. It was designed purely to position elments on webpages.</p>
+<p>SASS was created to give developers a better way to write reusable CSS using varibles, mixins, nesting, and other programming abilities available to developers.</p>
+<p>There are other preprocessors like <a href="http://lesscss.org/" target="_blank" rel="external">LESS</a> and <a href="http://stylus-lang.com/" target="_blank" rel="external">Stylus</a>. They each have their pros and cons. After carefully reviewing all of them I choose SASS. Most companies have choosen SASS as well. You’ll have to experiment to decide which one works best for you.</p>
+<p>Developers write their styles in SASS and then use a complier to transform them into CSS the browser understands.<br>Using either Ruby-Sass or Node-Sass. Personally I prefer <a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="external">Node-Sass</a>.</p>
+<p>To confuse you a little more there are two kind of SASS. There is the standard file.sass and the CSS complinant file.scss.</p>
+<p>Here’s a great SitePoint article that explains <a href="https://www.sitepoint.com/whats-difference-sass-scss/" target="_blank" rel="external">the differences between SCSS and CSS</a>.<br>Personally I prefer the SCSS version because it is closer to CSS which I’m already familiar with.</p>
+<p>You might be wondering, “How long will it take to learn SASS?”</p>
+<p>Well if you already know CSS then not long. For reference I taught myself CSS in a month and then learned SASS (the SCSS version) in two weeks.<br>Of course I was putting in an hour of study and practice a day. You might learn it faster if you put in more time and effort.</p>
+<p>It took me longer to learned CSS from books. You can speed that process up by watching a free YouTube course to upgrade your knowledge.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL41lfR-6DnOq3BebucTNMSVDojCIiv_en" target="_blank" rel="external">HTML5 &amp; CSS3 by Quentin Watt</a></li>
+</ul>
+<p>I learned SASS from this awesome video series.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLUoqTnNH-2XxOt7UsKlTqbfrA2ucGosCR" target="_blank" rel="external">Sass Tutorials by LevelUp Tuts</a></li>
+</ul>
+<p>Here’s another great SASS tutorial.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLUoqTnNH-2XxOt7UsKlTqbfrA2ucGosCR" target="_blank" rel="external">Learn Sass by Brad Hussey</a></li>
+</ul>
+<p>Once you have the basics of CSS and SASS down you can check out my previous post on refactoring and organizing your SASS codebase.<br><a href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/" target="_blank" rel="external">How Do You Refactor CSS?</a></p>
+<p>Using a preprocessor for medium to large websites and web applications is a must. Trying to do it with base CSS is a nightmare, I’ve done it.<br>Whatever your skill level or project. Invest the time to learn SASS. You’ll thank yourself later.</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/starcorelabs" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/starcorelabs" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="mailto:info@starcorelabs.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2016 Starcore Labs<br></p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
