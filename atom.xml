@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2016-12-19T01:08:45.249Z</updated>
+  <updated>2016-12-20T14:10:28.985Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -20,14 +20,17 @@
     <link href="http://starcorelabs.com/2016/12/18/the-beauty-of-sass/"/>
     <id>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</id>
     <published>2016-12-18T05:00:00.000Z</published>
-    <updated>2016-12-19T01:08:45.249Z</updated>
+    <updated>2016-12-20T14:10:28.985Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/sass.jpg" alt="alt text" title="Sass"></p>
 <p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a> stands for Syntactically Awesome Stylesheets. It is a preprocessor for CSS. Which are <a href="http://www.css3-tutorial.net/" target="_blank" rel="external">Cascading Style Sheets</a>.  </p>
 <p>CSS is a simple language that allows designers and developers to control the layout and “style” of webpages. CSS itself is simple and the basics can be learned quickly.</p>
 <p>The problem with CSS is that it is simple. Every element on a page: font-size, background color, and image position, needs its own set of styles. Some styles can be reused if written correctly. Even with expert skill, CSS written for large projects can quickly become a mess. This is because CSS lacks any kind of programming logic: varibles or functions. It was designed purely to position elements on webpages.</p>
-<p>SASS was created to give developers a better way to write reusable CSS using varibles, mixins, nesting, and other programming logic available to developers.</p>
-<p>There are other preprocessors like <a href="http://lesscss.org/" target="_blank" rel="external">LESS</a> and <a href="http://stylus-lang.com/" target="_blank" rel="external">Stylus</a>. They each have their pros and cons. After carefully reviewing all of them I chose SASS. Most companies have chosen SASS as well. You’ll have to experiment to decide which one works best for you.</p>
+<p>Here’s an example of CSS:</p>
+<script async src="//jsfiddle.net/starcorelabs/0wkb8x88/4/embed/html,css,result/dark/"></script>
+
+<p>As you can see it takes a lot of CSS to define the box, colors, fonts, and placement of elements. Imagine having to do this for every element in a web application.</p>
+<p>SASS was created to give developers a better way to write reusable CSS using varibles, mixins, nesting, and other programming logic available to developers. There are other preprocessors like <a href="http://lesscss.org/" target="_blank" rel="external">LESS</a> and <a href="http://stylus-lang.com/" target="_blank" rel="external">Stylus</a>. They each have their pros and cons. After carefully reviewing all of them I chose SASS. Most companies have chosen SASS as well. You’ll have to experiment to decide which one works best for you.</p>
 <p>Developers write their styles in SASS and then use a complier to transform them into CSS the browser understands. Using either Ruby-Sass or Node-Sass. Personally I prefer <a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="external">Node-Sass</a>.</p>
 <p>To confuse you a little more there are two kind of SASS. There is the standard style.sass and the CSS compliant style.scss.</p>
 <p>Here’s a great SitePoint article that explains <a href="https://www.sitepoint.com/whats-difference-sass-scss/" target="_blank" rel="external">the differences between SASS and SCSS</a>. Personally I prefer the SCSS version because it is closer to CSS which I’m already familiar with.</p>
