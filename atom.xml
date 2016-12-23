@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2016-12-20T14:35:43.816Z</updated>
+  <updated>2016-12-23T01:51:30.831Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Do You Code?</title>
+    <link href="http://starcorelabs.com/2016/12/21/do-you-code/"/>
+    <id>http://starcorelabs.com/2016/12/21/do-you-code/</id>
+    <published>2016-12-21T05:00:00.000Z</published>
+    <updated>2016-12-23T01:51:30.831Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/business-people.jpg" alt="alt text" title="Business People"></p>
+<p>Dear Business People:</p>
+<p>You guys and gals are pretty smart when it comes to business. You wouldn’t work two jobs for the salary of one. That would be bad ROI (return on investment).</p>
+<p>Being savvy business people you wouldn’t waste your valuable time on a tedious job when you can delegate that task to others. You know your time is better spent tackling the daily flow of business logic, creating reports, and attending meetings. The core business tasks you were hired to do.</p>
+<p>So why do you all secretly want to be web designers / web developers? Don’t deny it. I see that envious look in your eye when you walk by my monitor full of code. From the outside it looks slick and sexy. TV Shows and Movies have portrayed designers and developers as the hip hackers building sophisticated shiny applications. In reality it is not that glamorous. I mean come on, do you really want to be frustrated trying to debug code and do math all day?</p>
+<p>My quesiton is…</p>
+<h3 id="“Do-You-Code-”"><a href="#“Do-You-Code-”" class="headerlink" title="“Do You Code?”"></a>“Do You Code?”</h3><p>In other words, does this code make sense to you?</p>
+<script async src="//jsfiddle.net/starcorelabs/Lpo1xanu/3/embed/html,css,result/dark/"></script>
+
+<p>If not, then you should not be designing, laying out, or advising where content is placed on a webpage. Because there is a hell of a lot more to <a href="https://fossbytes.com/10-best-online-web-design-courses-learn-create-websites/" target="_blank" rel="external">design and development</a> than mocking up webpages in office tools like Microsoft Word, PowerPoint, or Excel. You know those are not web development tools, right?</p>
+<p>Don’t get me wrong I’m not suggesting that you learn design or development. In fact, I’m asking you <a href="https://techcrunch.com/2016/05/10/please-dont-learn-to-code/" target="_blank" rel="external">please don’t learn to code</a>. I’m serious, if you don’t already know it then <a href="https://blog.codinghorror.com/please-dont-learn-to-code/" target="_blank" rel="external">don’t learn to code</a>.</p>
+<p>Maybe this is part of your current job. Are you expected to create mockups and layout content on web pages? Has it occured to you that you’re doing a second job for free? Those tasks are what <a href="http://blog.careerfoundry.com/ui-design/the-difference-between-ux-and-ui-design-a-laymans-guide/" target="_blank" rel="external">UX/UI Developers</a> do for a living.</p>
+<p>Consider, if you will, designers and developers spend years learning the limitations and best practices of this thing we call the web. Designers and developers get paid way more than you do. So why are you doing this kind of work for free? Personally I’d be upset. But hey, if you want to do a highly skilled, highly paid job for free, knock yourself out.</p>
+<p>Look at it from another perspective. How you would feel if someone with no business skills came into your office and started creating business logic, spreadsheets, and budget reports based on what they’ve seen on TV, or worse what they “feel” is best? How badly would that screw up your day? What kind of extra work would that create for you? I bet you’d be irritated. </p>
+<p>That’s what you’re doing to the designers and developers you work with every day. Please Stop it.</p>
+<p>Here’s a simple guilt-free alternative to the mess you’ve been making.</p>
+<blockquote>
+<h3 id="Let-The-Designers-Design-and-The-Developers-Develop"><a href="#Let-The-Designers-Design-and-The-Developers-Develop" class="headerlink" title="Let The Designers Design and The Developers Develop!"></a>Let The Designers Design and The Developers Develop!</h3></blockquote>
+<p>Take the content requirements you’ve come up with, or that’s been handed to you, and give it to your designers and developers. Tell them what information needs to show up on the page, but not where. Then get out of their way and let them dazzle you with the best way to display it. When you take the restrictions off creative people, they will WOW you. I dare you to try it as an experiment and see what happens.</p>
+<p>Here’s the benefits:</p>
+<ul>
+<li>You don’t have to try to mockup webpages using Office Tools.</li>
+<li>You get to delegate tasks to the right people.</li>
+<li>You are no longer doing two jobs for the price of one.</li>
+<li>You can spend your time more productively.</li>
+</ul>
+<p>The Bottomline: If you are not a designer or a developer then delegate those tasks to the right people. Spend your time doing what you do best.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/business-people.jpg&quot; alt=&quot;alt text&quot; title=&quot;Business People&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Dear Business People:&lt;/p&gt;
+&lt;p&gt;You guys and gals are pre
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>The Beauty of Sass</title>
