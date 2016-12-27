@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2016-12-23T02:02:01.241Z</updated>
+  <updated>2016-12-27T18:41:32.622Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -20,45 +20,36 @@
     <link href="http://starcorelabs.com/2016/12/22/do-you-code/"/>
     <id>http://starcorelabs.com/2016/12/22/do-you-code/</id>
     <published>2016-12-22T05:00:00.000Z</published>
-    <updated>2016-12-23T02:02:01.241Z</updated>
+    <updated>2016-12-27T18:41:32.622Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/img/business-people.jpg" alt="alt text" title="Business People"></p>
-<p>Dear Business People:</p>
-<p>You guys and gals are pretty smart when it comes to business. You wouldn’t work two jobs for the salary of one. That would be bad ROI (return on investment).</p>
-<p>Being savvy business people you wouldn’t waste your valuable time on a tedious job when you can delegate that task to others. You know your time is better spent tackling the daily flow of business logic, creating reports, and attending meetings. The core business tasks you were hired to do.</p>
-<p>So why do you all secretly want to be web designers / web developers? Don’t deny it. I see that envious look in your eye when you walk by my monitor full of code. From the outside it looks slick and sexy. TV Shows and Movies have portrayed designers and developers as the hip hackers building sophisticated shiny applications. In reality it is not that glamorous. I mean come on, do you really want to be frustrated trying to debug code and do math all day?</p>
-<p>My quesiton is…</p>
-<h3 id="“Do-You-Code-”"><a href="#“Do-You-Code-”" class="headerlink" title="“Do You Code?”"></a>“Do You Code?”</h3><p>In other words, does this code make sense to you?</p>
+    <content type="html"><![CDATA[<p><img src="/img/business-executives.jpg" alt="alt text" title="layouts"></p>
+<h2 id="Dear-Business-Executives"><a href="#Dear-Business-Executives" class="headerlink" title="Dear Business Executives,"></a>Dear Business Executives,</h2><p>While working in different corporate environments I’ve noticed a lot of you are tasked with adding content to web projects. Usually you go about this by using office tools to mock up web pages and send them to the development department to build.</p>
+<p>This is a slow frustrating process for you and the developers. So with your executive power why not push for a content management system that would make your lives easier?</p>
+<p>Take a moment to answer this quick question, “Does this code make sense to you?”</p>
+<p><a href="https://jsfiddle.net/starcorelabs/Lpo1xanu/3/" target="_blank" rel="external">JSFiddle</a></p>
 <script async src="//jsfiddle.net/starcorelabs/Lpo1xanu/3/embed/html,css,result/dark/"></script>
 
-<p>If not, then you should not be designing, laying out, or advising where content is placed on a webpage. Because there is a hell of a lot more to <a href="https://fossbytes.com/10-best-online-web-design-courses-learn-create-websites/" target="_blank" rel="external">design and development</a> than mocking up webpages in office tools like Microsoft Word, PowerPoint, or Excel. You know those are not web development tools, right?</p>
-<p>Don’t get me wrong I’m not suggesting that you learn design or development. In fact, I’m asking you <a href="https://techcrunch.com/2016/05/10/please-dont-learn-to-code/" target="_blank" rel="external">please don’t learn to code</a>. I’m serious, if you don’t already know it then <a href="https://blog.codinghorror.com/please-dont-learn-to-code/" target="_blank" rel="external">don’t learn to code</a>.</p>
-<p>Maybe this is part of your current job. Are you expected to create mockups and layout content on web pages? Has it occured to you that you’re doing a second job for free? Those tasks are what <a href="http://blog.careerfoundry.com/ui-design/the-difference-between-ux-and-ui-design-a-laymans-guide/" target="_blank" rel="external">UX/UI Developers</a> do for a living.</p>
-<p>Consider, if you will, designers and developers spend years learning the limitations and best practices of this thing we call the web. Designers and developers get paid way more than you do. So why are you doing this kind of work for free? Personally I’d be upset. But hey, if you want to do a highly skilled, highly paid job for free, knock yourself out.</p>
-<p>Look at it from another perspective. How you would feel if someone with no business skills came into your office and started creating business logic, spreadsheets, and budget reports based on what they’ve seen on TV, or worse what they “feel” is best? How badly would that screw up your day? What kind of extra work would that create for you? I bet you’d be irritated.</p>
-<p>That’s what you’re doing to the designers and developers you work with every day. Please Stop it.</p>
-<p>Here’s a simple guilt-free alternative to the mess you’ve been making.</p>
-<blockquote>
-<h3 id="Let-The-Designers-Design-and-The-Developers-Develop"><a href="#Let-The-Designers-Design-and-The-Developers-Develop" class="headerlink" title="Let The Designers Design and The Developers Develop!"></a>Let The Designers Design and The Developers Develop!</h3></blockquote>
-<p>Take the content requirements you’ve come up with, or that’s been handed to you, and give it to your designers and developers. Tell them what information needs to show up on the page, but not where. Then get out of their way and let them dazzle you with the best way to display it. When you take the restrictions off creative people, they will WOW you. I dare you to try it as an experiment and see what happens.</p>
-<p>Here’s the benefits:</p>
-<ul>
-<li>You don’t have to try to mockup webpages using Office Tools.</li>
-<li>You get to delegate tasks to the right people.</li>
-<li>You are no longer doing two jobs for the price of one.</li>
-<li>You can spend your time more productively.</li>
-</ul>
-<p>The Bottomline: If you are not a designer or a developer then delegate those tasks to the right people. Spend your time doing what you do best.</p>
+
+<p>If not, then you should <strong>not</strong> be asked to mock up web pages. Mocking up web pages is the Graphic Designer’s / UX Developer’s job. Why would you do their job for free? That is bad ROI (Return On Investment).</p>
+<p>Office tools like Microsoft Word, PowerPoint, and Excel are not web development tools. Whatever you make with these tools cannot be perfectly recreated on a web page. Because not all web browsers are created equal. Browsers have more limitations than office tools.</p>
+<p>Your focus is on content creation: writing text, adding photos, tables of data, and other media that needs to be on the page. Using a <a href="http://www.wpbeginner.com/glossary/content-management-system-cms/" target="_blank" rel="external">CMS</a>, like <a href="https://wordpress.org/" target="_blank" rel="external">Wordpress</a> allows you to quickly create page content using a built-in document editor that automatically converts your content to work correctly within web pages. You’d be surprised how many <a href="http://www.wpbeginner.com/showcase/40-most-notable-big-name-brands-that-are-using-wordpress/" target="_blank" rel="external">top companies are using Wordpress</a>.</p>
+<p>Using a CMS allows you to collaborate with other executives to create, review, and publish content without waiting on the designers or developers to build the page for you. The power to create and edit content is in your hands.</p>
+<p>UX/UI Developers create layouts and templates for the CMS with the correct look and feel to match the web application.</p>
+<p><img src="/img/layouts.png" alt="image alt text" title="layouts"></p>
+<p>They do this using web development tools like <a href="http://www.adobe.com/products/photoshop.html" target="_blank" rel="external">Photoshop</a>, <a href="https://www.visualstudio.com/" target="_blank" rel="external">Visual Studio</a>, <a href="https://atom.io/" target="_blank" rel="external">Atom</a> and web standard HTML, CSS, and JavaScript code. Once the templates are added to the CMS anyone authorized to create content can apply those custom templates to a page.</p>
+<p>Separating content creation from template design, in this way, allows each team to do what they do best while saving time and money.</p>
+<p>How much time will you save when you can add content yourself?</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/img/business-people.jpg&quot; alt=&quot;alt text&quot; title=&quot;Business People&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Dear Business People:&lt;/p&gt;
-&lt;p&gt;You guys and gals are pre
+      &lt;p&gt;&lt;img src=&quot;/img/business-executives.jpg&quot; alt=&quot;alt text&quot; title=&quot;layouts&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Dear-Business-Executives&quot;&gt;&lt;a href=&quot;#Dear-Business-Exe
     
     </summary>
     
+    
+      <category term="business" scheme="http://starcorelabs.com/tags/business/"/>
     
   </entry>
   
@@ -67,7 +58,7 @@
     <link href="http://starcorelabs.com/2016/12/18/the-beauty-of-sass/"/>
     <id>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</id>
     <published>2016-12-18T05:00:00.000Z</published>
-    <updated>2016-12-20T14:35:43.816Z</updated>
+    <updated>2016-12-27T18:42:57.083Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/sass.jpg" alt="alt text" title="Sass"></p>
 <p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a> stands for Syntactically Awesome Stylesheets. It is a preprocessor for CSS. Which are <a href="http://www.css3-tutorial.net/" target="_blank" rel="external">Cascading Style Sheets</a>.  </p>
@@ -107,6 +98,8 @@
     </summary>
     
     
+      <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
+    
   </entry>
   
   <entry>
@@ -114,7 +107,7 @@
     <link href="http://starcorelabs.com/2016/12/13/wordpress-development/"/>
     <id>http://starcorelabs.com/2016/12/13/wordpress-development/</id>
     <published>2016-12-13T05:00:00.000Z</published>
-    <updated>2016-12-14T00:15:51.415Z</updated>
+    <updated>2016-12-27T18:43:29.489Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/wordpress.png" alt="alt text" title="Wordpress"></p>
 <p>I’ve been building Wordpress websites for the last few years. It is a great platform for building small to large websites. Many large well-known websites are powered by Wordpress.</p>
@@ -141,6 +134,8 @@
     </summary>
     
     
+      <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
+    
   </entry>
   
   <entry>
@@ -148,7 +143,7 @@
     <link href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/"/>
     <id>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/</id>
     <published>2016-12-12T05:00:00.000Z</published>
-    <updated>2016-12-14T00:14:42.102Z</updated>
+    <updated>2016-12-27T18:42:50.073Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/laptop-code.jpg" alt="alt text" title="CSS"></p>
 <blockquote>
@@ -200,6 +195,8 @@
     </summary>
     
     
+      <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
+    
   </entry>
   
   <entry>
@@ -207,7 +204,7 @@
     <link href="http://starcorelabs.com/2016/12/08/upgrade-to-hexo/"/>
     <id>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</id>
     <published>2016-12-08T05:00:00.000Z</published>
-    <updated>2016-12-08T23:56:47.631Z</updated>
+    <updated>2016-12-27T18:43:00.902Z</updated>
     
     <content type="html"><![CDATA[<p>I have hosted and developed many websites using Wordpress in the past. I like how Wordpress dynamically adds the header, sidebar, footer, and content to each page. Preventing me from repeating myself. Unforunately it requires an expensive Apache, PHP, and MySQL server to run. I cannot justify the expense of paying for hosting. Especially for something like a blog.</p>
 <p>For the last few years I’ve been hosting my site on Github Pages and writing static HTML &amp; CSS files by hand, which is a major pain. It makes it difficult to focus on writing posts. I usually go through a few revisions when writing. Wrapping my text in code makes it much harder to edit and revise what I’ve written.</p>
@@ -226,6 +223,8 @@
     </summary>
     
     
+      <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
+    
   </entry>
   
   <entry>
@@ -233,7 +232,7 @@
     <link href="http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/"/>
     <id>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</id>
     <published>2016-11-25T05:00:00.000Z</published>
-    <updated>2016-12-08T23:11:12.326Z</updated>
+    <updated>2016-12-27T18:42:28.483Z</updated>
     
     <content type="html"><![CDATA[<p>I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources online that have shown me step-by-step many different ways to be an Entrepreneur.</p>
 <p>Like this article from Entrepreneur.com: <a href="https://www.entrepreneur.com/article/207488" target="_blank" rel="external">So You Want to Be Your Own Boss</a></p>
@@ -253,6 +252,8 @@
     </summary>
     
     
+      <category term="business" scheme="http://starcorelabs.com/tags/business/"/>
+    
   </entry>
   
   <entry>
@@ -260,7 +261,7 @@
     <link href="http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/"/>
     <id>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</id>
     <published>2016-11-24T05:00:00.000Z</published>
-    <updated>2016-12-09T02:31:06.484Z</updated>
+    <updated>2016-12-27T18:43:24.245Z</updated>
     
     <content type="html"><![CDATA[<p>Facebook is the gossip grapevine of the Internet. It makes money from ads and from selling user information to marketers. Everything I post and like.</p>
 <p>The stated purpose of Facebook is to connect with Family and Friends. In my experience of using the website I’ve found its mostly a time wasting process of reading other people’s posts. Most people treat their profile like a soapbox to complain about their problems or push their political and/or religious beliefs.</p>
@@ -290,6 +291,8 @@
     </summary>
     
     
+      <category term="Web" scheme="http://starcorelabs.com/tags/Web/"/>
+    
   </entry>
   
   <entry>
@@ -297,7 +300,7 @@
     <link href="http://starcorelabs.com/2016/11/09/ux-developer/"/>
     <id>http://starcorelabs.com/2016/11/09/ux-developer/</id>
     <published>2016-11-09T05:00:00.000Z</published>
-    <updated>2016-12-09T01:50:11.197Z</updated>
+    <updated>2016-12-27T18:43:04.844Z</updated>
     
     <content type="html"><![CDATA[<p>I recently got a new UX Developer job. I work for a great company here in Indianapolis. I cannot tell you how grateful I am to have landed this job. Or how much I enjoy what I do. Its awesome!</p>
 <p>I like the people I work with because they are smart, mature, professional, and focused. They don’t waste time with small talk. They are too busy enjoying getting things done.</p>
@@ -321,6 +324,8 @@
     </summary>
     
     
+      <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
+    
   </entry>
   
   <entry>
@@ -328,7 +333,7 @@
     <link href="http://starcorelabs.com/2016/11/03/corporate-confusion/"/>
     <id>http://starcorelabs.com/2016/11/03/corporate-confusion/</id>
     <published>2016-11-03T05:00:00.000Z</published>
-    <updated>2016-12-09T02:23:11.680Z</updated>
+    <updated>2016-12-27T18:01:50.924Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/corporate.png" alt="alt text" title="Corporate"></p>
 <p>Is your company having trouble finding and keeping talented developers?<br>This article explains how you might be unintentionally insulting them.</p>
@@ -381,6 +386,8 @@
     </summary>
     
     
+      <category term="business" scheme="http://starcorelabs.com/tags/business/"/>
+    
   </entry>
   
   <entry>
@@ -388,7 +395,7 @@
     <link href="http://starcorelabs.com/2016/11/02/front-end-development/"/>
     <id>http://starcorelabs.com/2016/11/02/front-end-development/</id>
     <published>2016-11-02T05:00:00.000Z</published>
-    <updated>2016-12-09T02:13:48.466Z</updated>
+    <updated>2016-12-27T18:42:40.799Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/dev-spectrum.png" alt="alt text" title="Developer Spectrum"></p>
 <p>Front-End Developers write HTML, CSS, and JavaScript. The languages browsers speak, to display what users see and interact within the browser.</p>
@@ -443,6 +450,8 @@
     </summary>
     
     
+      <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
+    
   </entry>
   
   <entry>
@@ -450,7 +459,7 @@
     <link href="http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/"/>
     <id>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</id>
     <published>2016-11-01T05:00:00.000Z</published>
-    <updated>2016-12-09T01:50:19.966Z</updated>
+    <updated>2016-12-27T18:42:53.307Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/website.png" alt="alt text" title="Website"></p>
 <p>So you’ve decided you want a professional website for your blog, hobby, or business. You’ve looked around on Google to find a web development company or freelancer near you. (You have looked on Google right?).</p>
@@ -495,6 +504,8 @@
     
     </summary>
     
+    
+      <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
     
   </entry>
   
