@@ -3,25 +3,25 @@
   <title>Starcore Labs</title>
   <subtitle>UX Developer Blog</subtitle>
   <link href="/atom.xml" rel="self"/>
-  
+
   <link href="http://starcorelabs.com/"/>
-  <updated>2016-12-27T18:41:32.622Z</updated>
+  <updated>2016-12-31T18:12:10.080Z</updated>
   <id>http://starcorelabs.com/</id>
-  
+
   <author>
     <name>Michael Douglas</name>
-    
+
   </author>
-  
+
   <generator uri="http://hexo.io/">Hexo</generator>
-  
+
   <entry>
-    <title>Do You Code?</title>
-    <link href="http://starcorelabs.com/2016/12/22/do-you-code/"/>
-    <id>http://starcorelabs.com/2016/12/22/do-you-code/</id>
-    <published>2016-12-22T05:00:00.000Z</published>
-    <updated>2016-12-27T18:41:32.622Z</updated>
-    
+    <title>Do You Write Code?</title>
+    <link href="http://starcorelabs.com/2016/12/22/do-you-write-code/"/>
+    <id>http://starcorelabs.com/2016/12/22/do-you-write-code/</id>
+    <published>2016-12-22T06:00:00.000Z</published>
+    <updated>2016-12-31T18:12:10.080Z</updated>
+
     <content type="html"><![CDATA[<p><img src="/img/business-executives.jpg" alt="alt text" title="layouts"></p>
 <h2 id="Dear-Business-Executives"><a href="#Dear-Business-Executives" class="headerlink" title="Dear Business Executives,"></a>Dear Business Executives,</h2><p>While working in different corporate environments I’ve noticed a lot of you are tasked with adding content to web projects. Usually you go about this by using office tools to mock up web pages and send them to the development department to build.</p>
 <p>This is a slow frustrating process for you and the developers. So with your executive power why not push for a content management system that would make your lives easier?</p>
@@ -40,26 +40,26 @@
 <p>Separating content creation from template design, in this way, allows each team to do what they do best while saving time and money.</p>
 <p>How much time will you save when you can add content yourself?</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;&lt;img src=&quot;/img/business-executives.jpg&quot; alt=&quot;alt text&quot; title=&quot;layouts&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Dear-Business-Executives&quot;&gt;&lt;a href=&quot;#Dear-Business-Exe
-    
+
     </summary>
-    
-    
+
+
       <category term="business" scheme="http://starcorelabs.com/tags/business/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>The Beauty of Sass</title>
     <link href="http://starcorelabs.com/2016/12/18/the-beauty-of-sass/"/>
     <id>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</id>
     <published>2016-12-18T05:00:00.000Z</published>
     <updated>2016-12-27T18:42:57.083Z</updated>
-    
+
     <content type="html"><![CDATA[<p><img src="/img/sass.jpg" alt="alt text" title="Sass"></p>
 <p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a> stands for Syntactically Awesome Stylesheets. It is a preprocessor for CSS. Which are <a href="http://www.css3-tutorial.net/" target="_blank" rel="external">Cascading Style Sheets</a>.  </p>
 <p>CSS is a simple language that allows designers and developers to control the layout and “style” of webpages. CSS itself is simple and the basics can be learned quickly.</p>
@@ -89,26 +89,26 @@
 <p>Once you have the basics of CSS and SASS down you can check out my previous post on refactoring and organizing your SASS codebase.<br><a href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/">How Do You Refactor CSS?</a></p>
 <p>Using a preprocessor for medium to large websites and web applications is a must. Trying to do it with vanilla CSS is a nightmare, I’ve done it.<br>Whatever your skill level or project. Invest the time to learn SASS. You’ll thank yourself later.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;&lt;img src=&quot;/img/sass.jpg&quot; alt=&quot;alt text&quot; title=&quot;Sass&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://sass-lang.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SASS&lt;/a&gt; stan
-    
+
     </summary>
-    
-    
+
+
       <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>Wordpress Development</title>
     <link href="http://starcorelabs.com/2016/12/13/wordpress-development/"/>
     <id>http://starcorelabs.com/2016/12/13/wordpress-development/</id>
     <published>2016-12-13T05:00:00.000Z</published>
     <updated>2016-12-27T18:43:29.489Z</updated>
-    
+
     <content type="html"><![CDATA[<p><img src="/img/wordpress.png" alt="alt text" title="Wordpress"></p>
 <p>I’ve been building Wordpress websites for the last few years. It is a great platform for building small to large websites. Many large well-known websites are powered by Wordpress.</p>
 <p>It is ideal for non-technical people who simply need a platform for content creation. Most end-users need a text editor to write posts and pages. Wordpress fits this requirement the best.</p>
@@ -125,26 +125,26 @@
 <p>There are also forums, reddit threads, Facebook groups, and Meetups for Wordpress that might help you learn more.</p>
 <p>Remember learning Wordpress is a process that takes time.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;&lt;img src=&quot;/img/wordpress.png&quot; alt=&quot;alt text&quot; title=&quot;Wordpress&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I’ve been building Wordpress websites for the last few years. It i
-    
+
     </summary>
-    
-    
+
+
       <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>How Do You Refactor CSS?</title>
     <link href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/"/>
     <id>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/</id>
     <published>2016-12-12T05:00:00.000Z</published>
     <updated>2016-12-27T18:42:50.073Z</updated>
-    
+
     <content type="html"><![CDATA[<p><img src="/img/laptop-code.jpg" alt="alt text" title="CSS"></p>
 <blockquote>
 <p>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</p>
@@ -185,27 +185,27 @@
 <p>A few things surprised me about Uncss. It only took a couple of minutes to setup the gulp task and run it. The process is non-destructive. It maps the “in-use” css code and then writes it to a new output.css file. It makes no changes to the exisiting css. It processed my small codebase faster than I expected. With this approach I doubt it would take long to process a large SCSS codebase.</p>
 <p>These are the current best practices. I plan on staying updated on the topics of refactoring and writing organized, scalable, modular CSS.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;&lt;img src=&quot;/img/laptop-code.jpg&quot; alt=&quot;alt text&quot; title=&quot;CSS&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Always code as if the guy who ends up maintaining your co
-    
+
     </summary>
-    
-    
+
+
       <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>Upgrade to Hexo</title>
     <link href="http://starcorelabs.com/2016/12/08/upgrade-to-hexo/"/>
     <id>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</id>
     <published>2016-12-08T05:00:00.000Z</published>
     <updated>2016-12-27T18:43:00.902Z</updated>
-    
+
     <content type="html"><![CDATA[<p>I have hosted and developed many websites using Wordpress in the past. I like how Wordpress dynamically adds the header, sidebar, footer, and content to each page. Preventing me from repeating myself. Unforunately it requires an expensive Apache, PHP, and MySQL server to run. I cannot justify the expense of paying for hosting. Especially for something like a blog.</p>
 <p>For the last few years I’ve been hosting my site on Github Pages and writing static HTML &amp; CSS files by hand, which is a major pain. It makes it difficult to focus on writing posts. I usually go through a few revisions when writing. Wrapping my text in code makes it much harder to edit and revise what I’ve written.</p>
 <p>So I started looking around for alternatives to Wordpress. A year ago I became interested in <a href="https://www.staticgen.com/" target="_blank" rel="external">static site generators</a>. I spent a long time testing many different packages.</p>
@@ -215,25 +215,25 @@
 <p>For a long time I struggled with deciding between expensive but easy to use dynamic Wordpress websites or free but labor intensive hand-coded static sites.</p>
 <p>Now I have the best of both worlds with Hexo.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;I have hosted and developed many websites using Wordpress in the past. I like how Wordpress dynamically adds the header, sidebar, footer,
-    
+
     </summary>
-    
-    
+
+
       <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>Becoming an Entrepreneur</title>
     <link href="http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/"/>
     <id>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</id>
     <published>2016-11-25T05:00:00.000Z</published>
     <updated>2016-12-27T18:42:28.483Z</updated>
-    
+
     <content type="html"><![CDATA[<p>I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources online that have shown me step-by-step many different ways to be an Entrepreneur.</p>
 <p>Like this article from Entrepreneur.com: <a href="https://www.entrepreneur.com/article/207488" target="_blank" rel="external">So You Want to Be Your Own Boss</a></p>
 <p>I have read some really amazing books like:  <a href="https://www.amazon.com/Will-Test-Business-Waste-Money/dp/0997082305/ref=sr_1_1?ie=UTF8&amp;qid=1480129186&amp;sr=8-1&amp;keywords=Pat+Flynn" target="_blank" rel="external">Will It Fly? by Pat Flynn</a></p>
@@ -244,25 +244,25 @@
 <p>As I work toward my goal of running a successful online business I will continue to take notes. Once I reach my idea of success I’ll be able to transform my notes into a book that other people can follow like a map to lost treasure.</p>
 <p>Keep following this blog for more updates on my progress.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources online
-    
+
     </summary>
-    
-    
+
+
       <category term="business" scheme="http://starcorelabs.com/tags/business/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>Why I quit posting on Facebook</title>
     <link href="http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/"/>
     <id>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</id>
     <published>2016-11-24T05:00:00.000Z</published>
     <updated>2016-12-27T18:43:24.245Z</updated>
-    
+
     <content type="html"><![CDATA[<p>Facebook is the gossip grapevine of the Internet. It makes money from ads and from selling user information to marketers. Everything I post and like.</p>
 <p>The stated purpose of Facebook is to connect with Family and Friends. In my experience of using the website I’ve found its mostly a time wasting process of reading other people’s posts. Most people treat their profile like a soapbox to complain about their problems or push their political and/or religious beliefs.</p>
 <p>While companies use their pages to sell products and services. Facebook is slowly becoming a dead mall.</p>
@@ -283,25 +283,25 @@
 <p>Until then my Facebook page will remain an empty shell.</p>
 <p>Instead I’ll stick with post my thoughts here.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;Facebook is the gossip grapevine of the Internet. It makes money from ads and from selling user information to marketers. Everything I po
-    
+
     </summary>
-    
-    
+
+
       <category term="Web" scheme="http://starcorelabs.com/tags/Web/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>UX Developer</title>
     <link href="http://starcorelabs.com/2016/11/09/ux-developer/"/>
     <id>http://starcorelabs.com/2016/11/09/ux-developer/</id>
     <published>2016-11-09T05:00:00.000Z</published>
     <updated>2016-12-27T18:43:04.844Z</updated>
-    
+
     <content type="html"><![CDATA[<p>I recently got a new UX Developer job. I work for a great company here in Indianapolis. I cannot tell you how grateful I am to have landed this job. Or how much I enjoy what I do. Its awesome!</p>
 <p>I like the people I work with because they are smart, mature, professional, and focused. They don’t waste time with small talk. They are too busy enjoying getting things done.</p>
 <p>I get to use my favorite editor <a href="https://atom.io/" target="_blank" rel="external">Atom</a>. I enjoy writing <a href="http://sass-lang.com/" target="_blank" rel="external">SCSS</a> code and using <a href="http://gulpjs.com/" target="_blank" rel="external">gulp.js</a> for compiling and automating other tasks. Of course I’m still using <a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a>. I am looking forward to the updated version 4 when it releases.</p>
@@ -316,25 +316,25 @@
 <p>My most important tool is <a href="https://www.google.com/chrome/browser/desktop/" target="_blank" rel="external">Google Chrome</a> and its built-in Developer Tools. They are the best!</p>
 <p>That’s pretty much everything I use on a daily basis.<br>If you have any questions feel free to message me on Twitter.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;I recently got a new UX Developer job. I work for a great company here in Indianapolis. I cannot tell you how grateful I am to have lande
-    
+
     </summary>
-    
-    
+
+
       <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>Corporate Confusion</title>
     <link href="http://starcorelabs.com/2016/11/03/corporate-confusion/"/>
     <id>http://starcorelabs.com/2016/11/03/corporate-confusion/</id>
     <published>2016-11-03T05:00:00.000Z</published>
     <updated>2016-12-27T18:01:50.924Z</updated>
-    
+
     <content type="html"><![CDATA[<p><img src="/img/corporate.png" alt="alt text" title="Corporate"></p>
 <p>Is your company having trouble finding and keeping talented developers?<br>This article explains how you might be unintentionally insulting them.</p>
 <h3 id="Surprise-You’re-a-Software-Company"><a href="#Surprise-You’re-a-Software-Company" class="headerlink" title="Surprise You’re a Software Company"></a>Surprise You’re a Software Company</h3><p>If you are in business today with a website where you sell products and/or services, you are a software company. It is the central hub upon which the rest of your business revolves.</p>
@@ -377,26 +377,26 @@
 <p>It is a matter of deciding if your company wants a short term bonus versus a long term profit growth.</p>
 <p>Keep in mind that talented developers will see through low-ball charades and won’t apply for unrealistic job offers.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;&lt;img src=&quot;/img/corporate.png&quot; alt=&quot;alt text&quot; title=&quot;Corporate&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Is your company having trouble finding and keeping talented develo
-    
+
     </summary>
-    
-    
+
+
       <category term="business" scheme="http://starcorelabs.com/tags/business/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>Front End Development</title>
     <link href="http://starcorelabs.com/2016/11/02/front-end-development/"/>
     <id>http://starcorelabs.com/2016/11/02/front-end-development/</id>
     <published>2016-11-02T05:00:00.000Z</published>
     <updated>2016-12-27T18:42:40.799Z</updated>
-    
+
     <content type="html"><![CDATA[<p><img src="/img/dev-spectrum.png" alt="alt text" title="Developer Spectrum"></p>
 <p>Front-End Developers write HTML, CSS, and JavaScript. The languages browsers speak, to display what users see and interact within the browser.</p>
 <p>Development, like all highly skilled disciplines, exists on a spectrum. The field of software development is too vast for any single person to know everything. It costs a lot of time, effort, and money to learn these skills.</p>
@@ -441,26 +441,26 @@
 <p>If you are interested in learning more, search on Google for “Front-End Development Basics”. There are tons of free resources to get you started.</p>
 <p>Like I said before, learning Front-End Development is very much like learning to read, write, and speak a foreign language. It will take consistent study and practice to develop professional level skills.</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;&lt;img src=&quot;/img/dev-spectrum.png&quot; alt=&quot;alt text&quot; title=&quot;Developer Spectrum&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Front-End Developers write HTML, CSS, and JavaScript. 
-    
+&lt;p&gt;Front-End Developers write HTML, CSS, and JavaScript.
+
     </summary>
-    
-    
+
+
       <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
-    
+
   </entry>
-  
+
   <entry>
     <title>How to Build a Website for Beginners</title>
     <link href="http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/"/>
     <id>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</id>
     <published>2016-11-01T05:00:00.000Z</published>
     <updated>2016-12-27T18:42:53.307Z</updated>
-    
+
     <content type="html"><![CDATA[<p><img src="/img/website.png" alt="alt text" title="Website"></p>
 <p>So you’ve decided you want a professional website for your blog, hobby, or business. You’ve looked around on Google to find a web development company or freelancer near you. (You have looked on Google right?).</p>
 <p>You’ve hopefully gotten over the sticker shock of how much it costs to build a professional website. (It ranges between $2,000 to $6,000 depending on what you want) I’m sure you’ve compared the prices between different companies and decided which one offers you the best deal based on your business needs. (If not, you should do that now)</p>
@@ -496,17 +496,17 @@
 </ol>
 <p>If you need help with any part of your website setup, custom code, design, or logo. You can contact me at starcorelabs@gmail.com. My rate is $60 an hour and I’ve been building websites since 2006. I have in corporate environments for big companies and now currently run my own freelance development company. Hire me today and let’s build your site the right way!</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;&lt;img src=&quot;/img/website.png&quot; alt=&quot;alt text&quot; title=&quot;Website&quot;&gt;&lt;/p&gt;
 &lt;p&gt;So you’ve decided you want a professional website for your blog, hobby
-    
+
     </summary>
-    
-    
+
+
       <category term="Development" scheme="http://starcorelabs.com/tags/Development/"/>
-    
+
   </entry>
-  
+
 </feed>
