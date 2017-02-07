@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2016-12-31T18:45:59.273Z</updated>
+  <updated>2017-02-07T23:45:24.736Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -14,6 +14,99 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Atom Editor</title>
+    <link href="http://starcorelabs.com/2017/02/07/atom-editor/"/>
+    <id>http://starcorelabs.com/2017/02/07/atom-editor/</id>
+    <published>2017-02-07T05:00:00.000Z</published>
+    <updated>2017-02-07T23:45:24.736Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/atom-logo.png" alt="entrepreneur"></p>
+<p>Many developers prefer a full IDE like Visual Studio for building web applications. With intellisense it gives you suggestions and adds code for you.</p>
+<p>Large IDE’s like Visual Studio can be resource hogs. Also, they act like a blackbox.  They make changes and add extra code behind the scenes before outputting to the browser. This can cause serious issues for front-end developers.</p>
+<p>Which is why most front-end developers prefer editors that give them full control over their code. For a long time the “cool developers” were using Sublime Text. Which is a great code editor. However, it is not free or opensource. Many developers are using it commercially without paying for it. I’m guessing at some point the company behind Sublime Text will remove the free version.</p>
+<p>My favorite code editor is <a href="https://atom.io/" target="_blank" rel="external">Atom</a>. It does everything Sublime can do, and more. I like it because it is free, open source, light weight, and fully customizable. It was created and released by Github on February 26, 2014. It works on macOS, Linux, and Windows. There are tons of plugins, known as <a href="https://atom.io/packages" target="_blank" rel="external">packages</a>, which add extra functionally to Atom.</p>
+<p>The <a href="https://flight-manual.atom.io/" target="_blank" rel="external">Flight Manual</a> will teach you how to use and customize your copy of Atom.</p>
+<p>Or, you can watch this great <a href="https://www.youtube.com/watch?v=EyG20hhON6E" target="_blank" rel="external">Atom Tutorial</a> on YouTube.</p>
+<p>I recommend all UX/UI front-end developers give Atom a try.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/atom-logo.png&quot; alt=&quot;entrepreneur&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Many developers prefer a full IDE like Visual Studio for building web applicatio
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>The Slow Death of Front-End Development</title>
+    <link href="http://starcorelabs.com/2017/02/07/slow-death-of-front-end-development/"/>
+    <id>http://starcorelabs.com/2017/02/07/slow-death-of-front-end-development/</id>
+    <published>2017-02-07T05:00:00.000Z</published>
+    <updated>2017-02-07T23:51:11.040Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/death.jpg" alt="entrepreneur"></p>
+<p>Front-End Development is dying a slow death.</p>
+<p>The online metrics for career viability of front-end develpers might suggest otherwise but hear me out. For the last five years corporations have been redefining the role of front-end developers.</p>
+<p>They are mixing graphic design and some back-end programming into their expectations. Changing the academic defintion of what UX and UI developers actually do. Because their business needs have changed. They have the gold, so they make the rules.</p>
+<p>Front-end developers are forced to merge skills from other areas of web development. Doing more work for the same amount of money.</p>
+<p>On top of this, in the last three years office workers are mocking up pages and websites using office tools like PowerPoint. (PowerPoint is not a web development tool)</p>
+<p>Corporations are treating the art and science of front-end developement like another business skill all workers should know. This level ubiquity devalues the skills of front-end developers. If everyone can do it (even badly) why hire a dedicated UX/UI developer?</p>
+<p>In an effort to reduce costs Corporations are training their office workers on tools that allow them to create pages without writing code.</p>
+<p><a href="https://www.invisionapp.com/" target="_blank" rel="external">InVision</a> is a great tool for creating mockups or web page using a visual interface.</p>
+<p><a href="https://www.justinmind.com/" target="_blank" rel="external">JustInMind</a> is another tool created for UX/UI that is being appropriated by office workers. Its drag-and-drop interface gives users a quick and simple way to create beautiful mockups and full pages.</p>
+<p>These trends and tools represent the begining of the end for front-end developers. As these tools improve and other applications like them are created, there will be less demand for front-end developers.</p>
+<p>I’m guessing within the next five years corporations will requir all office workers to absorb the skills of front-end developers. Eventually the role of UX/UI Front-End Developer will disappear. Replaced by some hideous hybrid title that requires more skills at a lower salary.</p>
+<p>In the ancient days of the internet there use to be a position called “Web Master”. Sadly that job and skills were absorbed into what we call back-end developers today.</p>
+<p>Unfortunately corporations drive the demand for developers. When they no longer need dedicated UX/UI the title and skill set will disappear.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/death.jpg&quot; alt=&quot;entrepreneur&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Front-End Development is dying a slow death.&lt;/p&gt;
+&lt;p&gt;The online metrics for career vi
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Continuous Development</title>
+    <link href="http://starcorelabs.com/2017/02/06/continuous-development/"/>
+    <id>http://starcorelabs.com/2017/02/06/continuous-development/</id>
+    <published>2017-02-06T05:00:00.000Z</published>
+    <updated>2017-02-07T23:38:25.396Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/whiteboard.jpg" alt="entrepreneur"></p>
+<p>Building web applications as an individual developer is hard. Trying to do it with a team of developers. Organizing who does what and when. Sharing code among all team members without parts being broken or over-written. Figuring out how to make changes requested by the business and deliver the full release on time is a monumental task.</p>
+<p>Agile /SCRUM has ruled the software development landscape for last decade. Just because it is popular doesn’t mean it is the best method available.</p>
+<p>At the time of its creation Agile solved many flaws within the previous “Waterfall” method of development.  At the same time it introduced many flaws of its own. Because of this, many developers loath Agile / SCRUM and all of its time wasting quirks.</p>
+<p>I did some Google searching for Anti-Agile and found three interesting articles.</p>
+<p>Erik Meijer wrote a scathing article explaining why <a href="http://www.theregister.co.uk/2015/01/08/erik_meijer_agile_is_a_cancer_we_have_to_eliminate_from_the_industry/" target="_blank" rel="external">Agile must be destroyed</a>.</p>
+<p>Allen Holub wrote, “<a href="http://www.drdobbs.com/architecture-and-design/the-anti-anti-agile-manifesto/240168963" target="_blank" rel="external">The Anit Anti Agile Manifesto</a>“.  He attempts to defend Agile. Pointing out it is how Corporations have chosen to implment it that cause problems. Not the Agile methodology itself.</p>
+<p>Michael O. Church wrote a very powerful article about “<a href="https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/" target="_blank" rel="external">Why Agile and Scrum are terrible</a>“.</p>
+<p>This is a much more indepth post that illustrates in detail how Agile is being abused in the wild. He ends with a positive alternative methodology called “Continuous Development” that solves the majority of these issues.</p>
+<p>Andrew Binstock Wrote a great overview of “<a href="http://www.drdobbs.com/architecture-and-design/continuous-development-the-new-maintenan/240167052" target="_blank" rel="external">Continuous Development</a>“ which highlights the purpose and benefits of this alternative method for all forms of development but specifically for the emerging “Internet of Things”.</p>
+<p>Personally, I dislike Agile because it is a business-driven model of develpment. Non-technical business people who do not know how to write code or the time it takes to develop working software are making decisions and setting deadlines. In my opition, that’s like allowing a 6 year old to plan your vacation and drive the car. An all around bad idea.</p>
+<p>If “business needs” must drive software development, at least include the developers in the decision making process.</p>
+<p>In the last 10 years the IT industry has evolved by leaps and bounds, in spite of the limiting factors of Agile. I feel its time we upgrade our development methodology to refect a 21st Century mindset. If not Continuous Development then at least something better than Agile.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/whiteboard.jpg&quot; alt=&quot;entrepreneur&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Building web applications as an individual developer is hard. Trying to do it w
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Do You Write Code?</title>
