@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2016-12-31T18:45:59.273Z</updated>
+  <updated>2017-02-07T14:50:31.414Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -16,11 +16,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Continuous Development</title>
+    <link href="http://starcorelabs.com/2017/02/06/continuous-development/"/>
+    <id>http://starcorelabs.com/2017/02/06/continuous-development/</id>
+    <published>2017-02-06T05:00:00.000Z</published>
+    <updated>2017-02-07T14:50:31.414Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/whiteboard.jpg" alt="entrepreneur"></p>
+<p>Building web applications as an individual developer is hard. Trying to do it with a team of developers. Organizing who does what and when. Sharing code among all team members without parts being broken or over-written. Figuring out how to make changes requested by the business and deliver the full release on time is a monumental task.</p>
+<p>Agile /SCRUM has ruled the software development landscape for last decade. Just because it is popular doesn’t mean it is the best method available.</p>
+<p>At the time of its creation Agile solved many flaws within the previous “Waterfall” method of development.  At the same time it introduced many flaws of its own. Because of this, many developers loath Agile / SCRUM and all of its time wasting quirks.</p>
+<p>I did some Google searching for Anti-Agile and found three interesting articles.</p>
+<p>Erik Meijer wrote a scathing article explaining why <a href="http://www.theregister.co.uk/2015/01/08/erik_meijer_agile_is_a_cancer_we_have_to_eliminate_from_the_industry/" target="_blank" rel="external">Agile must be destroyed</a>.</p>
+<p>Allen Holub wrote, “<a href="http://www.drdobbs.com/architecture-and-design/the-anti-anti-agile-manifesto/240168963" target="_blank" rel="external">The Anit Anti Agile Manifesto</a>“.  He attempts to defend Agile. Pointing out it is how Corporations have chosen to implment it that cause problems. Not the Agile methodology itself.</p>
+<p>Michael O. Church wrote a very powerful article about “<a href="https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/" target="_blank" rel="external">Why Agile and Scrum are terrible</a>“.</p>
+<p>This is a much more indepth post that illustrates in detail how Agile is being abused in the wild. He ends with a positive alternative methodology called “Continuous Development” that solves the majority of these issues.</p>
+<p>Andrew Binstock Wrote a great overview of “<a href="http://www.drdobbs.com/architecture-and-design/continuous-development-the-new-maintenan/240167052" target="_blank" rel="external">Continuous Development</a>“ which highlights the purpose and benefits of this alternative method for all forms of development but specifically for the emerging “Internet of Things”.</p>
+<p>Personally, I dislike Agile because it is a business-driven model of develpment. Non-technical business people who do not know how to write code or the time it takes to develop working software are making decisions and setting deadlines. In my opition, that’s like allowing a 6 year old to plan your vacation and drive the car. An all around bad idea.</p>
+<p>If “business needs” must drive software development, at least include the developers in the decision making process.</p>
+<p>In the last 10 years the IT industry has evolved by leaps and bounds, in spite of the limiting factors of Agile. I feel its time we upgrade our development methodology to refect a 21st Century mindset. If not Continuous Development then at least something better than Agile.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/whiteboard.jpg&quot; alt=&quot;entrepreneur&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Building web applications as an individual developer is hard. Trying to do it w
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Do You Write Code?</title>
     <link href="http://starcorelabs.com/2016/12/22/do-you-write-code/"/>
     <id>http://starcorelabs.com/2016/12/22/do-you-write-code/</id>
     <published>2016-12-22T05:00:00.000Z</published>
-    <updated>2016-12-31T18:45:59.273Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/business-executives.jpg" alt="business-executives"></p>
 <h2 id="Dear-Business-Executives"><a href="#Dear-Business-Executives" class="headerlink" title="Dear Business Executives,"></a>Dear Business Executives,</h2><p>While working in different corporate environments I’ve noticed a lot of you are tasked with adding content to web projects. Usually you go about this by using office tools to mock up web pages and send them to the development department to build.</p>
@@ -58,7 +90,7 @@
     <link href="http://starcorelabs.com/2016/12/18/the-beauty-of-sass/"/>
     <id>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</id>
     <published>2016-12-18T05:00:00.000Z</published>
-    <updated>2016-12-31T18:49:36.562Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/sass.jpg" alt="sass"></p>
 <p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a> stands for Syntactically Awesome Stylesheets. It is a preprocessor for CSS. Which are <a href="http://www.css3-tutorial.net/" target="_blank" rel="external">Cascading Style Sheets</a>.  </p>
@@ -107,7 +139,7 @@
     <link href="http://starcorelabs.com/2016/12/13/wordpress-development/"/>
     <id>http://starcorelabs.com/2016/12/13/wordpress-development/</id>
     <published>2016-12-13T05:00:00.000Z</published>
-    <updated>2016-12-31T18:51:33.143Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/wordpress.png" alt="wordpress"></p>
 <p>I’ve been building Wordpress websites for the last few years. It is a great platform for building small to large websites. Many large well-known websites are powered by Wordpress.</p>
@@ -143,7 +175,7 @@
     <link href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/"/>
     <id>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/</id>
     <published>2016-12-12T05:00:00.000Z</published>
-    <updated>2016-12-31T18:48:47.472Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/laptop-code.jpg" alt="laptop code"></p>
 <blockquote>
@@ -204,7 +236,7 @@
     <link href="http://starcorelabs.com/2016/12/08/upgrade-to-hexo/"/>
     <id>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</id>
     <published>2016-12-08T05:00:00.000Z</published>
-    <updated>2016-12-31T18:50:32.255Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/hexo.png" alt="hexo"></p>
 <p>I have hosted and developed many websites using Wordpress in the past. I like how Wordpress dynamically adds the header, sidebar, footer, and content to each page. Preventing me from repeating myself. Unforunately it requires an expensive Apache, PHP, and MySQL server to run. I cannot justify the expense of paying for hosting. Especially for something like a blog.</p>
@@ -234,7 +266,7 @@
     <link href="http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/"/>
     <id>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</id>
     <published>2016-11-25T05:00:00.000Z</published>
-    <updated>2016-12-31T19:54:14.938Z</updated>
+    <updated>2017-02-07T14:43:17.016Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/entrepreneur-at-computer.jpg" alt="entrepreneur"></p>
 <p>I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources online that have shown me step-by-step many different ways to be an Entrepreneur.</p>
@@ -265,7 +297,7 @@
     <link href="http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/"/>
     <id>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</id>
     <published>2016-11-24T05:00:00.000Z</published>
-    <updated>2016-12-31T19:48:15.047Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/facebook.png" alt="facebook"></p>
 <p>Facebook is the gossip grapevine of the Internet. It makes money from ads and from selling user information to marketers. Everything I post and like.</p>
@@ -306,7 +338,7 @@
     <link href="http://starcorelabs.com/2016/11/09/ux-developer/"/>
     <id>http://starcorelabs.com/2016/11/09/ux-developer/</id>
     <published>2016-11-09T05:00:00.000Z</published>
-    <updated>2016-12-31T19:33:47.894Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/ux-developer.jpg" alt="ux developer"></p>
 <p>I recently got a new UX Developer job. I work for a great company here in Indianapolis. I cannot tell you how grateful I am to have landed this job. Or how much I enjoy what I do. Its awesome!</p>
@@ -341,7 +373,7 @@
     <link href="http://starcorelabs.com/2016/11/03/corporate-confusion/"/>
     <id>http://starcorelabs.com/2016/11/03/corporate-confusion/</id>
     <published>2016-11-03T05:00:00.000Z</published>
-    <updated>2016-12-31T18:44:11.370Z</updated>
+    <updated>2017-02-07T14:43:17.016Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/corporate.png" alt="corporate"></p>
 <p>Is your company having trouble finding and keeping talented developers?<br>This article explains how you might be unintentionally insulting them.</p>
@@ -403,7 +435,7 @@
     <link href="http://starcorelabs.com/2016/11/02/front-end-development/"/>
     <id>http://starcorelabs.com/2016/11/02/front-end-development/</id>
     <published>2016-11-02T05:00:00.000Z</published>
-    <updated>2016-12-31T18:48:12.199Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/dev-spectrum.png" alt="developer spectrum"></p>
 <p>Front-End Developers write HTML, CSS, and JavaScript. The languages browsers speak, to display what users see and interact within the browser.</p>
@@ -467,7 +499,7 @@
     <link href="http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/"/>
     <id>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</id>
     <published>2016-11-01T05:00:00.000Z</published>
-    <updated>2016-12-31T18:49:16.547Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/website.png" alt="website"></p>
 <p>So you’ve decided you want a professional website for your blog, hobby, or business. You’ve looked around on Google to find a web development company or freelancer near you. (You have looked on Google right?).</p>
