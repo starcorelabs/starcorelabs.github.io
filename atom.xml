@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2017-02-08T00:04:34.667Z</updated>
+  <updated>2017-02-08T13:59:06.881Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://starcorelabs.com/2017/02/07/slow-death-of-front-end-development/"/>
     <id>http://starcorelabs.com/2017/02/07/slow-death-of-front-end-development/</id>
     <published>2017-02-07T05:00:00.000Z</published>
-    <updated>2017-02-08T00:04:34.667Z</updated>
+    <updated>2017-02-08T13:59:06.881Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/death.jpg" alt="entrepreneur"></p>
 <p>Front-End Development is dying a slow death.</p>
@@ -54,7 +54,7 @@
     <link href="http://starcorelabs.com/2017/02/06/atom-editor/"/>
     <id>http://starcorelabs.com/2017/02/06/atom-editor/</id>
     <published>2017-02-06T05:00:00.000Z</published>
-    <updated>2017-02-08T00:08:03.965Z</updated>
+    <updated>2017-02-08T13:59:06.881Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/atom-logo.png" alt="entrepreneur"></p>
 <p>Many developers prefer a full IDE like Visual Studio for building web applications. With intellisense it gives you suggestions and adds code for you.</p>
@@ -81,7 +81,7 @@
     <link href="http://starcorelabs.com/2017/02/05/continuous-development/"/>
     <id>http://starcorelabs.com/2017/02/05/continuous-development/</id>
     <published>2017-02-05T05:00:00.000Z</published>
-    <updated>2017-02-08T00:08:16.008Z</updated>
+    <updated>2017-02-08T13:59:06.881Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/whiteboard.jpg" alt="entrepreneur"></p>
 <p>Building web applications as an individual developer is hard. Trying to do it with a team of developers. Organizing who does what and when. Sharing code among all team members without parts being broken or over-written. Figuring out how to make changes requested by the business and deliver the full release on time is a monumental task.</p>
@@ -113,7 +113,7 @@
     <link href="http://starcorelabs.com/2016/12/22/do-you-write-code/"/>
     <id>http://starcorelabs.com/2016/12/22/do-you-write-code/</id>
     <published>2016-12-22T05:00:00.000Z</published>
-    <updated>2016-12-31T18:45:59.273Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/business-executives.jpg" alt="business-executives"></p>
 <h2 id="Dear-Business-Executives"><a href="#Dear-Business-Executives" class="headerlink" title="Dear Business Executives,"></a>Dear Business Executives,</h2><p>While working in different corporate environments I’ve noticed a lot of you are tasked with adding content to web projects. Usually you go about this by using office tools to mock up web pages and send them to the development department to build.</p>
@@ -151,7 +151,7 @@
     <link href="http://starcorelabs.com/2016/12/18/the-beauty-of-sass/"/>
     <id>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</id>
     <published>2016-12-18T05:00:00.000Z</published>
-    <updated>2016-12-31T18:49:36.562Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/sass.jpg" alt="sass"></p>
 <p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a> stands for Syntactically Awesome Stylesheets. It is a preprocessor for CSS. Which are <a href="http://www.css3-tutorial.net/" target="_blank" rel="external">Cascading Style Sheets</a>.  </p>
@@ -200,7 +200,7 @@
     <link href="http://starcorelabs.com/2016/12/13/wordpress-development/"/>
     <id>http://starcorelabs.com/2016/12/13/wordpress-development/</id>
     <published>2016-12-13T05:00:00.000Z</published>
-    <updated>2016-12-31T18:51:33.143Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/wordpress.png" alt="wordpress"></p>
 <p>I’ve been building Wordpress websites for the last few years. It is a great platform for building small to large websites. Many large well-known websites are powered by Wordpress.</p>
@@ -236,7 +236,7 @@
     <link href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/"/>
     <id>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/</id>
     <published>2016-12-12T05:00:00.000Z</published>
-    <updated>2016-12-31T18:48:47.472Z</updated>
+    <updated>2017-04-05T15:27:04.537Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/laptop-code.jpg" alt="laptop code"></p>
 <blockquote>
@@ -297,7 +297,7 @@
     <link href="http://starcorelabs.com/2016/12/08/upgrade-to-hexo/"/>
     <id>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</id>
     <published>2016-12-08T05:00:00.000Z</published>
-    <updated>2016-12-31T18:50:32.255Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/hexo.png" alt="hexo"></p>
 <p>I have hosted and developed many websites using Wordpress in the past. I like how Wordpress dynamically adds the header, sidebar, footer, and content to each page. Preventing me from repeating myself. Unforunately it requires an expensive Apache, PHP, and MySQL server to run. I cannot justify the expense of paying for hosting. Especially for something like a blog.</p>
@@ -327,7 +327,7 @@
     <link href="http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/"/>
     <id>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</id>
     <published>2016-11-25T05:00:00.000Z</published>
-    <updated>2016-12-31T19:54:14.938Z</updated>
+    <updated>2017-02-07T14:43:17.016Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/entrepreneur-at-computer.jpg" alt="entrepreneur"></p>
 <p>I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources online that have shown me step-by-step many different ways to be an Entrepreneur.</p>
@@ -358,7 +358,7 @@
     <link href="http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/"/>
     <id>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</id>
     <published>2016-11-24T05:00:00.000Z</published>
-    <updated>2016-12-31T19:48:15.047Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/facebook.png" alt="facebook"></p>
 <p>Facebook is the gossip grapevine of the Internet. It makes money from ads and from selling user information to marketers. Everything I post and like.</p>
@@ -399,7 +399,7 @@
     <link href="http://starcorelabs.com/2016/11/09/ux-developer/"/>
     <id>http://starcorelabs.com/2016/11/09/ux-developer/</id>
     <published>2016-11-09T05:00:00.000Z</published>
-    <updated>2016-12-31T19:33:47.894Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/ux-developer.jpg" alt="ux developer"></p>
 <p>I recently got a new UX Developer job. I work for a great company here in Indianapolis. I cannot tell you how grateful I am to have landed this job. Or how much I enjoy what I do. Its awesome!</p>
@@ -434,7 +434,7 @@
     <link href="http://starcorelabs.com/2016/11/03/corporate-confusion/"/>
     <id>http://starcorelabs.com/2016/11/03/corporate-confusion/</id>
     <published>2016-11-03T05:00:00.000Z</published>
-    <updated>2016-12-31T18:44:11.370Z</updated>
+    <updated>2017-02-07T14:43:17.016Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/corporate.png" alt="corporate"></p>
 <p>Is your company having trouble finding and keeping talented developers?<br>This article explains how you might be unintentionally insulting them.</p>
@@ -496,7 +496,7 @@
     <link href="http://starcorelabs.com/2016/11/02/front-end-development/"/>
     <id>http://starcorelabs.com/2016/11/02/front-end-development/</id>
     <published>2016-11-02T05:00:00.000Z</published>
-    <updated>2016-12-31T18:48:12.199Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/dev-spectrum.png" alt="developer spectrum"></p>
 <p>Front-End Developers write HTML, CSS, and JavaScript. The languages browsers speak, to display what users see and interact within the browser.</p>
@@ -560,7 +560,7 @@
     <link href="http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/"/>
     <id>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</id>
     <published>2016-11-01T05:00:00.000Z</published>
-    <updated>2016-12-31T18:49:16.547Z</updated>
+    <updated>2017-02-07T14:43:17.032Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/website.png" alt="website"></p>
 <p>So you’ve decided you want a professional website for your blog, hobby, or business. You’ve looked around on Google to find a web development company or freelancer near you. (You have looked on Google right?).</p>
