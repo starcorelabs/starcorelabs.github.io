@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2017-04-18T00:58:55.481Z</updated>
+  <updated>2017-04-18T01:03:54.493Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://starcorelabs.com/2017/04/17/linux-fail/"/>
     <id>http://starcorelabs.com/2017/04/17/linux-fail/</id>
     <published>2017-04-17T05:00:00.000Z</published>
-    <updated>2017-04-18T00:58:55.481Z</updated>
+    <updated>2017-04-18T01:03:54.493Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/ubuntu-gnome.png" alt="Ubuntu"></p>
 <p>I love Linux because it’s beautiful and open source. I have used some flavor of <a href="https://www.ubuntu.com/desktop" target="_blank" rel="external">Ubuntu</a> since 2008. Usually on a secondary PC or Laptop. Sometimes in <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external">VirtualBox</a>. Unfortunately, I cannot replace my main Windows OS with Ubuntu. Because Linux Sucks!</p>
@@ -29,7 +29,7 @@
 <p>I would love to give up Windows and use Ubuntu as my primary OS. Unfortunately, Linux fails me in many areas that are deal breakers.</p>
 <p>Here’s a list of Linux issues that keep me from switching:</p>
 <ol>
-<li><p>Terminal - I like the terminal. But I don’t like having to configure and program my OS to use the computer. I’d rather use it without having to touch the terminal unless I want to. The Linux terminal rocks when I’m developing web applications.</p>
+<li><p>Terminal - The Linux terminal rocks when I’m developing web applications. But I don’t like having to configure and program my OS to use the computer. I’d rather use it without having to touch the terminal unless I want to.</p>
 </li>
 <li><p>Audio Issues - I use <a href="https://hangouts.google.com/" target="_blank" rel="external">Google Hangouts</a> / Google Voice, Facebook Audio, and Skype. The Mic I have (<a href="https://www.amazon.com/Samson-Studio-Condenser-Microphone-Shock/dp/B000BR0U1Q" target="_blank" rel="external">Samsung CU01</a>) is recognized by Ubuntu but will not work out of the box. I’ve spent hours in the terminal configuring files and adjusting settings to force it to work. Sometimes it works for a short time but it eventually fails.</p>
 </li>
