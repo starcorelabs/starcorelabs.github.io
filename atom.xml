@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2017-04-12T19:17:31.003Z</updated>
+  <updated>2017-04-18T00:58:55.481Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -16,11 +16,55 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux Fail</title>
+    <link href="http://starcorelabs.com/2017/04/17/linux-fail/"/>
+    <id>http://starcorelabs.com/2017/04/17/linux-fail/</id>
+    <published>2017-04-17T05:00:00.000Z</published>
+    <updated>2017-04-18T00:58:55.481Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/ubuntu-gnome.png" alt="Ubuntu"></p>
+<p>I love Linux because it’s beautiful and open source. I have used some flavor of <a href="https://www.ubuntu.com/desktop" target="_blank" rel="external">Ubuntu</a> since 2008. Usually on a secondary PC or Laptop. Sometimes in <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external">VirtualBox</a>. Unfortunately, I cannot replace my main Windows OS with Ubuntu. Because Linux Sucks!</p>
+<iframe width="100%" height="720px" src="https://www.youtube.com/embed/SMKeWTVYBUo" frameborder="0" allowfullscreen></iframe>
+
+<p>I would love to give up Windows and use Ubuntu as my primary OS. Unfortunately, Linux fails me in many areas that are deal breakers.</p>
+<p>Here’s a list of Linux issues that keep me from switching:</p>
+<ol>
+<li><p>Terminal - I like the terminal. But I don’t like having to configure and program my OS to use the computer. I’d rather use it without having to touch the terminal unless I want to. The Linux terminal rocks when I’m developing web applications.</p>
+</li>
+<li><p>Audio Issues - I use <a href="https://hangouts.google.com/" target="_blank" rel="external">Google Hangouts</a> / Google Voice, Facebook Audio, and Skype. The Mic I have (<a href="https://www.amazon.com/Samson-Studio-Condenser-Microphone-Shock/dp/B000BR0U1Q" target="_blank" rel="external">Samsung CU01</a>) is recognized by Ubuntu but will not work out of the box. I’ve spent hours in the terminal configuring files and adjusting settings to force it to work. Sometimes it works for a short time but it eventually fails.</p>
+</li>
+<li><p>Installing Apps - I like the Ubuntu App Store. However, not all the applications work with the latest and greatest version of Ubuntu.  Some applications require using the terminal and adding a private repository before installing through the terminal. I don’t want to waste two hours installing and configuring software. I want to use the software to accomplish other goals.</p>
+</li>
+<li><p>RDP - I have a few computers and prefer using Remote Desktop to access them instead of physically getting up to work with on them. Ubuntu to Windows RDP works well. Ubuntu to Ubuntu RDP is horrible. Most online resources suggest using VNC instead. VNC suck compared to RDP.</p>
+</li>
+<li><p>Shared Folders - Sharing folders across my local network under Windows is simple. Attempting to share folders under Ubuntu is painful. Requiring Samba, forces me to use the terminal to install and configure. Even then, it doesn’t easily allow me to set the correct permissions.</p>
+</li>
+<li><p>Webcam - I use Skype and Facebook Video chat sometime. My Microsoft Webcam doesn’t work properly under Ubuntu. Of course, there are no Linux drivers for the webcam.</p>
+</li>
+<li><p>Stability - Some releases of Ubuntu are not stable. Updating and upgrading the OS can cause a stable system to become unstable. I do not like it when my desktop and/or applications freeze or crash. It would be nice if the developers included warnings when updating and/or upgrading that doing so may make your system unstable.</p>
+</li>
+<li><p>Games - I don’t play games as much these days. However, standard Windows games that end with .exe or .msi do not work on Ubuntu. Sure, there is Wine / Play-On-Linux and Steam games. However, gaming on Linux, like everything else is 60% terminal installation and configuration before you can load the software. After hours of work most games don’t run very well and tend to crash. There is no such thing as DirectX for Linux, because it is a library owned by Microsoft.</p>
+</li>
+</ol>
+<p>These are the things Windows does better than Linux. When Ubuntu fixes these issues, I’ll drop Windows and never look back. Until then, I’m stuck with Windows out of necessity.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/ubuntu-gnome.png&quot; alt=&quot;Ubuntu&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I love Linux because it’s beautiful and open source. I have used some flavor of &lt;a 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Time Management</title>
     <link href="http://starcorelabs.com/2017/04/11/time-management/"/>
     <id>http://starcorelabs.com/2017/04/11/time-management/</id>
     <published>2017-04-11T05:00:00.000Z</published>
-    <updated>2017-04-12T19:17:31.003Z</updated>
+    <updated>2017-04-18T00:05:36.692Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/Patek Phillippe 1563 Split Second Chronograph.jpg" alt="Patek Phillippe 1563 Split Second Chronograph"><br><sub><sub>Patek Phillippe 1563 Split Second Chronograph</sub></sub></p>
 <blockquote>
@@ -75,7 +119,7 @@
     <link href="http://starcorelabs.com/2017/04/06/corporate-logic/"/>
     <id>http://starcorelabs.com/2017/04/06/corporate-logic/</id>
     <published>2017-04-06T05:00:00.000Z</published>
-    <updated>2017-04-10T15:50:03.113Z</updated>
+    <updated>2017-04-18T00:05:36.683Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/meeting.jpg" alt="meeting"></p>
 <p>Corporations are notorious for being hierarchical, authoritarian, and rigid with policies and procedures. Due to the legal requirements of doing business some of these measures are necessary.</p>
@@ -183,7 +227,7 @@
     <link href="http://starcorelabs.com/2017/02/07/slow-death-of-front-end-development/"/>
     <id>http://starcorelabs.com/2017/02/07/slow-death-of-front-end-development/</id>
     <published>2017-02-07T05:00:00.000Z</published>
-    <updated>2017-02-08T13:59:06.881Z</updated>
+    <updated>2017-04-18T00:05:36.690Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/death.jpg" alt="entrepreneur"></p>
 <p>Front-End Development is dying a slow death.</p>
@@ -217,22 +261,22 @@
     <link href="http://starcorelabs.com/2017/02/06/atom-editor/"/>
     <id>http://starcorelabs.com/2017/02/06/atom-editor/</id>
     <published>2017-02-06T05:00:00.000Z</published>
-    <updated>2017-02-08T13:59:06.881Z</updated>
+    <updated>2017-04-18T00:05:36.547Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/atom-logo.png" alt="entrepreneur"></p>
-<p>Many developers prefer a full IDE like Visual Studio for building web applications. With intellisense it gives you suggestions and adds code for you.</p>
-<p>Large IDE’s like Visual Studio can be resource hogs. Also, they act like a blackbox.  They make changes and add extra code behind the scenes before outputting to the browser. This can cause serious issues for front-end developers.</p>
-<p>Which is why most front-end developers prefer editors that give them full control over their code. For a long time the “cool developers” were using Sublime Text. Which is a great code editor. However, it is not free or opensource. Many developers are using it commercially without paying for it. I’m guessing at some point the company behind Sublime Text will remove the free version.</p>
-<p>My favorite code editor is <a href="https://atom.io/" target="_blank" rel="external">Atom</a>. It does everything Sublime can do, and more. I like it because it is free, open source, light weight, and fully customizable. It was created and released by Github on February 26, 2014. It works on macOS, Linux, and Windows. There are tons of plugins, known as <a href="https://atom.io/packages" target="_blank" rel="external">packages</a>, which add extra functionally to Atom.</p>
-<p>The <a href="https://flight-manual.atom.io/" target="_blank" rel="external">Flight Manual</a> will teach you how to use and customize your copy of Atom.</p>
-<p>Or, you can watch this great <a href="https://www.youtube.com/watch?v=EyG20hhON6E" target="_blank" rel="external">Atom Tutorial</a> on YouTube.</p>
+<p>Many developers use a full IDE like Visual Studio for building web applications. Features like intellisense gives you suggestions and adds code for you.</p>
+<p>The downside of IDE’s like Visual Studio is they can be resource hogs. Also, they act like a blackbox.  They make changes and add extra code behind the scenes before outputting to the browser. This can cause serious issues for front-end developers.</p>
+<p>Which is why front-end developers like editors that give them full control over their code. For a long time, the “cool developers” were using Sublime Text. Which is a great code editor. However, it is not free or open source. Many developers are using it commercially without paying for it. I’m guessing at some point the company behind Sublime Text will remove the free version.</p>
+<p>My favorite code editor is <a href="https://atom.io/" target="_blank" rel="external">Atom</a>. It does everything Sublime can do, and more. I like it because it is free, open source, light weight, and fully customizable. It was created and released by GitHub on February 26, 2014. It works on OSX, Linux, and Windows. There are tons of plugins, known as <a href="https://atom.io/packages" target="_blank" rel="external">packages</a>, which add extra functionally to Atom.</p>
+<p>The [Flight Manual] (<a href="https://flight-manual.atom.io/" target="_blank" rel="external">https://flight-manual.atom.io/</a>) will teach you how to use and customize your copy of Atom.</p>
+<p>Or, you can watch this great [Atom Tutorial] (<a href="https://www.youtube.com/watch?v=EyG20hhON6E" target="_blank" rel="external">https://www.youtube.com/watch?v=EyG20hhON6E</a>) on YouTube.</p>
 <p>I recommend all UX/UI front-end developers give Atom a try.</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/img/atom-logo.png&quot; alt=&quot;entrepreneur&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Many developers prefer a full IDE like Visual Studio for building web applicatio
+&lt;p&gt;Many developers use a full IDE like Visual Studio for building web applications.
     
     </summary>
     
@@ -244,21 +288,21 @@
     <link href="http://starcorelabs.com/2017/02/05/continuous-development/"/>
     <id>http://starcorelabs.com/2017/02/05/continuous-development/</id>
     <published>2017-02-05T05:00:00.000Z</published>
-    <updated>2017-02-08T13:59:06.881Z</updated>
+    <updated>2017-04-18T00:05:36.680Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/whiteboard.jpg" alt="entrepreneur"></p>
 <p>Building web applications as an individual developer is hard. Trying to do it with a team of developers. Organizing who does what and when. Sharing code among all team members without parts being broken or over-written. Figuring out how to make changes requested by the business and deliver the full release on time is a monumental task.</p>
 <p>Agile /SCRUM has ruled the software development landscape for last decade. Just because it is popular doesn’t mean it is the best method available.</p>
-<p>At the time of its creation Agile solved many flaws within the previous “Waterfall” method of development.  At the same time it introduced many flaws of its own. Because of this, many developers loath Agile / SCRUM and all of its time wasting quirks.</p>
+<p>At the time of its creation Agile solved many flaws within the previous “Waterfall” method of development.  At the same time, it introduced many flaws of its own. Because of this, many developers loath Agile / SCRUM and all its time-wasting quirks.</p>
 <p>I did some Google searching for Anti-Agile and found three interesting articles.</p>
 <p>Erik Meijer wrote a scathing article explaining why <a href="http://www.theregister.co.uk/2015/01/08/erik_meijer_agile_is_a_cancer_we_have_to_eliminate_from_the_industry/" target="_blank" rel="external">Agile must be destroyed</a>.</p>
-<p>Allen Holub wrote, “<a href="http://www.drdobbs.com/architecture-and-design/the-anti-anti-agile-manifesto/240168963" target="_blank" rel="external">The Anit Anti Agile Manifesto</a>“.  He attempts to defend Agile. Pointing out it is how Corporations have chosen to implment it that cause problems. Not the Agile methodology itself.</p>
+<p>Allen Holub wrote, “<a href="http://www.drdobbs.com/architecture-and-design/the-anti-anti-agile-manifesto/240168963" target="_blank" rel="external">The Anti Anti Agile Manifesto</a>“.  He attempts to defend Agile. Pointing out it is how Corporations have chosen to implement it that cause problems. Not the Agile methodology itself.</p>
 <p>Michael O. Church wrote a very powerful article about “<a href="https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/" target="_blank" rel="external">Why Agile and Scrum are terrible</a>“.</p>
-<p>This is a much more indepth post that illustrates in detail how Agile is being abused in the wild. He ends with a positive alternative methodology called “Continuous Development” that solves the majority of these issues.</p>
+<p>This is a much more in-depth post that illustrates in detail how Agile is being abused in the wild. He ends with a positive alternative methodology called “Continuous Development” that solves most these issues.</p>
 <p>Andrew Binstock Wrote a great overview of “<a href="http://www.drdobbs.com/architecture-and-design/continuous-development-the-new-maintenan/240167052" target="_blank" rel="external">Continuous Development</a>“ which highlights the purpose and benefits of this alternative method for all forms of development but specifically for the emerging “Internet of Things”.</p>
-<p>Personally, I dislike Agile because it is a business-driven model of develpment. Non-technical business people who do not know how to write code or the time it takes to develop working software are making decisions and setting deadlines. In my opition, that’s like allowing a 6 year old to plan your vacation and drive the car. An all around bad idea.</p>
-<p>If “business needs” must drive software development, at least include the developers in the decision making process.</p>
-<p>In the last 10 years the IT industry has evolved by leaps and bounds, in spite of the limiting factors of Agile. I feel its time we upgrade our development methodology to refect a 21st Century mindset. If not Continuous Development then at least something better than Agile.</p>
+<p>Personally, I dislike Agile because it is a business-driven model of development. Non-technical business people who do not know how to write code or the time it takes to develop working software are making decisions and setting deadlines. In my opinion, that’s like allowing a 6-year-old to plan your vacation and drive the car. An all-around bad idea.</p>
+<p>If “business needs” must drive software development, at least include the developers in the decision-making process.</p>
+<p>In the last 10 years, the IT industry has evolved by leaps and bounds, despite the limiting factors of Agile. I feel it’s time we upgrade our development methodology to reflect a 21st Century mindset. If not Continuous Development, then at least something better than Agile.</p>
 ]]></content>
     
     <summary type="html">
@@ -276,7 +320,7 @@
     <link href="http://starcorelabs.com/2016/12/22/do-you-write-code/"/>
     <id>http://starcorelabs.com/2016/12/22/do-you-write-code/</id>
     <published>2016-12-22T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.684Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/business-executives.jpg" alt="business-executives"></p>
 <h2 id="Dear-Business-Executives"><a href="#Dear-Business-Executives" class="headerlink" title="Dear Business Executives,"></a>Dear Business Executives,</h2><p>While working in different corporate environments I’ve noticed a lot of you are tasked with adding content to web projects. Usually you go about this by using office tools to mock up web pages and send them to the development department to build.</p>
@@ -314,7 +358,7 @@
     <link href="http://starcorelabs.com/2016/12/18/the-beauty-of-sass/"/>
     <id>http://starcorelabs.com/2016/12/18/the-beauty-of-sass/</id>
     <published>2016-12-18T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.691Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/sass.jpg" alt="sass"></p>
 <p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a> stands for Syntactically Awesome Stylesheets. It is a preprocessor for CSS. Which are <a href="http://www.css3-tutorial.net/" target="_blank" rel="external">Cascading Style Sheets</a>.  </p>
@@ -363,7 +407,7 @@
     <link href="http://starcorelabs.com/2016/12/13/wordpress-development/"/>
     <id>http://starcorelabs.com/2016/12/13/wordpress-development/</id>
     <published>2016-12-13T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.696Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/wordpress.png" alt="wordpress"></p>
 <p>I’ve been building Wordpress websites for the last few years. It is a great platform for building small to large websites. Many large well-known websites are powered by Wordpress.</p>
@@ -399,7 +443,7 @@
     <link href="http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/"/>
     <id>http://starcorelabs.com/2016/12/12/how-do-you-refactor-css/</id>
     <published>2016-12-12T05:00:00.000Z</published>
-    <updated>2017-04-05T15:27:04.537Z</updated>
+    <updated>2017-04-18T00:05:36.686Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/laptop-code.jpg" alt="laptop code"></p>
 <blockquote>
@@ -460,7 +504,7 @@
     <link href="http://starcorelabs.com/2016/12/08/upgrade-to-hexo/"/>
     <id>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</id>
     <published>2016-12-08T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.693Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/hexo.png" alt="hexo"></p>
 <p>I have hosted and developed many websites using Wordpress in the past. I like how Wordpress dynamically adds the header, sidebar, footer, and content to each page. Preventing me from repeating myself. Unforunately it requires an expensive Apache, PHP, and MySQL server to run. I cannot justify the expense of paying for hosting. Especially for something like a blog.</p>
@@ -490,12 +534,12 @@
     <link href="http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/"/>
     <id>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</id>
     <published>2016-11-25T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.016Z</updated>
+    <updated>2017-04-18T00:05:36.547Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/entrepreneur-at-computer.jpg" alt="entrepreneur"></p>
-<p>I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources online that have shown me step-by-step many different ways to be an Entrepreneur.</p>
+<p>I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources online that have shown me step-by-step many ways to be an Entrepreneur.</p>
 <p>Like this article from Entrepreneur.com: <a href="https://www.entrepreneur.com/article/207488" target="_blank" rel="external">So You Want to Be Your Own Boss</a></p>
-<p>I have read some really amazing books like:  <a href="https://www.amazon.com/Will-Test-Business-Waste-Money/dp/0997082305/ref=sr_1_1?ie=UTF8&amp;qid=1480129186&amp;sr=8-1&amp;keywords=Pat+Flynn" target="_blank" rel="external">Will It Fly? by Pat Flynn</a></p>
+<p>I have read some really amazing books like: <a href="https://www.amazon.com/Will-Test-Business-Waste-Money/dp/0997082305/ref=sr_1_1?ie=UTF8&amp;qid=1480129186&amp;sr=8-1&amp;keywords=Pat+Flynn" target="_blank" rel="external">Will It Fly? by Pat Flynn</a></p>
 <p>I’ve watched YouTube videos like: <a href="https://www.youtube.com/watch?v=nJxQ2kUGJkA" target="_blank" rel="external">Simon Sinek’s Top 10 Rules For Success</a></p>
 <p>These and many other resources have inspired me to make some drastic changes in my perception, habits, lifestyle, and goals. When I study something as in-depth as becoming an Entrepreneur I take lots of notes. Then I work from my notes.</p>
 <p>While I consider myself a student I feel I have enough understanding to build my own online business. Based on what I’ve learned my business is going to be much different than I had originally envisioned. Which is a positive thing!</p>
@@ -521,7 +565,7 @@
     <link href="http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/"/>
     <id>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</id>
     <published>2016-11-24T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.695Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/facebook.png" alt="facebook"></p>
 <p>Facebook is the gossip grapevine of the Internet. It makes money from ads and from selling user information to marketers. Everything I post and like.</p>
@@ -562,7 +606,7 @@
     <link href="http://starcorelabs.com/2016/11/09/ux-developer/"/>
     <id>http://starcorelabs.com/2016/11/09/ux-developer/</id>
     <published>2016-11-09T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.694Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/ux-developer.jpg" alt="ux developer"></p>
 <p>I recently got a new UX Developer job. I work for a great company here in Indianapolis. I cannot tell you how grateful I am to have landed this job. Or how much I enjoy what I do. Its awesome!</p>
@@ -597,17 +641,17 @@
     <link href="http://starcorelabs.com/2016/11/03/corporate-confusion/"/>
     <id>http://starcorelabs.com/2016/11/03/corporate-confusion/</id>
     <published>2016-11-03T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.016Z</updated>
+    <updated>2017-04-18T00:05:36.682Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/corporate.png" alt="corporate"></p>
 <p>Is your company having trouble finding and keeping talented developers?<br>This article explains how you might be unintentionally insulting them.</p>
 <h3 id="Surprise-You’re-a-Software-Company"><a href="#Surprise-You’re-a-Software-Company" class="headerlink" title="Surprise You’re a Software Company"></a>Surprise You’re a Software Company</h3><p>If you are in business today with a website where you sell products and/or services, you are a software company. It is the central hub upon which the rest of your business revolves.</p>
-<p>The confusion most business have these days is they try to apply “Old School” thinking to 21st century business. These old school companies are leaving money on the table and repelling the talent they need.</p>
+<p>The confusion most business have these days is they try to apply “Old School” thinking to 21st century business. These old-school companies are leaving money on the table and repelling the talent they need.</p>
 <p>They think that technology is a tool they use as an add-on to their core business. Which is completely backwards to how their customers and partners view them.</p>
-<h3 id="Flip-Your-Focus"><a href="#Flip-Your-Focus" class="headerlink" title="Flip Your Focus"></a>Flip Your Focus</h3><p>In this modern world of business your website is your company. It is the platform which serves your customers needs, and sells your products and/or services. Everything else is secondary.</p>
+<h3 id="Flip-Your-Focus"><a href="#Flip-Your-Focus" class="headerlink" title="Flip Your Focus"></a>Flip Your Focus</h3><p>In this modern world of business your website is your company. It is the platform which serves your customer’s needs, and sells your products and/or services. Everything else is secondary.</p>
 <p>So the talent that builds and maintains a company’s online identity and customer portal should be given respect. Yet most non-technical executives think “All code is equal” and treat developers like replaceable fast-food or retail employees. This insults the very talent they are seeking, without realizing it.</p>
 <p>These same non-technical executives like to use buzz words to describe talented developers as, “Masters, Ninjas, or Rock Stars”.</p>
-<h3 id="Talent-is-Valuable"><a href="#Talent-is-Valuable" class="headerlink" title="Talent is Valuable"></a>Talent is Valuable</h3><p>So, let’s look at this situation using the analogy of a rock band. For a band of musicians to play music and become successful each member must master their instrument, understand how to play with their specific band mates, and understand the in’s and out’s of the music business.</p>
+<h3 id="Talent-is-Valuable"><a href="#Talent-is-Valuable" class="headerlink" title="Talent is Valuable"></a>Talent is Valuable</h3><p>So, let’s look at this situation using the analogy of a rock band. For a band of musicians to play music and become successful each member must master their instrument, understand how to play with their specific band mates, and understand the ins and outs of the music business.</p>
 <p>Anyone who’s watched documentaries about how music works behind the scenes knows that even the beginning musicians have a basic understanding of what they are worth.<br>Compare this situation with how a team of developers, like a band of musicians, must work together to create web applications to serve their companies customers.</p>
 <p>Each member must know their specialized skill set, how to work within project requirements, interact with other team members, and be mindful of the larger scope of their industry and the business side of software development. Any developer with at least a year of experience knows what they are worth.</p>
 <h3 id="Transparent-Insult"><a href="#Transparent-Insult" class="headerlink" title="Transparent Insult"></a>Transparent Insult</h3><p>Companies have adopted a shady practice called “Low-balling” which, as the name suggests, means to expect high value skills for a low salary. Developers pick up on this practice quickly. Its insulting and repels them from even applying.</p>
@@ -620,7 +664,7 @@
 <li>Back-End Developer would be the Bass Player</li>
 <li>Database would be the Drummer</li>
 </ul>
-<p>How absurd would it sound if a company posted a job offer like this:</p>
+<p>How absurd would it sound if a company posted this job offer:</p>
 <blockquote>
 <p>“Guitar player wanted for contract or contract-to-hire role. Needs a positive “Can-Do” attitude. Must be a team player. Will be expected to play guitar, bass, drums, and write songs. Must be familiar with all the latest trendy songs and styles. Expect long hours, indecision from leaders, and last minute song changes that you cannot possibly adapt to. Salary will be for Guitar playing only.”</p>
 </blockquote>
@@ -631,14 +675,14 @@
 <p>The reality is Bill Gates, Steve Jobs, and Mark Zuckerberg are extremely rare “Full Stack” developers. People with that level of talent are snatched up by large companies in Silicon Valley that will pay them $150k to $200K a year because those companies understand how valuable that level of talent is.</p>
 <p>They also provide these developers with the benefits and flexibility they want which keeps them happy and so they stay with the company longer.</p>
 <p>Midwest companies are insane to think they will find “Silicon Valley” level Full-Stack Developer who would accept a salary of $50k or less a year. It will never happen.</p>
-<h3 id="Recruiter-Reactions"><a href="#Recruiter-Reactions" class="headerlink" title="Recruiter Reactions"></a>Recruiter Reactions</h3><p>Most recruiters are non-technical. They take whatever listing a company sends them and try to fill it like a order from a menu. They spend 60 seconds keyword scanning resumes and comparing it to the job posting. When they see 50% or more matching keywords or acronyms they send out email blasts saying, “This looks like a great fit for you.” Hoping that one of the 50 candidates they reach will get hired and earn them a bonus.</p>
+<h3 id="Recruiter-Reactions"><a href="#Recruiter-Reactions" class="headerlink" title="Recruiter Reactions"></a>Recruiter Reactions</h3><p>Most recruiters are non-technical. They take whatever listing a company sends them and try to fill it like an order from a menu. They spend 60 seconds keyword scanning resumes and comparing it to the job posting. When they see 50% or more matching keywords or acronyms they send out email blasts saying, “This looks like a great fit for you.” Hoping that one of the 50 candidates they reach will get hired and earn them a bonus.</p>
 <p>However, without a deeper understanding of technology or the context of how the developer applied it, the poor recruiter is left spinning their wheels in the dark.<br>They find it hard, if not impossible, to fill roles that are unreasonable to begin with.</p>
-<h3 id="Honesty-is-the-Answer"><a href="#Honesty-is-the-Answer" class="headerlink" title="Honesty is the Answer"></a>Honesty is the Answer</h3><p>Corporate companies view honesty like vampires view sunlight. A burning fiery death. Not knowing something is the beginning of wisdom. Not an admittance of weakness. Accepting you don’t know something is the first step to finding out what actually works.</p>
-<p>The pain and frustration companies and recruiters feel when trying to fill developer roles comes from their lack of understanding. Being honest about being non-technical is not the same thing as being honest about not understanding the technology or how it actually works.</p>
+<h3 id="Honesty-is-the-Answer"><a href="#Honesty-is-the-Answer" class="headerlink" title="Honesty is the Answer"></a>Honesty is the Answer</h3><p>Corporate companies view honesty like vampires view sunlight. A burning fiery death. Not knowing something is the beginning of wisdom. Not an admittance of weakness. Accepting you don’t know something is the first step to finding out what works.</p>
+<p>The pain and frustration companies and recruiters feel when trying to fill developer roles comes from their lack of understanding. Being honest about being non-technical is not the same thing as being honest about not understanding the technology or how it works.</p>
 <p>The good news is they don’t have to become developers or learn how to write complicate code to understand the broad strokes of how it all works.<br>Understanding that “All Code is Not Equal” and that low-balling is insulting to developers will help companies rewrite their job postings to attract the talent they need.</p>
 <p>The key is to be honest about the skills you are looking for. If you need someone who can do everything then post the job as a “Full Stack Developer”. Full Stack Developers are extremely rare. So, your company might have to break the position into separate Front-End and Back-End Developer roles.</p>
 <p>If the role is being offered within the current salary range. With intangible benefits that some developers want more than money. Those companies who “Get It” will attract and retain talent longer, which with their help, will earn them higher profits.</p>
-<p>It is a matter of deciding if your company wants a short term bonus versus a long term profit growth.</p>
+<p>It is a matter of deciding if your company wants a short-term bonus versus a long-term profit growth.</p>
 <p>Keep in mind that talented developers will see through low-ball charades and won’t apply for unrealistic job offers.</p>
 ]]></content>
     
@@ -659,28 +703,28 @@
     <link href="http://starcorelabs.com/2016/11/02/front-end-development/"/>
     <id>http://starcorelabs.com/2016/11/02/front-end-development/</id>
     <published>2016-11-02T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.685Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/dev-spectrum.png" alt="developer spectrum"></p>
 <p>Front-End Developers write HTML, CSS, and JavaScript. The languages browsers speak, to display what users see and interact within the browser.</p>
 <p>Development, like all highly skilled disciplines, exists on a spectrum. The field of software development is too vast for any single person to know everything. It costs a lot of time, effort, and money to learn these skills.</p>
-<p>As the old saying goes, “The jack of all trades is the master of none.” This is why developers specialize on a single area of focus within the overall spectrum of development. HTML, CSS, and JavaScript are the only languages that web browsers understand natively. We use browsers everyday to check our Facebook profile, watch YouTube videos, and search for things on Google. (Google Chrome is my favorite browser)</p>
+<p>As the old saying goes, “The jack of all trades is the master of none.” Therefore, developers specialize in a single area of focus within the overall spectrum of development. HTML, CSS, and JavaScript are the only languages that web browsers understand natively. We use browsers every day to check our Facebook profile, watch YouTube videos, and search for things on Google. (Google Chrome is my favorite browser)</p>
 <p><img src="/img/browsers.jpg" alt="browsers"></p>
 <p>Web browsers are a class of application that runs on your device (Desktop, Laptop, Tablet, Smartphone) and displays web pages. When you are using your browser, in the blink of an eye, it will request a web page from a web server, download and combine the collection of HTML, CSS, JavaScript files along with any relevant images and render them as a full page for you to view and interact with.</p>
 <p><img src="/img/files-combine-website.png" alt="files combine website"></p>
 <p>These files are actually text files with the ending extensions renamed.</p>
 <p><img src="/img/text-to-html.png" alt="text to html"></p>
-<p>So all the complexity of the web you use everyday is created by these three limited languages. Each one has a specific purpose that works in concert with the other two to bring web pages to life.</p>
+<p>So all the complexity of the web you use every day is created by these three limited languages. Each one has a specific purpose that works in concert with the other two to bring web pages to life.</p>
 <p><img src="/img/html-css-javascript.png" alt="html css javascript"></p>
-<p>For non-technical people we can consider the analogy of a house. HTML would be the floor, walls, ceiling, and roof of the house. CSS would be the layout of the rooms, the color of the carpet and walls, the placement of the windows and doors. JavaScript would be the electrical, heat and AC, and the water running into and out of the house. All of these elements are needed to make a functional modern web page.</p>
+<p>For non-technical people we can consider the analogy of a house. HTML would be the floor, walls, ceiling, and roof of the house. CSS would be the layout of the rooms, the color of the carpet and walls, the placement of the windows and doors. JavaScript would be the electrical, heat and AC, and the water running into and out of the house. These elements are needed to make a functional modern web page.</p>
 <p><img src="/img/blueprints.jpg" alt="blueprints"></p>
 <h3 id="Back-End-Development"><a href="#Back-End-Development" class="headerlink" title="Back-End Development"></a>Back-End Development</h3><p>Back-End Development is also known as “Application Development”. It is different from Front-End Development because the languages used cannot be understood or displayed by web browsers. These languages either run exclusively on the server to process data or are used to generate and deliver HTML, CSS, and JavaScript that the browser can understand. Back-End languages include: ASP, C#, .Net, PHP, Ruby, Python, and Java. Some of these languages must be compiled by special expensive tools like Visual Studio before they can be run on the server.</p>
 <p>In large web applications like Facebook or Amazon, data is stored in a database. Think of a database like a secure vault that holds lots of linked together spreadsheets. This is where all the secure information, like user information, or Facebook posts, is held.</p>
 <p>Back-End Developers link the front-end code using application languages like PHP to databases like MySQL, SQL, and Oracle. Some Back-End Developers specialize in database design and development.</p>
 <p>Back-End Development is even more complex and time consuming to learn than Front-End Development. That’s why Back-End Developers usually earn 50% to 70% more money. There are rare developers who can do both Front-End and Back-End Development. They are called “Full Stack” developers. Like Unicorns they are extremely rare. Usually these people end up in high paying jobs or they start their own business. You will likely never see a true Full-Stack Developer without a job and/or business of their own.</p>
-<h3 id="How-long-does-it-take-to-learn-Front-End-Development"><a href="#How-long-does-it-take-to-learn-Front-End-Development" class="headerlink" title="How long does it take to learn Front-End Development?"></a>How long does it take to learn Front-End Development?</h3><p>In the last five years Front-End Development has exploded into a very complex array of tools, frameworks, and libraries all aimed at making it easier to write and organize the HTML, CSS, and JavaScript needed to make fast, interactive, and advanced web applications.</p>
-<p>These languages take time to learn. Just like if you tried to learn to read and speak a foreign language. Learning the basics of HTML, CSS, and JavaScript can take a year or longer. Then you have to learn revisioning tools like Git. CSS preprocessors like LESS and SCSS. JavaScript preprocessors like CoffeeScript or TypeScript. Build tools like Grunt, Gulp, and WebPack. Package management tools like Bower. Responsive frameworks like Bootstrap, Foundation, and Skeleton. Single-Page Application frameworks (SPA) like Angular, Ember, and Meteor.</p>
-<p>Putting it all together it will take at least four years of study and practice to be functional. That’s the same amount of time as a college degree. Plus, these technologies are a moving target that change daily. While learning these skills you must stay updated on the newest trends and latest advancements just to stay relevant. Otherwise you’ll be left in the dust.</p>
+<h3 id="How-long-does-it-take-to-learn-Front-End-Development"><a href="#How-long-does-it-take-to-learn-Front-End-Development" class="headerlink" title="How long does it take to learn Front-End Development?"></a>How long does it take to learn Front-End Development?</h3><p>In the last five years, Front-End Development has exploded into a very complex array of tools, frameworks, and libraries all aimed at making it easier to write and organize the HTML, CSS, and JavaScript needed to make fast, interactive, and advanced web applications.</p>
+<p>These languages take time to learn. Just like if you tried to learn to read and speak a foreign language. Learning the basics of HTML, CSS, and JavaScript can take a year or longer. You should learn revisioning tools like Git. CSS preprocessors like LESS and SCSS. JavaScript preprocessors like CoffeeScript or TypeScript. Build tools like Grunt, Gulp, and WebPack. Package management tools like Bower. Responsive frameworks like Bootstrap, Foundation, and Skeleton. Single-Page Application frameworks (SPA) like Angular, Ember, and Meteor.</p>
+<p>Putting it all together it will take at least four years of study and practice to be functional. That’s the same amount of time as a college degree. Plus, these technologies are a moving target that change daily. While learning these skills, you must stay updated on the newest trends and latest advancements just to stay relevant. Otherwise you’ll be left in the dust.</p>
 <p>Here’s a short list of some of the popular (at the time of this post) front-end frameworks and tools available.</p>
 <ul>
 <li><a href="https://bower.io/" target="_blank" rel="external">Bower</a></li>
@@ -723,7 +767,7 @@
     <link href="http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/"/>
     <id>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</id>
     <published>2016-11-01T05:00:00.000Z</published>
-    <updated>2017-02-07T14:43:17.032Z</updated>
+    <updated>2017-04-18T00:05:36.688Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/website.png" alt="website"></p>
 <p>So you’ve decided you want a professional website for your blog, hobby, or business. You’ve looked around on Google to find a web development company or freelancer near you. (You have looked on Google right?).</p>
