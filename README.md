@@ -1,9 +1,10 @@
 
-#Starcore Labs
+# Starcore Labs Porfolio
 ### Owned by Michael Douglas
-###2016-11-25 at 09:37pm
-### Converted Starcore Labs to a landing page.
+### 2018-06-19 at 1:46AM
 
-* Decided to turn my website into a landing page.
-* It points to my blog and twitter feed.
-* On my blog I write about UX Development.
+* Deleted my overly complex and barely used Wordpress site
+* Built a simple Graphic Design portfolio
+* Crafted a new streamlined resume to show my experience
+* Added old projects to show my skills
+
