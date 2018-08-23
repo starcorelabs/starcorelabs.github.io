@@ -500,3 +500,20 @@ header {
     margin-bottom: 5%;
     max-width: 80%;
 }
+
+.no-bullets, ul li{
+  list-style-type: none
+}
+
+.faq-text, ul li {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.r-text{
+  color: #96281B;
+}
+
+.m-text{
+  color: #0062CC;
+}
