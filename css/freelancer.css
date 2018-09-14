@@ -392,6 +392,8 @@ header {
   background-position: center;
 }
 
+/* freelance */
+
 .freelance-bg {
   background-image: url("../img/freelance.jpg");
   background-position: center;
@@ -441,6 +443,97 @@ header {
     line-height: 4rem;
   }
 }
+
+/* recuriter */
+
+.recuriter-bg {
+  background-image: url("../img/recruiter.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.recuriter-bg {
+  padding-top: calc(6rem + 72px);
+  padding-bottom: 6rem;
+}
+
+.recuriter-bg h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.recuriter-bg-space{
+  height: 426px;
+  width: auto;
+}
+
+@media (max-width: 992px){
+  .recuriter-bg-space{
+    height: 213px;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px){
+  .recuriter-bg-space{
+    height: 106px;
+    width: auto;
+  }
+}
+
+.recuriter-pd-top{
+  padding-top: 12%;
+}
+
+@media (min-width: 992px) {
+.recuriter-bg {
+    padding-top: calc(6rem + 106px);
+    padding-bottom: 6rem;
+  }
+.recuriter-bg h1 {
+    font-size: 4.75em;
+    line-height: 4rem;
+  }
+}
+
+/* ideal */
+
+.ideal-bg {
+  background-image: url("../img/notes.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ideal-bg-space{
+  height: 426px;
+  width: auto;
+}
+/*
+@media (max-width: 992px){
+  .ideal-bg-space{
+    height: 213px;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px){
+  .ideal-bg-space{
+    height: 106px;
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+.ideal-bg {
+    padding-top: calc(6rem + 106px);
+    padding-bottom: 6rem;
+  }
+.ideal-bg h1 {
+    font-size: 4.75em;
+    line-height: 4rem;
+  }
+} */
+
 
 .line{
   max-width: 15rem;
