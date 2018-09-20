@@ -6,5 +6,4 @@
 * Deleted my overly complex and barely used Wordpress site
 * Built a simple Graphic Design portfolio
 * Crafted a new streamlined resume to show my experience
-* Added old projects to show my skills
-
+* Added projects to demonstrate my skills

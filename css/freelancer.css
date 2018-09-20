@@ -392,53 +392,48 @@ header {
   background-position: center;
 }
 
-/* freelance */
+/* hire */
 
-.freelance-bg {
-  background-image: url("../img/freelance.jpg");
+.hire-bg {
+  background-image: url("../img/hire.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.freelance-bg {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
-}
-
-.freelance-bg h1 {
+.hire-bg h1 {
   font-size: 3rem;
   line-height: 3rem;
 }
 
-.freelance-bg-space{
-  height: 426px;
+.hire-bg-space{
+  height: 300px;
   width: auto;
 }
 
 @media (max-width: 992px){
-  .freelance-bg-space{
+  .hire-bg-space{
     height: 213px;
     width: auto;
   }
 }
 
 @media (max-width: 480px){
-  .freelance-bg-space{
+  .hire-bg-space{
     height: 106px;
     width: auto;
   }
 }
 
-.freelance-pd-top{
+.hire-pd-top{
   padding-top: 12%;
 }
 
 @media (min-width: 992px) {
-.freelance-bg {
+.hire-bg {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
   }
-.freelance-bg h1 {
+.hire-bg h1 {
     font-size: 4.75em;
     line-height: 4rem;
   }
@@ -452,18 +447,13 @@ header {
   background-size: cover;
 }
 
-.recuriter-bg {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
-}
-
 .recuriter-bg h1 {
   font-size: 3rem;
   line-height: 3rem;
 }
 
 .recuriter-bg-space{
-  height: 426px;
+  height: 300px;
   width: auto;
 }
 
@@ -670,4 +660,12 @@ header {
 .dotted-border{
   border: 1px dashed #87A8B9;
   padding: 5px;
+}
+
+.pt-50{
+  padding-top: 50px !important;
+}
+
+.about-list li{
+  list-style-type: disc;
 }
