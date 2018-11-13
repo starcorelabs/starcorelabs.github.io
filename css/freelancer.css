@@ -23,6 +23,10 @@ hr.star-dark {
   margin-bottom: 2.5rem;
 }
 
+.title{
+  color: #2769A3
+}
+
 hr.star-light:after,
 hr.star-dark:after {
   position: relative;
@@ -53,7 +57,7 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 2.5rem 0;
 }
 
 section h2 {
@@ -66,6 +70,10 @@ section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+}
+
+.about-section{
+  padding: 3rem 0;
 }
 
 .btn-xl {
@@ -322,8 +330,9 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  height: 40px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   background-color: #2C3E50;
   color: #fff;
 }
@@ -453,13 +462,13 @@ header {
 }
 
 .recuriter-bg-space{
-  height: 300px;
+  height: 200px;
   width: auto;
 }
 
 @media (max-width: 992px){
   .recuriter-bg-space{
-    height: 213px;
+    height: 150px;
     width: auto;
   }
 }
@@ -472,13 +481,13 @@ header {
 }
 
 .recuriter-pd-top{
-  padding-top: 12%;
+  padding-top: 8%;
 }
 
 @media (min-width: 992px) {
 .recuriter-bg {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(1rem + 50px);
+    padding-bottom: 1rem;
   }
 .recuriter-bg h1 {
     font-size: 4.75em;
@@ -498,32 +507,6 @@ header {
   height: 426px;
   width: auto;
 }
-/*
-@media (max-width: 992px){
-  .ideal-bg-space{
-    height: 213px;
-    width: auto;
-  }
-}
-
-@media (max-width: 480px){
-  .ideal-bg-space{
-    height: 106px;
-    width: auto;
-  }
-}
-
-@media (min-width: 992px) {
-.ideal-bg {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
-  }
-.ideal-bg h1 {
-    font-size: 4.75em;
-    line-height: 4rem;
-  }
-} */
-
 
 /* history */
 
@@ -618,14 +601,10 @@ header {
 }
 
 .top-space{
-  padding-top: calc(6rem + 72px);
+  padding-top: calc(6rem + 47px);
   }
 
-@media (min-width: 992px) {
-  .top-space{
-  padding-top: calc(6rem + 106px);
-   }
- }
+
 
 .resume {
     border: 3px solid black;
@@ -668,4 +647,8 @@ header {
 
 .point-list li{
   list-style-type: disc;
+}
+
+.mt-5{
+  margin-top: 5em;
 }
