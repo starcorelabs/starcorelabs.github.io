@@ -652,3 +652,8 @@ header {
 .mt-5{
   margin-top: 5em;
 }
+
+.no-top-padding{
+  padding-top: 0 !important;
+  padding-bottom: 2.5rem;
+}
