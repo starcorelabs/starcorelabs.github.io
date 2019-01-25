@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2019-01-22T15:49:02.738Z</updated>
+  <updated>2019-01-25T18:16:15.156Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Plex Media Server</title>
+    <link href="http://starcorelabs.com/2019/12/25/plex-media-server/"/>
+    <id>http://starcorelabs.com/2019/12/25/plex-media-server/</id>
+    <published>2019-12-25T05:00:00.000Z</published>
+    <updated>2019-01-25T18:16:15.156Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;About 3 years ago I had two streaming services, Netflix and Amazon Prime Video. I rarely used Amazon Prime Video because most of the
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Salesforce Admin Training</title>
