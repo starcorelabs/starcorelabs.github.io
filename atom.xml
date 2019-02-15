@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2019-02-05T16:04:09.985Z</updated>
+  <updated>2019-02-15T19:59:54.830Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Diagnostics</title>
+    <link href="http://starcorelabs.com/2019/02/15/diagnostics/"/>
+    <id>http://starcorelabs.com/2019/02/15/diagnostics/</id>
+    <published>2019-02-15T05:00:00.000Z</published>
+    <updated>2019-02-15T19:59:54.830Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;When you have a problem you can’t solve, or you don’t have the time to research a solution, you end up feeling stuck and
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2018 Projects</title>
