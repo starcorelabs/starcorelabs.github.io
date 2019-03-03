@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2019-02-15T21:51:27.368Z</updated>
+  <updated>2019-03-03T17:57:51.045Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Diagnostics</title>
-    <link href="http://starcorelabs.com/2019/02/15/diagnostics/"/>
-    <id>http://starcorelabs.com/2019/02/15/diagnostics/</id>
-    <published>2019-02-15T05:00:00.000Z</published>
-    <updated>2019-02-15T21:51:27.368Z</updated>
+    <title>Flexbox and CSS Grid</title>
+    <link href="http://starcorelabs.com/2019/03/03/flexbox-and-css-grid/"/>
+    <id>http://starcorelabs.com/2019/03/03/flexbox-and-css-grid/</id>
+    <published>2019-03-03T05:00:00.000Z</published>
+    <updated>2019-03-03T17:57:51.045Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,8 @@
       
         
         
-          &lt;p&gt;When you have a problem you can’t solve, or you don’t have the time to research a solution, you end up feeling stuck and
+          &lt;p&gt;As a front-end developer I’m always updating my skills. Because this industry changes fast.&lt;/p&gt;
+&lt;p&gt;Recently I was watching a &lt;a
         
       
     
@@ -39,11 +40,11 @@
   </entry>
   
   <entry>
-    <title>2018 Projects</title>
-    <link href="http://starcorelabs.com/2019/02/05/2018-projects/"/>
-    <id>http://starcorelabs.com/2019/02/05/2018-projects/</id>
-    <published>2019-02-05T05:00:00.000Z</published>
-    <updated>2019-02-05T16:04:09.985Z</updated>
+    <title>Modern JavaScript</title>
+    <link href="http://starcorelabs.com/2019/03/02/modern-javascript/"/>
+    <id>http://starcorelabs.com/2019/03/02/modern-javascript/</id>
+    <published>2019-03-02T05:00:00.000Z</published>
+    <updated>2019-03-03T18:03:58.830Z</updated>
     
     <summary type="html">
     
@@ -51,8 +52,29 @@
       
         
         
-          &lt;p&gt;This is an overview of the projects I worked on in 2018.&lt;br&gt;Not all of them were technical.&lt;/p&gt;
-&lt;h3 id=&quot;Adventures-in-Job-Hunting&quot;&gt;&lt;a
+          &lt;p&gt;I spent the last 5 years working as a front-end developer. Mainly focused on using CSS3, SCSS, and Bootstap to build mobile-first web
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Switched to Linux</title>
+    <link href="http://starcorelabs.com/2019/02/05/operating-system/"/>
+    <id>http://starcorelabs.com/2019/02/05/operating-system/</id>
+    <published>2019-02-05T05:00:00.000Z</published>
+    <updated>2019-03-03T17:25:02.268Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I own three desktops and a laptop. After 8 months of frustration with Windows 10 I switched my computers to Linux. I wrote a post about
         
       
     
@@ -66,7 +88,7 @@
     <link href="http://starcorelabs.com/2019/01/25/plex-media-server/"/>
     <id>http://starcorelabs.com/2019/01/25/plex-media-server/</id>
     <published>2019-01-25T05:00:00.000Z</published>
-    <updated>2019-02-03T03:26:28.132Z</updated>
+    <updated>2019-03-03T17:15:09.978Z</updated>
     
     <summary type="html">
     
@@ -75,29 +97,6 @@
         
         
           &lt;p&gt;About 3 years ago I had two streaming services, Netflix and Amazon Prime Video. I rarely used Amazon Prime Video because most of the
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Salesforce Admin Training</title>
-    <link href="http://starcorelabs.com/2019/01/22/salesforce-admin-training/"/>
-    <id>http://starcorelabs.com/2019/01/22/salesforce-admin-training/</id>
-    <published>2019-01-22T05:00:00.000Z</published>
-    <updated>2019-01-22T15:49:02.738Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;A few months ago I was talking with a friend about how I wanted to change my career.&lt;/p&gt;
-&lt;p&gt;I am considering a few different options;
         
       
     
@@ -129,11 +128,11 @@
   </entry>
   
   <entry>
-    <title>A Website Is Not Enough</title>
-    <link href="http://starcorelabs.com/2017/05/23/a-website-is-not-enough/"/>
-    <id>http://starcorelabs.com/2017/05/23/a-website-is-not-enough/</id>
-    <published>2017-05-23T04:00:00.000Z</published>
-    <updated>2019-01-19T20:13:07.482Z</updated>
+    <title>Back to Hexo</title>
+    <link href="http://starcorelabs.com/2018/10/19/back-to-hexo/"/>
+    <id>http://starcorelabs.com/2018/10/19/back-to-hexo/</id>
+    <published>2018-10-19T04:00:00.000Z</published>
+    <updated>2019-03-03T17:02:59.572Z</updated>
     
     <summary type="html">
     
@@ -141,143 +140,7 @@
       
         
         
-          &lt;p&gt;Beginning entrepreneurs assume setting up a website is all that is needed to start earning money. The internet is a crowded place. It
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Entrepreneur Mindset</title>
-    <link href="http://starcorelabs.com/2017/05/02/entrepreneur-mindset/"/>
-    <id>http://starcorelabs.com/2017/05/02/entrepreneur-mindset/</id>
-    <published>2017-05-02T04:00:00.000Z</published>
-    <updated>2019-01-19T18:02:53.500Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;There is a huge difference in mindset between employees and entrepreneurs.&lt;/p&gt;
-&lt;p&gt;Time is a precious non-renewable resource you can
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Time Management</title>
-    <link href="http://starcorelabs.com/2017/04/11/time-management/"/>
-    <id>http://starcorelabs.com/2017/04/11/time-management/</id>
-    <published>2017-04-11T04:00:00.000Z</published>
-    <updated>2019-01-21T11:55:39.962Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;People have two problems in life. Knowing what they want and knowing how to get it.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Some mistakenly
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Upgrade to Hexo</title>
-    <link href="http://starcorelabs.com/2016/12/08/upgrade-to-hexo/"/>
-    <id>http://starcorelabs.com/2016/12/08/upgrade-to-hexo/</id>
-    <published>2016-12-08T05:00:00.000Z</published>
-    <updated>2019-01-19T20:12:59.790Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;I have hosted and developed many websites using Wordpress in the past. I like how Wordpress dynamically adds the header, sidebar,
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Becoming an Entrepreneur</title>
-    <link href="http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/"/>
-    <id>http://starcorelabs.com/2016/11/25/becoming-an-entrepreneur/</id>
-    <published>2016-11-25T05:00:00.000Z</published>
-    <updated>2019-01-19T20:13:22.666Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;I have spent the last few years studying Entrepreneurship. It has been an eye-opening experience. There are tons of free resources
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Why I quit posting on Facebook</title>
-    <link href="http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/"/>
-    <id>http://starcorelabs.com/2016/11/24/why-i-quit-posting-on-facebook/</id>
-    <published>2016-11-24T05:00:00.000Z</published>
-    <updated>2019-01-19T20:06:29.322Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Facebook is the gossip grapevine of the Internet. It makes money from ads and from selling user information to marketers. Everything I
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>How to Build a Website for Beginners</title>
-    <link href="http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/"/>
-    <id>http://starcorelabs.com/2016/11/01/how-to-build-a-website-for-beginners/</id>
-    <published>2016-11-01T04:00:00.000Z</published>
-    <updated>2019-01-19T19:56:34.913Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;So you’ve decided you want a professional website for your blog, hobby, or business. You’ve looked around on Google to find a web
+          &lt;p&gt;As a project to demonstrate my front-end design and development skills. I made a UX wireframe of my website. Then coded my own custom
         
       
     
