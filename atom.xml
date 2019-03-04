@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2019-03-03T17:57:51.045Z</updated>
+  <updated>2019-03-04T05:03:10.306Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://starcorelabs.com/2019/03/03/flexbox-and-css-grid/"/>
     <id>http://starcorelabs.com/2019/03/03/flexbox-and-css-grid/</id>
     <published>2019-03-03T05:00:00.000Z</published>
-    <updated>2019-03-03T17:57:51.045Z</updated>
+    <updated>2019-03-04T05:03:10.306Z</updated>
     
     <summary type="html">
     
@@ -44,7 +44,7 @@
     <link href="http://starcorelabs.com/2019/03/02/modern-javascript/"/>
     <id>http://starcorelabs.com/2019/03/02/modern-javascript/</id>
     <published>2019-03-02T05:00:00.000Z</published>
-    <updated>2019-03-03T18:03:58.830Z</updated>
+    <updated>2019-03-04T05:01:18.347Z</updated>
     
     <summary type="html">
     
@@ -163,6 +163,28 @@
         
         
           &lt;p&gt;As a project to demonstrate my front-end design and development skills. I made a UX wireframe of my website. Then coded my own custom
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>UX Design</title>
+    <link href="http://starcorelabs.com/2018/06/30/ux-design/"/>
+    <id>http://starcorelabs.com/2018/06/30/ux-design/</id>
+    <published>2018-06-30T04:00:00.000Z</published>
+    <updated>2019-03-04T07:13:26.481Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I spent the last year learning (UX) &lt;ins&gt;U&lt;/ins&gt;ser E&lt;ins&gt;x&lt;/ins&gt;perience Design.&lt;br&gt;I’ve worked with some talented designers in the
         
       
     
