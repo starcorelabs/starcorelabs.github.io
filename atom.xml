@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2019-03-04T05:03:10.306Z</updated>
+  <updated>2019-03-05T18:17:46.374Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Front-End Development</title>
+    <link href="http://starcorelabs.com/2019/03/05/front-end-development/"/>
+    <id>http://starcorelabs.com/2019/03/05/front-end-development/</id>
+    <published>2019-03-05T05:00:00.000Z</published>
+    <updated>2019-03-05T18:17:46.374Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Front-End Development is clear to me because I’ve been doing it professionally for 6 years. I know from talking with non-technical
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Flexbox and CSS Grid</title>
