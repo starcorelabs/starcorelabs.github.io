@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.com/"/>
-  <updated>2019-03-15T17:10:00.397Z</updated>
+  <updated>2019-03-20T16:52:52.518Z</updated>
   <id>http://starcorelabs.com/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Daily Routine</title>
+    <link href="http://starcorelabs.com/2019/03/20/daily-routine/"/>
+    <id>http://starcorelabs.com/2019/03/20/daily-routine/</id>
+    <published>2019-03-20T04:00:00.000Z</published>
+    <updated>2019-03-20T16:52:52.518Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Per a reader’s request, here’s a summary of my current daily routine.&lt;br&gt;This illustrates how I manage my time and that my focus is on
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Front-End Development</title>
     <link href="http://starcorelabs.com/2019/03/05/front-end-development/"/>
     <id>http://starcorelabs.com/2019/03/05/front-end-development/</id>
     <published>2019-03-05T05:00:00.000Z</published>
-    <updated>2019-03-15T17:10:00.397Z</updated>
+    <updated>2019-03-19T00:05:26.194Z</updated>
     
     <summary type="html">
     
