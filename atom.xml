@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.github.io/"/>
-  <updated>2019-04-18T02:45:33.212Z</updated>
+  <updated>2019-05-04T20:16:02.432Z</updated>
   <id>http://starcorelabs.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Technical Writing</title>
+    <link href="http://starcorelabs.github.io/2019/05/04/technical-writing/"/>
+    <id>http://starcorelabs.github.io/2019/05/04/technical-writing/</id>
+    <published>2019-05-04T04:00:00.000Z</published>
+    <updated>2019-05-04T20:16:02.432Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Throughout my IT career I’ve written all sorts of technical documents including: Project Specifications, System Requirements, &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Unrealistic Expectations</title>
+    <link href="http://starcorelabs.github.io/2019/05/03/unrealistic-expectations/"/>
+    <id>http://starcorelabs.github.io/2019/05/03/unrealistic-expectations/</id>
+    <published>2019-05-03T04:00:00.000Z</published>
+    <updated>2019-05-04T19:44:40.629Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;In all aspects of life Unrealistic Expectations set you up for frustration and failure. This is usually self-imposed
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Domain Change</title>
