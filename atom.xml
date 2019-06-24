@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.github.io/"/>
-  <updated>2019-05-05T15:45:47.452Z</updated>
+  <updated>2019-06-24T18:40:32.372Z</updated>
   <id>http://starcorelabs.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Old Dell Desktop</title>
+    <link href="http://starcorelabs.github.io/2019/06/24/old-dell-desktop/"/>
+    <id>http://starcorelabs.github.io/2019/06/24/old-dell-desktop/</id>
+    <published>2019-06-24T04:00:00.000Z</published>
+    <updated>2019-06-24T18:40:32.372Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/dell-desktop.jpg&quot; alt=&quot;Dell Desktop&quot;&gt;&lt;/p&gt;
+&lt;p&gt;About 8 years ago I gave my Dad and old 32-bit 3GHz Dell Dimension 3000 with
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>No Cell Service</title>
+    <link href="http://starcorelabs.github.io/2019/06/19/no-cell-service/"/>
+    <id>http://starcorelabs.github.io/2019/06/19/no-cell-service/</id>
+    <published>2019-06-19T04:00:00.000Z</published>
+    <updated>2019-06-24T18:30:53.194Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/note-4.jpg&quot; alt=&quot;Note 4&quot;&gt;&lt;br&gt;TL;DR: 3 years ago I shutoff my cell phone service and I don’t miss it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I’m a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Technical Writing</title>
