@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.github.io/"/>
-  <updated>2019-06-25T01:09:24.617Z</updated>
+  <updated>2019-07-12T01:02:14.737Z</updated>
   <id>http://starcorelabs.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to learn linux</title>
+    <link href="http://starcorelabs.github.io/2019/07/11/how-to-learn-linux/"/>
+    <id>http://starcorelabs.github.io/2019/07/11/how-to-learn-linux/</id>
+    <published>2019-07-11T04:00:00.000Z</published>
+    <updated>2019-07-12T01:02:14.737Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/linux-mountain.png&quot; alt=&quot;Linux Mountain&quot;&gt;&lt;/p&gt;
+&lt;p&gt;So you’re curious about learning linux. Good news! Its easy to get
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Old Dell Desktop</title>
