@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.github.io/"/>
-  <updated>2019-07-13T00:20:23.984Z</updated>
+  <updated>2019-07-28T18:36:06.329Z</updated>
   <id>http://starcorelabs.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Adventures in Job Hunting</title>
+    <link href="http://starcorelabs.github.io/2019/07/28/adventures-in-job-hunting/"/>
+    <id>http://starcorelabs.github.io/2019/07/28/adventures-in-job-hunting/</id>
+    <published>2019-07-28T04:00:00.000Z</published>
+    <updated>2019-07-28T18:36:06.329Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I want to tell you a true story of intrigue, conflict, loss, searching, rejection, mystery, and finally success.&lt;/p&gt;
+&lt;p&gt;After
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>How to learn linux</title>
@@ -446,29 +469,6 @@
         
           &lt;p&gt;&lt;img src=&quot;/img/hexo.png&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;As a project to demonstrate my front-end design and development skills. I made a UX
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>UX Design</title>
-    <link href="http://starcorelabs.github.io/2018/06/30/ux-design/"/>
-    <id>http://starcorelabs.github.io/2018/06/30/ux-design/</id>
-    <published>2018-06-30T04:00:00.000Z</published>
-    <updated>2019-06-25T02:58:05.360Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/img/ux-design.jpg&quot; alt=&quot;UX Design&quot;&gt;&lt;/p&gt;
-&lt;p&gt;I spent the last year learning (UX) &lt;ins&gt;U&lt;/ins&gt;ser E&lt;ins&gt;x&lt;/ins&gt;perience
         
       
     
