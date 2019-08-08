@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.github.io/"/>
-  <updated>2019-07-28T18:48:55.301Z</updated>
+  <updated>2019-08-08T20:00:12.000Z</updated>
   <id>http://starcorelabs.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Comcast Catastrophe</title>
+    <link href="http://starcorelabs.github.io/2019/08/08/comcast-catastrophe/"/>
+    <id>http://starcorelabs.github.io/2019/08/08/comcast-catastrophe/</id>
+    <published>2019-08-08T04:00:00.000Z</published>
+    <updated>2019-08-08T20:00:12.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/cables.jpg&quot; alt=&quot;cables&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Since Friday 08/02 I’ve been trying to get Comcast cable Internet at my new apartment.
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Adventures in Job Hunting</title>
     <link href="http://starcorelabs.github.io/2019/07/28/adventures-in-job-hunting/"/>
     <id>http://starcorelabs.github.io/2019/07/28/adventures-in-job-hunting/</id>
     <published>2019-07-28T04:00:00.000Z</published>
-    <updated>2019-07-28T18:48:55.301Z</updated>
+    <updated>2019-08-07T12:54:48.000Z</updated>
     
     <summary type="html">
     
@@ -44,7 +67,7 @@
     <link href="http://starcorelabs.github.io/2019/07/11/how-to-learn-linux/"/>
     <id>http://starcorelabs.github.io/2019/07/11/how-to-learn-linux/</id>
     <published>2019-07-11T04:00:00.000Z</published>
-    <updated>2019-07-13T00:20:23.984Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -67,7 +90,7 @@
     <link href="http://starcorelabs.github.io/2019/06/24/old-dell-desktop/"/>
     <id>http://starcorelabs.github.io/2019/06/24/old-dell-desktop/</id>
     <published>2019-06-24T04:00:00.000Z</published>
-    <updated>2019-06-25T01:09:24.617Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -90,7 +113,7 @@
     <link href="http://starcorelabs.github.io/2019/06/19/no-cell-service/"/>
     <id>http://starcorelabs.github.io/2019/06/19/no-cell-service/</id>
     <published>2019-06-19T04:00:00.000Z</published>
-    <updated>2019-06-25T01:06:14.513Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -114,7 +137,7 @@
     <link href="http://starcorelabs.github.io/2019/05/04/technical-writing/"/>
     <id>http://starcorelabs.github.io/2019/05/04/technical-writing/</id>
     <published>2019-05-04T04:00:00.000Z</published>
-    <updated>2019-06-27T08:45:24.978Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -137,7 +160,7 @@
     <link href="http://starcorelabs.github.io/2019/05/03/unrealistic-expectations/"/>
     <id>http://starcorelabs.github.io/2019/05/03/unrealistic-expectations/</id>
     <published>2019-05-03T04:00:00.000Z</published>
-    <updated>2019-06-25T01:38:51.643Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -160,7 +183,7 @@
     <link href="http://starcorelabs.github.io/2019/04/07/domain-change/"/>
     <id>http://starcorelabs.github.io/2019/04/07/domain-change/</id>
     <published>2019-04-07T04:00:00.000Z</published>
-    <updated>2019-06-25T01:42:58.834Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -183,7 +206,7 @@
     <link href="http://starcorelabs.github.io/2019/03/20/daily-routine/"/>
     <id>http://starcorelabs.github.io/2019/03/20/daily-routine/</id>
     <published>2019-03-20T04:00:00.000Z</published>
-    <updated>2019-06-25T01:45:13.584Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -206,7 +229,7 @@
     <link href="http://starcorelabs.github.io/2019/03/05/front-end-development/"/>
     <id>http://starcorelabs.github.io/2019/03/05/front-end-development/</id>
     <published>2019-03-05T05:00:00.000Z</published>
-    <updated>2019-06-25T01:55:33.701Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -229,7 +252,7 @@
     <link href="http://starcorelabs.github.io/2019/03/03/flexbox-and-css-grid/"/>
     <id>http://starcorelabs.github.io/2019/03/03/flexbox-and-css-grid/</id>
     <published>2019-03-03T05:00:00.000Z</published>
-    <updated>2019-06-25T02:00:38.348Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -252,7 +275,7 @@
     <link href="http://starcorelabs.github.io/2019/03/02/modern-javascript/"/>
     <id>http://starcorelabs.github.io/2019/03/02/modern-javascript/</id>
     <published>2019-03-02T05:00:00.000Z</published>
-    <updated>2019-06-25T02:04:17.456Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -275,7 +298,7 @@
     <link href="http://starcorelabs.github.io/2019/02/28/don&#39;t-work-for-free/"/>
     <id>http://starcorelabs.github.io/2019/02/28/don&#39;t-work-for-free/</id>
     <published>2019-02-28T05:00:00.000Z</published>
-    <updated>2019-06-25T02:07:34.305Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -299,7 +322,7 @@
     <link href="http://starcorelabs.github.io/2019/02/05/switched-to-linux/"/>
     <id>http://starcorelabs.github.io/2019/02/05/switched-to-linux/</id>
     <published>2019-02-05T05:00:00.000Z</published>
-    <updated>2019-06-25T02:18:43.613Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -322,7 +345,7 @@
     <link href="http://starcorelabs.github.io/2019/01/25/plex-media-server/"/>
     <id>http://starcorelabs.github.io/2019/01/25/plex-media-server/</id>
     <published>2019-01-25T05:00:00.000Z</published>
-    <updated>2019-06-25T02:23:06.628Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -345,7 +368,7 @@
     <link href="http://starcorelabs.github.io/2019/01/01/organizing-css/"/>
     <id>http://starcorelabs.github.io/2019/01/01/organizing-css/</id>
     <published>2019-01-01T05:00:00.000Z</published>
-    <updated>2019-06-25T02:41:43.889Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -367,7 +390,7 @@
     <link href="http://starcorelabs.github.io/2018/12/13/3-reasons-i-quit-windows-10/"/>
     <id>http://starcorelabs.github.io/2018/12/13/3-reasons-i-quit-windows-10/</id>
     <published>2018-12-13T05:00:00.000Z</published>
-    <updated>2019-06-25T02:16:52.439Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -390,7 +413,7 @@
     <link href="http://starcorelabs.github.io/2018/12/01/chrome-os/"/>
     <id>http://starcorelabs.github.io/2018/12/01/chrome-os/</id>
     <published>2018-12-01T05:00:00.000Z</published>
-    <updated>2019-06-25T02:44:13.066Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -413,7 +436,7 @@
     <link href="http://starcorelabs.github.io/2018/10/30/git/"/>
     <id>http://starcorelabs.github.io/2018/10/30/git/</id>
     <published>2018-10-30T04:00:00.000Z</published>
-    <updated>2019-06-25T02:47:31.859Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -436,7 +459,7 @@
     <link href="http://starcorelabs.github.io/2018/10/20/markdown/"/>
     <id>http://starcorelabs.github.io/2018/10/20/markdown/</id>
     <published>2018-10-20T04:00:00.000Z</published>
-    <updated>2019-06-25T02:50:53.367Z</updated>
+    <updated>2019-07-27T07:00:34.000Z</updated>
     
     <summary type="html">
     
@@ -446,29 +469,6 @@
         
           &lt;p&gt;&lt;img src=&quot;/img/markdown.png&quot; alt=&quot;Markdown&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I love writing in Markdown. I’ve been using Markdown for over 5 years.&lt;br&gt;Markdown
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Back to Hexo</title>
-    <link href="http://starcorelabs.github.io/2018/10/19/back-to-hexo/"/>
-    <id>http://starcorelabs.github.io/2018/10/19/back-to-hexo/</id>
-    <published>2018-10-19T04:00:00.000Z</published>
-    <updated>2019-06-25T02:52:37.938Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/img/hexo.png&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;As a project to demonstrate my front-end design and development skills. I made a UX
         
       
     
