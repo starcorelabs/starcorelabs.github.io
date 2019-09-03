@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.github.io/"/>
-  <updated>2019-09-02T23:58:24.110Z</updated>
+  <updated>2019-09-03T03:26:23.885Z</updated>
   <id>http://starcorelabs.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>How to write a post</title>
-    <link href="http://starcorelabs.github.io/2019/09/02/how-to-write-a-post/"/>
-    <id>http://starcorelabs.github.io/2019/09/02/how-to-write-a-post/</id>
-    <published>2019-09-02T04:00:00.000Z</published>
-    <updated>2019-09-02T23:58:24.110Z</updated>
+    <link href="http://starcorelabs.github.io/2019/09/03/how-to-write-a-post/"/>
+    <id>http://starcorelabs.github.io/2019/09/03/how-to-write-a-post/</id>
+    <published>2019-09-03T04:00:00.000Z</published>
+    <updated>2019-09-03T03:26:23.885Z</updated>
     
     <summary type="html">
     
@@ -31,6 +31,29 @@
         
           &lt;p&gt;&lt;img src=&quot;/img/dark-wood-typewriter.png&quot; alt=&quot;Typewriter on dark wood&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Disclaimer: I enjoy writing but it is not my profession.
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Comcast Catastrophe Part 3</title>
+    <link href="http://starcorelabs.github.io/2019/09/02/comcast-catastrophe-part-3/"/>
+    <id>http://starcorelabs.github.io/2019/09/02/comcast-catastrophe-part-3/</id>
+    <published>2019-09-02T04:00:00.000Z</published>
+    <updated>2019-09-03T04:06:47.411Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/data-server.jpg&quot; alt=&quot;Network Cables&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Documentation-for-Comcast-Support&quot;&gt;&lt;a
         
       
     
@@ -446,29 +469,6 @@
         
           &lt;p&gt;&lt;img src=&quot;/img/windows-10.jpg&quot; alt=&quot;Windows 10&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I spent 8 months running Windows 10 as my main operating system.&lt;br&gt;For the most
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Chrome OS</title>
-    <link href="http://starcorelabs.github.io/2018/12/01/chrome-os/"/>
-    <id>http://starcorelabs.github.io/2018/12/01/chrome-os/</id>
-    <published>2018-12-01T05:00:00.000Z</published>
-    <updated>2019-09-02T03:58:33.923Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/img/chrome-os.jpg&quot; alt=&quot;Chrome OS&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Chrome_OS&quot; target=&quot;_blank&quot;
         
       
     
