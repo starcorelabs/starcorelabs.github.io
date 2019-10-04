@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starcorelabs.github.io/"/>
-  <updated>2019-10-04T17:44:44.770Z</updated>
+  <updated>2019-10-04T19:22:36.273Z</updated>
   <id>http://starcorelabs.github.io/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>The Power of User Experience</title>
-    <link href="http://starcorelabs.github.io/2019/10/04/the-power-of-user-experience/"/>
-    <id>http://starcorelabs.github.io/2019/10/04/the-power-of-user-experience/</id>
-    <published>2019-10-04T04:00:00.000Z</published>
-    <updated>2019-10-04T17:44:44.770Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/img/user-experience.jpg&quot; alt=&quot;User Experience&quot;&gt;&lt;/p&gt;
-&lt;h4 id=&quot;User-Experience-UX&quot;&gt;&lt;a href=&quot;#User-Experience-UX&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Microsoft&#39;s Monopoly</title>
@@ -54,6 +31,29 @@
         
           &lt;p&gt;&lt;img src=&quot;/img/microsoft-logo.png&quot; alt=&quot;User Experience&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Most people don’t remember the kind of company Microsoft used to be
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>The Power of User Experience</title>
+    <link href="http://starcorelabs.github.io/2019/10/03/the-power-of-user-experience/"/>
+    <id>http://starcorelabs.github.io/2019/10/03/the-power-of-user-experience/</id>
+    <published>2019-10-03T04:00:00.000Z</published>
+    <updated>2019-10-04T19:29:32.408Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/user-experience.jpg&quot; alt=&quot;User Experience&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;User-Experience-UX&quot;&gt;&lt;a href=&quot;#User-Experience-UX&quot;
         
       
     
