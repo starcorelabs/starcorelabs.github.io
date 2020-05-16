@@ -766,6 +766,7 @@ main article.full img {
   border-radius: 3px;
   height: auto;
   margin-top: 20px;
+  width: 50%;
 }
 
 main article.full blockquote {
@@ -1545,6 +1546,12 @@ pre .chunk {
 }
 
 /* Custom Styles */
+.small-text{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
 #about-page .personal-photo {
   width: 200px;
   height: auto;
@@ -1553,7 +1560,7 @@ pre .chunk {
   font-size: 40px;
 }
 .fa-svg {
-  width: 40px;
+  width: 19% !important;
   height: auto;
 }
 
