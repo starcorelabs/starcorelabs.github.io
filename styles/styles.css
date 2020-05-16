@@ -636,7 +636,7 @@ header nav ul li {
   padding: 12px 0 12px 12px;
 }
 header nav ul li:after {
-  content: '·';
+  content: 'Â·';
   padding-left: 12px;
 }
 header nav ul li:last-child:after {
@@ -664,7 +664,6 @@ main {
   -webkit-flex: 7;
   -ms-flex: 7;
   flex: 7;
-  hypens: auto;
   overflow-x: hidden;
   padding: 20px;
   text-align: left;
@@ -718,7 +717,7 @@ main article.item {
   text-align: left;
 }
 main article.item h2 {
-  break-word: normal;
+  word-break: normal;
   color: #141414;
   margin-bottom: 16px;
   word-wrap: break-word;
@@ -750,11 +749,12 @@ main article.full h2 {
   margin: 0;
 }
 main article.full ul {
-  list-style: none;
+  list-style: disc;
   padding: 0;
+  margin-left: 18px;
 }
 main article.full a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 main article.full a:hover {
   color: #1d9cf7;
@@ -766,8 +766,8 @@ main article.full img {
   border-radius: 3px;
   height: auto;
   margin-top: 20px;
-  width: 50%;
 }
+
 main article.full blockquote {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -806,11 +806,11 @@ main article.full blockquote cite {
   font-weight: bold;
 }
 main article.full blockquote cite:before {
-  content: '—';
+  content: 'â€”';
   padding: 0 0.3em;
 }
 main article.full blockquote cite a {
-  color: $link-article-color;
+  color: #1d9cf7;;
   font-weight: normal;
 }
 main article.full .noshadow {
@@ -995,7 +995,7 @@ main article.full .round-button {
   text-transform: uppercase;
 }
 main article.full .round-button:hover {
-  border: 3px solid $link-article-color;
+  border: 3px solid #000;
   color: #1d9cf7;
 }
 main article.full .punch-button {
@@ -1019,7 +1019,6 @@ main article.full .punch-button {
   text-align: center;
   text-shadow: 0 -1px 1px #0777c7;
   text-transform: uppercase;
-  -webkit-background-clip: padding-box;
 }
 main article.full .punch-button hr {
   display: block;
@@ -1128,7 +1127,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: $link-article-color;
+  color: #1d9cf7;
 }
 hr {
   display: block;
@@ -1361,7 +1360,7 @@ figure.highlight pre {
     -webkit-flex: 7;
     -ms-flex: 7;
     flex: 7;
-    padding: 40px;
+    padding: 20px 40px;
   }
   body main form .form-column input[type="name"],
   body main form .form-column input[type="email"] {
@@ -1479,6 +1478,7 @@ pre .chunk {
   min-width: 25px;
   font-size: 1.1rem;
 }
+
 @-moz-keyframes slide {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1541,5 +1541,137 @@ pre .chunk {
     -o-transform: translate3d(-240px, -240px, 0);
     -ms-transform: translate3d(-240px, -240px, 0);
     transform: translate3d(-240px, -240px, 0);
+  }
+}
+
+/* Custom Styles */
+#about-page .personal-photo {
+  width: 200px;
+  height: auto;
+}
+.devicon {
+  font-size: 40px;
+}
+.fa-svg {
+  width: 40px;
+  height: auto;
+}
+
+.greeting h4 {
+  margin-top: 10px;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-block{
+  flex: 1;
+  margin-right: 30px;
+}
+
+.info-block{
+  flex: 5;
+}
+
+#contact{
+  margin: 0 0 30px 0;
+}
+
+.about-list{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about-list li img{
+  margin-top: 0 !important;
+}
+
+.tools{
+  margin: 30px 0;
+}
+
+.underline-link{
+  cursor: pointer;
+  text-decoration: underline !important;
+  text-decoration-color: #1d9cf7 !important;
+}
+
+.container-list{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+@media (min-width: 1024px){
+    .container-list .square {
+      width: 12.5%;
+  }
+    .about-list .square {
+      width: 12.5%;
+  }
+}
+
+@media (min-width: 600px){
+  .container-list .square {
+    width: 25%;
+  }
+  .about-list .square {
+    width: 25%;
+  }
+}
+
+@media (max-width: 600px){
+  .about {
+    flex-direction: column;
+  }
+}
+
+.container-list .square {
+    width: 20%;
+    height: 90px;
+    margin-bottom: 10px;
+  }
+
+  .about-list .square {
+    width: 20%;
+    height: 90px;
+    margin-bottom: 10px;
+  }
+
+.square p{
+  margin: 0 !important;
+  text-align: center;
+  max-width: 207px;
+}
+
+.github-block{
+  margin-top: 17px;
+  height: 46px;
+}
+
+.pdf-block{
+  text-align: center;
+  max-width: 207px;
+}
+
+@media (max-width: 400px){
+  .container-list .square {
+    width: 33%;
+    height: 95px;
+  }
+
+  .about-list .square {
+    width: 33%;
+    height: 95px;
+  }
+
+  #contact {
+    margin: 0px 0 20px 0;
   }
 }
