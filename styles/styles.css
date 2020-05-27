@@ -18,6 +18,7 @@ html {
 
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* HTML5 display definitions
@@ -1560,8 +1561,23 @@ pre .chunk {
   font-size: 40px;
 }
 .fa-svg {
-  width: 19% !important;
+  width: 36px !important;
   height: auto;
+}
+
+.youtube-title{
+  display: block;
+  padding: 10px 0 0 0;
+}
+
+.github-title{
+  display: block;
+  padding: 7px 0 0 0;
+}
+
+.email-title{
+  display: block;
+  padding-top: 5px;
 }
 
 .greeting h4 {
@@ -1680,4 +1696,55 @@ pre .chunk {
   #contact {
     margin: 0px 0 20px 0;
   }
+}
+
+#portfolio{
+  width: 100%;
+}
+
+#portfolio .project-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#portfolio .project-block div p{
+  margin: 0;
+}
+
+#portfolio .project-info{
+  flex: 5;
+  padding: 10px 0;
+}
+
+#portfolio .project-img{
+  flex: 7;
+  padding: 10px 0 0 20px;
+}
+
+#portfolio .port-img{
+  margin: 0;
+  padding: 0;
+  width: 445px;
+  height: 250px;
+}
+
+
+#portfolio .btn-box{
+  text-align: center;
+  padding: 10px;
+}
+
+#portfolio .port-btn{
+  display: inline-block;
+  background-color: #bdc3c7;
+  padding: 5px;
+  border: none;
+  margin: 0 5px 7px 0;
+  transition: all 300ms ease;
+  color: #434343;
+}
+
+#portfolio .port-btn:hover{
+  color: #f4f4f4;
 }
