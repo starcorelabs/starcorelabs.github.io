@@ -754,7 +754,7 @@ main article.full ul {
   margin-left: 18px;
 }
 main article.full a {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 main article.full a:hover {
   color: #1d9cf7;
@@ -1682,7 +1682,7 @@ pre .chunk {
   }
 }
 
-
+/* needs to exist */
 .nextcloud-logo{
   border-radius: 0;
   height: auto !important;
