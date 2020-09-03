@@ -707,10 +707,14 @@ img::-moz-selection {
 
 
 .fullpost{
-  display: block;
-  width: 800px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   margin-top: 70px;
+}
+
+.fullpost div{
+  max-width: 800px;
+  margin: 0 10px;
 }
 
 
@@ -819,10 +823,16 @@ pre {
 }
 
 .project-single{
-  display: block;
-  width: 40%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   margin-top: 70px;
+  margin-top: 70px;
+}
+
+
+.project-single div{
+  max-width: 800px;
+  margin: 0 10px;
 }
 
 .postlist-image{
@@ -833,10 +843,6 @@ pre {
   .postlist-image{
     max-width: 100%;
   }
-
-  .project-single{
-    width: 95%;
-    margin: 0 10px;
 }
 
 
