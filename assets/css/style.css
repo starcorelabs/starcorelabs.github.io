@@ -62,8 +62,12 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.text-faded-extra p{
+  color: rgba(255, 255, 255, 0.7);
+}
+
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 aside {
@@ -832,4 +836,10 @@ pre {
 
 .broken-img{
   border: 1px solid #333333;
+}
+
+.michael-headshot{
+  float: left;
+  margin: 0 10px 10px 0;
+  border-radius: 3px;
 }
