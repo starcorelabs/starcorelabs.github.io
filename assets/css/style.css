@@ -820,15 +820,26 @@ pre {
 
 .project-single{
   display: block;
-  width: 800px;
+  width: 40%;
   margin: 0 auto;
   margin-top: 70px;
 }
 
 .postlist-image{
-  max-height: auto;
-  max-width: 650px;
+  max-width: 80%;
 }
+
+@media (max-width: 600px){
+  .postlist-image{
+    max-width: 100%;
+  }
+
+  .project-single{
+    width: 95%;
+    margin: 0 10px;
+}
+
+
 
 .small-text{
   font-size: 12px;
