@@ -728,22 +728,15 @@ img::-moz-selection {
   height: auto;
   width: 200px !important;
 }
-
+#project img[alt=img],
 #post img[alt=img]{
   display: block;
   border-radius: 3px;
   margin-top: 20px;
   height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
-@media (max-width: 767px){
-
-  #post img[alt=img]{
-    width: 160%;
-  }
-
-}
 
 pre {
     display: block;
@@ -826,25 +819,12 @@ pre {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-  margin-top: 70px;
 }
-
 
 .project-single div{
   max-width: 800px;
   margin: 0 10px;
 }
-
-.postlist-image{
-  max-width: 80%;
-}
-
-@media (max-width: 600px){
-  .postlist-image{
-    max-width: 100%;
-  }
-}
-
 
 
 .small-text{
