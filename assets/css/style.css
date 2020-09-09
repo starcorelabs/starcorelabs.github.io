@@ -841,20 +841,18 @@ pre {
   border-radius: 3px;
 }
 
-.hire-title{
-  margin-top: 70px;
-}
 
 .hire-content{
   display: flex;
   justify-content: center;
-  
+  margin-top: 70px;
 }
 
-.hire-card{
-  max-width: 50%;
+.hire-content div{
+  max-width: 800px;
+  margin: 0 10px;
 }
 
 .hire-img{
-  border-radius: 3px;
+  border-radius: 4px;
 }
