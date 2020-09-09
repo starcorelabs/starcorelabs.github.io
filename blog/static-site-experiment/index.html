@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Starcore Labs. Experiments in Creativity.">
     <meta name="author" content="Starcore Labs">
-    <link rel="icon" href="/assets/img/website-logo.png">
+    <link rel="icon" href="/assets/img/favicon.ico">
 
-    <title>Static Site Experiments</title>
+    <title>Static Site Experiment</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css">
@@ -89,71 +89,41 @@
 
 <article class="fullpost" id="post">
 <div>
-  <h1>Static Site Experiments</h1>
+  <h1>Static Site Experiment</h1>
   <p>2020-09-01</p>
   <p><p><img src="../../assets/img/post-images/pier.jpg" alt="img"></p>
 <h2>Welcome Back to the Lab!</h2>
-<p>In my last update I explained I was working on updating my website to include both my blog and portfolio.
-To do this I wanted to switch from <a href="https://hexo.io/">Hexo.io</a> to <a href="https://www.11ty.dev/">11ty.dev</a>.</p>
-<p>I decided to switch because Hexo breaks while developing with it and it lacks the ability to easily support both a blog and a portfolio.
-So, instead of creating a bunch of custom code to make it work I decided to find a more robust alternative.</p>
-<p>I watched this <a href="https://www.youtube.com/playlist?list=PLOSLUtJ_J3rrJ1R1qEf8CCEpV3GgbJGNr">YouTube tutorial</a> to learn how to convert my static HTML theme into an 11ty site. After that I spent a week converting my site over to 11ty.</p>
-<p>During development there were a few issues I had to work through:</p>
-<ul>
-<li>The blog listing page wouldn't show any items. I double checked my &quot;for loop&quot;. The solution was to rename the json file so it matched the folder it was located in.</li>
-<li>I had to create templates for all the different page and post types:
-<ul>
-<li>postlist.njk</li>
-<li>post.njk</li>
-<li>projectlist.njk</li>
-<li>project.njk</li>
-</ul>
-</li>
-<li>All of images were too large so I spent 2 hours using Gimp to resize them. This reduced their dimensions and file size.</li>
-<li>I found the post and project images didn't work with the template syntax. So I used relative paths instead.</li>
-<li>Due to the limitations in markdown I had to use HTML img tags so I could assign classes for styling.</li>
-<li>I used flexbox to fix my skills section to layout the icons correctly.</li>
-<li>I wanted to create an include for the &quot;about&quot; section. But could not get it working. So I put it in the homepage.njk file.</li>
-</ul>
-<p>Last I wanted 11ty to output a fully working static site to the &quot;_site&quot; folder so I could manually deploy it to GitHub Pages.
-Unfortunately, it seems 11ty was designed with Netlify in mind.
-After reading through the sales pitch and documentation of Netlify I decided it is not for me.</p>
-<p>The whole point of creating a static site is so I can host it for free on GitHub Pages.
-This site is a blog and a place to showcase my projects. I'm not processing any forms or accepting user data.</p>
-<p>I think 11ty is great. But the documentation is lacking and assumes too much pre-existing knowledge on the part of its users.
-Its definitely not for beginners.</p>
-<p>The issue I haven't solve yet is that 11ty requires all CSS, JS, and image paths to start with &quot;/&quot;.
-While the local development server is running the site works flawlessly.</p>
-<p>However, opening up the index.html rendered static file in &quot;_site&quot; folder shows a broken site in Chrome.</p>
-<p>I spent a couple of days researching to find a solution.
-I experimented with &quot;pathPrefix&quot; in my eleventy.js config.
-It adds the ability to render the site in a subfolder.
-Not remove the starting &quot;/&quot; from the file paths.</p>
-<p>I tried using this code <pre><code> {{ '/' | url }} </pre></code> as a relative path substitute for my CSS, JS, and images.</p>
-<p>But it only adds the &quot;/&quot; to the paths in the final output.</p>
-<p>I've asked questions on the 11ty GitHub without response.
-On StackOverFlow I received one answer suggesting that static sites made with 11ty can only be deployed using the for profit company Netlify.</p>
-<p>This really irritated me because nothing on the 11ty website suggests this is the case.</p>
-<p>I keep thinking its all just JavaScript so there must be a way to program the site to render a working local version.
-I'm just not skilled enough with JavaScript yet to do it.</p>
-<p>Instead of waiting around I decided to copy the rendered output to another folder and manually fix all the file paths so the site works.
-Yes this really sucks. But, I need my site up and running now.</p>
-<p>So, I'm currently stuck until I either figure out how to fix this glaring issue that other static site generators don't have.
-Or spend another week learning and switching to something else.</p>
-<p>Going forward I will check to make sure whatever software I choose can output the files I need before I invest my time an energy building with it.</p>
-<p>One thing I won't do is use Netlify because I will not give up ownership of my website to a for-profit company.</p>
-<hr>
-<h3>Update 2020-09-06: Eleventy Works!</h3>
-<p>I spent the last few days trying to figure out how to set 11ty to generate relative links.
-I was under the impression that if it didn't work locally it wouldn't work on GitHub Pages. Sometimes its good to be wrong.</p>
-<p>On the 11ty GitHub repo under issues I asked for help with deploying my 11ty site to Github Pages.
-Thankfully a few people offer suggestions.</p>
-<p>Finally one person cloned my repo and pushed the contents from _site folder to their own username.github.io repo to test it.
-I was shocked that it actually worked.</p>
-<p>I did the same thing in my dev lab. Again I was surprised that it actually works.</p>
-<p>So I'm going to stick with 11ty as my static site generator.
-Now I can focus on adding posts and projects.</p>
-<p>Thanks again everyone who helped!</p>
+<p>I have been using <a href="https://hexo.io/">Hexo.io</a> for the last 3 years as my static site generator.</p>
+<p>It worked well enough. But has a few flaws and limitations that prevented me from building the kind of site I really wanted.</p>
+<p>Recently I decided to freelance again and needed to update this website to include a portfolio.
+So I decided to investigate other static site generators to accomplish this goal.</p>
+<h3>My Requirements</h3>
+<p>I wanted to use JavaScript as my development language and markdown for content.
+Because all my Hexo posts are in markdown.
+I knew it would be simple to copy the files over and make a few adjustments to get them working.</p>
+<p>I wanted to convert an HTML and CSS site I'd built a couple of years ago to be the theme for my static site.</p>
+<p>I needed my site to iterate over two separate lists of markdown posts and projects.
+Then display them respectively on a Blog page and a Portfolio page.</p>
+<p>Each individual post and project needed to open in an individual page where I can write in-depth about a single topic or project.</p>
+<p>With these requirements in mind I started looking for options.</p>
+<p>I went to <a href="https://www.staticgen.com/">Static Site Gen</a> and spent time researching a few JavaScript-based possibilities:</p>
+<ol>
+<li><a href="https://www.gatsbyjs.com/">Gatsby</a></li>
+<li><a href="https://github.com/react-static/react-static/tree/master/">React Static</a></li>
+<li><a href="https://www.11ty.dev/">11ty / Eleventy</a></li>
+<li><a href="https://sapper.svelte.dev/">Svelte Sapper</a></li>
+<li><a href="https://nuxtjs.org/">Vue Nuxt</a></li>
+<li><a href="https://vuepress.vuejs.org/">VuePress</a></li>
+</ol>
+<p>With this limited list, I was overwhelmed with the time-consuming complexity of getting up and running with these options. Most are add-ons to allow complex front-end libraries to output static sites. At the moment I don't need that level of engineering for my site.</p>
+<p>However, Eleventy looked purpose built from the ground up to create static sites.
+Giving users the ability to pick whatever templating system works best for them.
+Anything that gives me more choices is great.</p>
+<p>In my case Eleventy was deceptively simple. Which caused me issues because I was expecting more complexity which didn't exist.</p>
+<p>However with the help of <a href="https://www.youtube.com/playlist?list=PLOSLUtJ_J3rrJ1R1qEf8CCEpV3GgbJGNr">Bryan Robinson's 11ty YouTube Tutorial</a>. And, help from friendly developers on GitHub. I was able to wrap my head around how it works under the hood.</p>
+<p>Now I'm very happy with my current site.
+It works and performs the way I want.</p>
+<p>I plan on using Eleventy for this site, other ideas, and client projects in the future.</p>
 </p>
 </div>
 </article>
