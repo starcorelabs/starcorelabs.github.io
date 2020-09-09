@@ -840,3 +840,21 @@ pre {
   margin: 0 10px 10px 0;
   border-radius: 3px;
 }
+
+.hire-title{
+  margin-top: 70px;
+}
+
+.hire-content{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.hire-card{
+  max-width: 50%;
+}
+
+.hire-img{
+  border-radius: 3px;
+}
