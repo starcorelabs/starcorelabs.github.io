@@ -1,0 +1,254 @@
+<!-- homepage.njk -->
+{% extends "base.njk" %}
+
+{% block pageHeader %}
+<!-- pageHeader -->
+<header>
+  <div class="header-content">
+    <div class="header-content-inner">
+      <h1><img src="{{ 'assets/img/website-logo.png' | url }}"> STARCORE LABS</h1>
+      <hr>
+      <p>{{ description }}</p>
+      <a href="{{ buttonurl }}" class="btn btn-primary btn-xl page-scroll">{{ buttontext }}</a>
+    </div>
+  </div>
+</header>
+<!-- end pageHeader -->
+{% endblock pageHeader %}
+
+{% block about %}
+<!-- about-->
+<section class="bg-primary" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-faded-extra">
+        <h2 class="section-heading">About</h2>
+        <div>
+          <img src="assets/img/clean_headshot.png" alt="Michael Douglas" class="img-responsive michael-headshot">
+        </div>
+        <p>Hello, I'm Michael.</p>
+        <p>UX/UI Designer and Developer with 8 years of experience working in corporate environments.<br />
+          With 5 years of experience freelancing.</p>
+
+        <p>I've worked on many types of projects. From large scale eCommerce and corporate web applications. To static
+          sites, and single landing pages.</p>
+
+        <p>My focus is on creating beautiful, easy to use, user interfaces for web applications.<br />
+          I'm always experimenting and learning something new.</p>
+
+        <p>Hire me for your Web Design and Development projects!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<aside class="bg-dark">
+  <div class="container text-center">
+    <div class="call-to-action">
+      <a href="/hire" class="btn btn-primary btn-xl">Hire</a>
+    </div>
+  </div>
+</aside>
+<!-- end about -->
+{% endblock about %}
+
+{% block content %}
+<!-- content -->
+<section id="skills">
+  <div class="container skills-heading">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Skills</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container-list">
+    <div class="square">
+      <a href="https://pop.system76.com/" target="_blank">
+        <i><img src="../assets/img/icons/pop-os.svg" class="skill-icon"></i>
+        <p>POP OS</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/" target="_blank">
+        <i><img src="../assets/img/icons/terminal.svg" class="skill-icon"></i>
+        <p>Bash</p>
+
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://vscodium.com/" target="_blank">
+        <i><img src="../assets/img/icons/vscodium.png" class="skill-icon"></i>
+        <p>VSCodium</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://brave.com/" target="_blank">
+        <i><img src="../assets/img/icons/brave.svg" class="skill-icon"></i>
+        <p>Brave</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+        <i><img src="../assets/img/icons/html5.svg" class="skill-icon"></i>
+        <p>HTML</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+        <i><img src="../assets/img/icons/css3.svg" class="skill-icon"></i>
+        <p>CSS</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://sass-lang.com/" target="_blank">
+        <i><img src="../assets/img/icons/sass.svg" class="skill-icon"></i>
+        <p>Sass</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://getbootstrap.com/" target="_blank">
+        <i><img src="../assets/img/icons/bootstrap.svg" class="skill-icon"></i>
+        <p>Bootstrap</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+        <i><img src="../assets/img/icons/javascript.svg" class="skill-icon"></i>
+        <p>JavaScript</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://nodejs.org/en/" target="_blank">
+        <i><img src="../assets/img/icons/nodejs.svg" class="skill-icon"></i>
+        <p>Node JS</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://www.11ty.dev/" target="_blank">
+        <i><img src="../assets/img/icons/eleventy.svg" class="skill-icon"></i>
+        <p>Eleventy</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://gulpjs.com/" target="_blank">
+        <i><img src="../assets/img/icons/gulp.svg" class="skill-icon"></i>
+        <p>Gulp</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://git-scm.com/" target="_blank">
+        <i><img src="../assets/img/icons/git.svg" class="skill-icon"></i>
+        <p>Git</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://github.com/" target="_blank">
+        <i><img src="../assets/img/icons/github.svg" class="skill-icon"></i>
+        <p>GitHub</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://inkscape.org/" target="_blank">
+        <i><img src="../assets/img/icons/inkscape.svg" class="skill-icon"></i>
+        <p>Inkscape</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://glimpse-editor.github.io/" target="_blank">
+        <i><img src="../assets/img/icons/glimpse-logo.svg" class="skill-icon"></i>
+        <p>Glimpse</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
+        <i><img src="../assets/img/icons/photoshop.svg" class="skill-icon"></i>
+        <p>Photoshop</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://www.adobe.com/products/illustrator.html" target="_blank">
+        <i><img src="../assets/img/icons/illustrator.svg" class="skill-icon"></i>
+        <p>Illustrator</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://www.adobe.com/products/xd.html" target="_blank">
+        <i><img src="../assets/img/icons/xd.svg" class="skill-icon"></i>
+        <p>XD</p>
+      </a>
+    </div>
+    <div class="square">
+      <a href="https://trello.com/" target="_blank">
+        <i><img src="../assets/img/icons/trello.svg" class="skill-icon"></i>
+        <p>Trello</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<aside class="bg-dark">
+  <div class="container text-center">
+    <div class="call-to-action">
+      <h2>Portfolio</h2>
+    </div>
+  </div>
+</aside>
+
+<section class="no-padding" id="portfolio">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+
+      {% block portfolioBanner %}
+      {% set latest_projects = collections.projects | reverse %}
+      {% for project in latest_projects.slice(0,3) %}
+      <div class="col-lg-4 col-sm-6">
+        <a href="{{ project.url | url }}" class="portfolio-box">
+          <img src="{{ project.data.projectIMG }}" class="img-responsive" alt="{{ project.data.title }}" />
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-name">
+                {{ project.data.title }}
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+      {% endblock portfolioBanner %}
+
+    </div>
+  </div>
+</section>
+
+<aside class="bg-dark">
+  <div class="container text-center">
+    <div class="call-to-action">
+      <a href="/portfolio" class="btn btn-primary btn-xl">Portfolio Page</a>
+    </div>
+  </div>
+</aside>
+
+<div id="contact" class="contact-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <h2 class="section-heading">Let's Get In Touch!</h2>
+        <hr class="primary" />
+        <p>Send me an email and I will get back to you as soon as possible!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+        <i><img src="../assets/img/icons/envelope.svg" class="skill-icon"></i>
+        <p>StarcoreLabs [at] gmail [dot] com</p>
+      </div>
+
+      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+        <i><img src="../assets/img/icons/twitter.svg" class="skill-icon"></i>
+        <p><a href="https://twitter.com/starcorelabs" target="_blank">Twitter</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end content -->
+{% endblock content %}

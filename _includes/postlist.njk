@@ -1,0 +1,26 @@
+{% extends "base.njk" %}
+
+{% block posts %}
+<!-- postlist -->
+<div class="container-fluid top-space" id="post">
+{% for post in collections.posts | reverse %}
+<div class="row bottom-space">
+ <div class="col-lg-6 offset-lg-1 col-md-6 offset-md-1 col-sm-12">
+ <a href="{{ post.url | url }}"><img src="{{ post.data.postimg }}" class="img-responsive"></a>
+ </div>
+  <div class="col-lg-6 offset-lg-1 col-md-6 offset-md-1 col-sm-12">
+    <article class="item">
+      <h3>
+        <a href="{{ post.url | url }}" class="postlist-link">{{ post.data.title }}</a>
+      </h3>
+      <p>{{ post.data.date }}</p>
+      <p>{{ post.data.description }}</p>
+
+      <a href="{{ post.url | url }}" class="btn btn-primary" role="button">Read</a>
+    </article>
+  </div>
+</div>
+{% endfor %}
+</div>
+<!-- end postlist -->
+{% endblock posts %}

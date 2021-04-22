@@ -1,0 +1,171 @@
+---
+title: "How to Build a Website for Beginners"
+date: "2019-01-01"
+description: "Building a website is complex and requires many different technologies."
+postimg: "../../assets/img/post-images/laptop-code.jpg"
+---
+
+![img](../../assets/img/post-images/laptop-code.jpg)
+
+### How to Build a Website for Beginners
+
+So you've decided you want a professional website for your blog,
+hobby, or business. You've looked around on Google to find a web
+development company or freelancer near you. (You have looked on
+Google right?).
+
+You've hopefully gotten over the sticker shock of how much it costs
+to build a professional website. I'm sure you've compared the prices
+between different companies and decided which one offers you the
+best deal based on your business needs. (If not, you should do that
+now)
+
+Maybe you are like most people and have no idea why its so
+expensive, how websites work, how they are built, or how to use one
+to earn you money. Maybe you're looking to find the cheapest person
+who can to build you a site quickly. Maybe you think once its up you
+can take over and do it yourself.
+
+That is the road to ruin. You get what you pay for. In other words,
+how can you expect them to do something for you that they haven't
+done for themselves? Seems reasonable but few people apply that kind
+of logic when they want a shiny new website.
+
+For those "Do-it-yourself" type people. Don't assume because you've
+used Facebook and Google that you know how to build a website.
+That's like assuming because you drive your car to work, you somehow
+know how to fix it when it breaks down.
+
+If you do not already know how to write code or how computers work.
+Trying to do it yourself will be like trying to put IKEA furniture
+together in the dark. Of course I am not saying you cannot learn.
+There are tons of YouTube videos and whole websites where you can
+learn web development for free. I encourage everyone who has
+interest and time to learn how to write code. The question is do you
+want to be a developer or just own and run your own site?
+
+Technically speaking you do not have to know how to write code to
+setup and run a functional website for your business. Unless you
+want a custom design and special features. The learning curve is
+much less if you are simply writing content and marketing your
+products and/or services.
+
+If you do want to be a developer it will take you a minimum of 4
+years to get the basics down. You'll need to learn HTML, CSS,
+Responsive Design, JavaScript, PHP, MySQL and Graphic Design. Along
+with Marketing, Social Media Marketing, Content Writing, and SEO.
+Plus, the technologies behind web development are changing everyday.
+You'll have to keep up with the technology just to stay relevant. Its
+a constantly moving target.
+
+For those of you who are busy trying to run a business it would be
+wiser to save your time and hire a professional who knows what they
+are doing. Just be willing to listen to that professional since
+that's why you've hired them. They have put in the time to learn all
+this stuff.
+
+Keep in mind having a web site doesn't mean people will instantly
+find you online or give you money. Its not like winning the lotto.
+Making money online is hard and takes time. There is no silver
+bullet. You have to build your site correctly from the start so
+people can search for you on Google. This is based on things the are
+already looking for that match with what you are selling. How do you
+do that? Its call Search Engine Optimization or SEO. There are whole
+companies that specialize in just doing SEO for websites. That's how
+deep this rabbit hole goes.
+
+Having a website is like owning a puppy. You have to feed it, walk
+it, and clean up after it. With a website you have to set it up
+correctly, SEO, Marketing, add some kind of payment system to sell
+products and/or services so people can buy from your site. Then you
+have to maintain it with constant content updates. Otherwise it will
+be a boring static site few people will want to visit. It will cost
+you money instead of earning you money.
+
+If you just want a free site to post your thoughts I suggest you go
+to
+<a href="https://wordpress.com" target="_blank">Wordpress.com</a>.
+You'll get a limited free blog with a free domain of your choice.
+However, if you want to make custom changes or use your own domain
+it will cost you. Still, if you just want to post your thoughts and
+add some photos its a good way to get familiar with the software.
+They do not let you sell things through a free Wordpress.com
+account.
+
+To earn money from your website you'll need to pay for a hosted
+version of the Wordpress software. Then you will need to sell a
+service, product, and/or advertisements. The design of your site and
+your content (written text) are all part presenting whatever you are
+selling in a compelling way to entice your viewers to buy from you.
+There are tons of books, videos, and websites that can teach you how
+to do all of these things. However, as I pointed out previously it
+takes years to learn everything you'll need to know.
+
+In an effort to save you time and money I've written a short summary
+of how to setup a web site for beginners. This a bare bones broad
+strokes overview of how to do it. If this doesn't make sense to you
+then you might want to consider hiring a professional.
+
+1.  Go to <a href="https://www.godaddy.com/" target="_blank">GoDaddy.com</a>
+    and pick a domain. Make sure it is focused on the thing you want to
+    be known for or the thing you are selling. Consider thinking from
+    the point of view of someone who's putting a search in Google. What
+    would you need to type in to find the thing you are selling?
+
+    Buy your domain if it is available and make sure to pay the extra
+    $7.00 - $10.00 for privacy. It prevents people from getting your
+    email address and spamming you. We all get enough spam as it is.
+    Plus, people with a bit of knowledge can use your domain to look up
+    your home address. Do you really want them to show up at your house?
+    Get the privacy.
+
+2.  You can get hosting separate from your domain from many other
+    companies. Just search on Google for "web hosting". However for the
+    simplicity of this article I will suggested sticking with
+    GoDaddy.com as well. Having your domain and hosting in the same
+    place, with the same company, will make it really easy to connect
+    the two together. They have excellent customer service and setup
+    everything for you if you ask them nicely. Just ask them for
+    Wordpress hosting. Or, if your technically you can follow their setup
+    guide. Either way it will only take you 10 minutes to get your site
+    up and running.
+
+3.  Sign-in to your site with the user name and password you created.
+    Use a strong password. Make sure to save it some place secure. Pick
+    a free theme within Wordpress. Or buy theme from
+    <a href="http://themeforest.net/category/wordpress">Themeforest.net</a>. Customize your theme with colors and photos.
+
+4.  Add content. Write up a compelling story about who you are, what
+    you do, and what you're selling. Write it from the point of view of
+    the people who are going to read it. Speak directly to them and tell
+    them how your product or service will benefit them. Keep it simple.
+
+5.  Add plug-ins. Wordpress has tons of free plug-ins that let you
+    customize you SEO, Google Analytics, Contact Form and pull in other
+    website functionality. You can use YouTube for video, SoundCloud and
+    iTunes for music. Amazon for product sales. Mailchimp for email
+    marketing. Plus tons of other Social Media Marketing plug-ins. These
+    help you bring people to your site so they will read your content
+    and buy your products.
+
+6.  SEO - Which means Search Engine Optimization. This is how people
+    find you on Google. Search engines like Google will scan your site
+    on a regular basis and rank it based on how active it is, how recent
+    you updated the content, how relevant your keywords are, and how
+    many people are linking to your site, among other things. Learn more
+    about SEO here: <a href="https://moz.com/beginners-guide-to-seo">Beginners guide to SEO</a>.
+
+7.  You can learn inbound marketing for free on
+    <a href="http://www.hubspot.com/inbound-marketing">Hubspot.com</a>
+    This will give you a primer on how to capture people's attention and
+    drive traffic to your web site.
+
+If you need help with any part of your website setup, custom code,
+design, or logo. You can contact me at
+<a href="mailto:starcorelabs@gmail.com">starcorelabs@gmail.com</a>.
+My rate is \$25 an hour and I've been building websites since 2006. I
+have worked both freelance for small business and in corporate
+environments for big companies. Hire me today!
+
+If you like this post or have suggestions let me know on Twitter.<a
+href="https://twitter.com/starcorelabs">@starcorelabs</a>
