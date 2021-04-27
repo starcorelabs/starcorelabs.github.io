@@ -856,3 +856,12 @@ pre {
 .hire-img{
   border-radius: 4px;
 }
+
+
+/* Flat Colors */
+
+.f-red {color: white; background:#c0392b;}
+.f-orange {color: white; background:#e67e22;} 
+.f-green {color: white; background:#27ae60;}
+.f-blue {color: white; background: white; background:#2980b9;}
+.f-purple {color: white; background:#8e44ad;}
