@@ -857,6 +857,14 @@ pre {
   border-radius: 4px;
 }
 
+.podcast{
+  height: 470px;
+}
+
+.podcast iframe{
+  height: 400px;
+  width: 800px; 
+}
 
 /* Flat Colors */
 
