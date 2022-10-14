@@ -870,3 +870,58 @@ pre {
 .f-green {color: white; background:#27ae60;}
 .f-blue {color: white; background: white; background:#2980b9;}
 .f-purple {color: white; background:#8e44ad;}
+
+.strong-header{
+  font-weight:700;
+}
+
+/* tabs */
+.tab-container {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab-container ul{
+  margin-bottom: 30px;
+}
+
+.tab-container input[type="radio"]{
+  display: none;
+}
+
+.tab-container .tab-content #corporate{
+  margin-left: 20px;
+}
+
+.tab-container label{
+  font-weight: bold;
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 8px;
+  outline: 1px solid #333;
+  text-align: center;
+}
+
+.tab-container .tab-content{
+  display: none;
+  order: 1;
+}
+
+
+.tab-container input[type="radio"]:checked + label + .tab-content {
+  display: block;
+}
+
+.tab-container input[type="radio"]:checked + label{
+  background-color:#472b56;
+  color: #fff;
+}
+
+
+
+
+
+/* mytabs = tab-container */
