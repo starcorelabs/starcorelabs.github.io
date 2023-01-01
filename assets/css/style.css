@@ -922,6 +922,11 @@ pre {
 
 
 
-
-
 /* mytabs = tab-container */
+
+.network-img{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
