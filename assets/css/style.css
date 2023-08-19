@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
 
@@ -32,16 +32,14 @@ a:focus {
   color: #1d9cf7;
 }
 
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 
 p {
   margin-bottom: 20px;
@@ -50,7 +48,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #333
+  background-color: #333;
 }
 
 .bg-dark {
@@ -62,7 +60,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.text-faded-extra p{
+.text-faded-extra p {
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -80,7 +78,7 @@ aside {
 
 .navbar-default {
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #333;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -89,7 +87,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
@@ -183,7 +181,7 @@ header {
   text-align: center;
   color: #fff;
   background-color: #333;
-  background-image: url(../img/retro-sun.jpg);
+  background-image: url(../img/space.jpg);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -244,8 +242,8 @@ header .header-content .header-content-inner p {
   }
 }
 
-.call-to-action{
-    margin: 30px 0 0 0;
+.call-to-action {
+  margin: 30px 0 0 0;
 }
 
 .section-heading {
@@ -306,7 +304,7 @@ header .header-content .header-content-inner p {
   .portfolio-box-caption-content
   .project-name {
   padding: 0 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .portfolio-box
@@ -475,7 +473,7 @@ fieldset[disabled] .btn-primary.active {
   border: 0;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -505,7 +503,6 @@ img::-moz-selection {
   background: 0 0;
 }
 
-
 .post-link {
   text-decoration: none;
 }
@@ -525,61 +522,58 @@ img::-moz-selection {
   text-decoration: none;
 }
 
-
 .contact-area {
   padding: 50px 0 0 0;
 }
 
-.top-space{
+.top-space {
   margin-top: 70px;
 }
 
-.bottom-space{
+.bottom-space {
   margin-bottom: 50px;
 }
 
-.item{
+.item {
   color: #141414;
   padding: 20px 0 20px 0;
   text-align: left;
   width: 60%;
 }
 
-.postlist-link{
+.postlist-link {
   color: #141414;
   text-decoration: none;
 }
 
-.postlist-link:hover{
+.postlist-link:hover {
   color: #1d9cf7;
   text-decoration: none;
 }
 
-
-.fullpost{
+.fullpost {
   display: flex;
   justify-content: center;
   margin-top: 70px;
 }
 
-.fullpost div{
+.fullpost div {
   max-width: 800px;
   margin: 0 10px;
 }
 
-
-#post .fullpost-text > p{
+#post .fullpost-text > p {
   width: 60%;
 }
 
-.nextcloud-logo{
+.nextcloud-logo {
   display: block;
   border-radius: 3px;
   height: auto;
   width: 200px !important;
 }
-#project img[alt=img],
-#post img[alt=img]{
+#project img[alt="img"],
+#post img[alt="img"] {
   display: block;
   border-radius: 3px;
   margin-top: 20px;
@@ -587,23 +581,22 @@ img::-moz-selection {
   max-width: 100%;
 }
 
-
 pre {
-    display: block;
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 13px;
-    line-height: 1.42857143;
-    word-break: break-all;
-    word-wrap: break-word;
-    color: #C4C7CB;
-    background-color: #282C34;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    width: 100%;
-  }
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #c4c7cb;
+  background-color: #282c34;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
 
-.skills-heading{
+.skills-heading {
   margin-bottom: 50px;
 }
 
@@ -612,96 +605,140 @@ pre {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 auto;
-  width: 70%;
+  width: 100%;
   justify-content: center;
 }
 
 .container-list .square {
   width: 25%;
-  height: 90px;
-  margin-bottom: 20px;
+  margin: 0 20px 20px 0;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 0;
 }
 
+#pricing .link-color {
+  color: #fff;
+  text-decoration: underline;
+}
 
-@media (max-width: 600px){
-  .container-list .square{
+@media (max-width: 600px) {
+  .container-list .square {
     width: 50%;
   }
 }
 
-@media (min-width: 601px) and (max-width: 800px){
+@media (min-width: 601px) and (max-width: 800px) {
   .container-list .square {
     width: 25%;
   }
 }
 
-@media (min-width: 801px) and (max-width: 1024px){
+@media (min-width: 801px) and (max-width: 1024px) {
   .container-list .square {
-  width: 25%;
+    width: 25%;
   }
 }
 
+.work {
+  width: 300px;
+  height: 300px;
+  margin: 0 10px 10px 0;
+  background: #d9d9d9;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-.skill-icon{
+.work-border {
+  height: 30px;
+  width: 100%;
+  background: #fff;
+}
+
+
+.pricing-list {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.pricing-list .pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  margin: 0 10px 10px 0;
+  background: #d9d9d9;
+  color: #333;
+  border-radius: 5px;
+}
+
+.pricing .amount {
+  font-size: 26px;
+}
+
+.skill-icon {
   height: 60px;
   width: 60px;
   overflow: hidden;
 }
 
-.portfolio-title{
+.portfolio-title {
   margin-top: 70px;
   margin-left: 15px;
 }
 
-.portfolio-content{
+.portfolio-content {
   color: #141414;
   padding: 20px 0 20px 0;
   text-align: left;
   width: 65%;
 }
 
-.blog-title{
+.blog-title {
   margin-top: 70px;
   margin-left: 15px;
 }
 
-.project-single{
+.project-single {
   display: flex;
   justify-content: center;
   margin-top: 70px;
 }
 
-.project-single div{
+.project-single div {
   max-width: 800px;
   margin: 0 10px;
 }
 
-
-.small-text{
+.small-text {
   font-size: 12px;
 }
 
-.broken-img{
+.broken-img {
   border: 1px solid #333333;
 }
 
-.hire-content{
+.faq-content {
   display: flex;
   justify-content: center;
   margin-top: 70px;
 }
 
-.hire-content div{
+.faq-content div {
   max-width: 800px;
   margin: 0 10px;
 }
 
-.hire-img{
+.faq-img {
   border-radius: 4px;
 }
 
-footer p{
+footer p {
   padding-bottom: 30px;
 }
 
@@ -710,3 +747,4 @@ footer p{
   margin: 0 10px 10px 0;
   border-radius: 3px;
 }
+
