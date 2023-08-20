@@ -611,10 +611,11 @@ pre {
 
 .container-list .square {
   width: 25%;
+  height: 183px;
   margin: 0 20px 20px 0;
   border: 1px solid #333;
   border-radius: 5px;
-  padding: 0;
+  padding: 0 5px 0 5px;
 }
 
 #pricing .link-color {
@@ -660,7 +661,7 @@ pre {
   text-align: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
 }
@@ -677,8 +678,21 @@ pre {
   border-radius: 5px;
 }
 
+
+
+
 .pricing .amount {
   font-size: 26px;
+}
+
+.pricing, ul{
+  padding: 0;
+}
+
+.pricing ul li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .skill-icon {
@@ -732,6 +746,10 @@ pre {
 .faq-content div {
   max-width: 800px;
   margin: 0 10px;
+}
+
+.faq-content ul{
+  margin-left: 20px;
 }
 
 .faq-img {
