@@ -623,6 +623,12 @@ pre {
   text-decoration: underline;
 }
 
+@media (max-width: 380px) and (max-width: 599px) {
+  .container-list .square {
+    height: 230px;
+  }
+}
+
 @media (max-width: 600px) {
   .container-list .square {
     width: 50%;
@@ -640,6 +646,7 @@ pre {
     width: 25%;
   }
 }
+
 
 .work {
   width: 300px;
