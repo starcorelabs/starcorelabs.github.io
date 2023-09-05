@@ -242,6 +242,10 @@ header .header-content .header-content-inner p {
   }
 }
 
+#about{
+
+}
+
 .call-to-action {
   margin: 30px 0 0 0;
 }
@@ -618,6 +622,15 @@ pre {
   padding: 0 5px 0 5px;
 }
 
+#pricing {
+  background-image: url(../img/nebula.jpg);
+  background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #pricing .link-color {
   color: #fff;
   text-decoration: underline;
@@ -747,7 +760,9 @@ pre {
 .faq-content {
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  padding-top: 70px;
+  background-color: #222;
+  color: #fff;
 }
 
 .faq-content div {
@@ -763,13 +778,23 @@ pre {
   border-radius: 4px;
 }
 
-footer p {
-  padding-bottom: 30px;
+
+#faq-info > div > h3{
+  font-size: 32px;
 }
 
-.michael-headshot {
-  float: left;
-  margin: 0 10px 10px 0;
-  border-radius: 3px;
+#faq-info > div > p{
+  font-size: 24px;
 }
+
+#faq-info > div > ul > li{
+  font-size: 24px;
+}
+
+
+footer p {
+  padding: 40px 0 40px 0;
+}
+
+
 
