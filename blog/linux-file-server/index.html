@@ -8,7 +8,7 @@
         <meta name="description" content="Starcore Labs">
         <meta name="author" content="Starcore Labs">
         <link rel="icon" href="/assets/img/favicon.ico">
-        <title>Starcore Labs</title>
+        <title>Linux File Server</title>
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css.map" type="text/css">
         <link
@@ -72,18 +72,41 @@
         </nav>
         <!-- block render -->
         
-  <!-- pageHeader -->
-  <header>
-    <div class="header-content">
-      <div class="header-content-inner">
-        <h1 class="hero">STARCORE LABS</h1>
-        <p>A blog about technology, design, psychology, and business.</p>
-      </div>
-    </div>
-  </header>
-  <!-- end pageHeader -->
+        <div class="content">
+<!-- post -->
 
-        <div class="content"><!-- index --></div>
+<article class="fullpost" id="post">
+<div>
+  <h1>Linux File Server</h1>
+  <p>2020-09-06</p>
+  <p><p><img src="../../assets/img/post-images/hard-drive.png" alt="img"></p>
+<p>A few months ago I rebuilt my file server using an Antec P100 case and the guts of a Lenovo S30.
+I had to do a bit of rewiring and soldering on the power switch to get it working.</p>
+<p><img src="../../assets/img/post-images/antec-p100.jpg" alt="img"></p>
+<p>I used a 120GB SSD for the OS drive and 7 spinning SATA drives of various sizes for data.
+Keep in mind none of the drives are in any kind of raid array.</p>
+<p>At the time I chose <a href="https://linuxmint.com/">Linux Mint XFCE</a> as my OS for this project.</p>
+<p>Most of the files on the drives are from when I was a Windows user.
+Since I've fully switched to using Linux as my only operating system most of the backed up data is irrelevant.</p>
+<p>On top of that its been a long time since I've sorted any of the files on this server.
+So I decided it was time to do an inventory and purge of the system.
+This is the digital equivalent of cleaning out the garage.</p>
+<p>I've pulled all the drives out of the server, except for the OS SSD, and I'm going through each one.
+Taking my copying what I want to keep to my NextCloud server. Deleting what I don't need.
+Then organizing the rest in preparation for the next version of the server.</p>
+<p>I am planning on using <a href="https://pop.system76.com/">POP OS</a> as the OS going forward.
+I will set up auto-mounting for all the drives on boot.
+As well as configuring a static IP, SSH, and Samba for file sharing.</p>
+<p>Once complete the server will act like a simple NAS.</p>
+<p>Cleaning up the files is a long tedious process of reviewing, copying, sorting, and deleting.
+If all goes well this process should free up a lot of storage space.
+While giving me a better organized collection of files.</p>
+<p>I'll be happy when its done.</p>
+</p>
+</div>
+</article>
+
+<!-- end post --></div>
         
         
         <!-- endblock render -->

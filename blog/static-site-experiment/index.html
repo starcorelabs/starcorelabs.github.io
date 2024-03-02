@@ -8,7 +8,7 @@
         <meta name="description" content="Starcore Labs">
         <meta name="author" content="Starcore Labs">
         <link rel="icon" href="/assets/img/favicon.ico">
-        <title>Starcore Labs</title>
+        <title>Static Site Experiment</title>
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css.map" type="text/css">
         <link
@@ -72,18 +72,51 @@
         </nav>
         <!-- block render -->
         
-  <!-- pageHeader -->
-  <header>
-    <div class="header-content">
-      <div class="header-content-inner">
-        <h1 class="hero">STARCORE LABS</h1>
-        <p>A blog about technology, design, psychology, and business.</p>
-      </div>
-    </div>
-  </header>
-  <!-- end pageHeader -->
+        <div class="content">
+<!-- post -->
 
-        <div class="content"><!-- index --></div>
+<article class="fullpost" id="post">
+<div>
+  <h1>Static Site Experiment</h1>
+  <p>2020-09-01</p>
+  <p><p><img src="../../assets/img/post-images/pier.jpg" alt="img"></p>
+<h2>Welcome Back to the Lab!</h2>
+<p>I have been using <a href="https://hexo.io/">Hexo.io</a> for the last 3 years as my static site generator.</p>
+<p>It worked well enough. But has a few flaws and limitations that prevented me from building the kind of site I really wanted.</p>
+<p>Recently I decided to freelance again and needed to update this website to include a portfolio.
+So I decided to investigate other static site generators to accomplish this goal.</p>
+<h3>My Requirements</h3>
+<p>I wanted to use JavaScript as my development language and markdown for content.
+Because all my Hexo posts are in markdown.
+I knew it would be simple to copy the files over and make a few adjustments to get them working.</p>
+<p>I wanted to convert an HTML and CSS site I'd built a couple of years ago to be the theme for my static site.</p>
+<p>I needed my site to iterate over two separate lists of markdown posts and projects.
+Then display them respectively on a Blog page and a Portfolio page.</p>
+<p>Each individual post and project needed to open in an individual page where I can write in-depth about a single topic or project.</p>
+<p>With these requirements in mind I started looking for options.</p>
+<p>I went to <a href="https://www.staticgen.com/">Static Site Gen</a> and spent time researching a few JavaScript-based possibilities:</p>
+<ol>
+<li><a href="https://www.gatsbyjs.com/">Gatsby</a></li>
+<li><a href="https://github.com/react-static/react-static/tree/master/">React Static</a></li>
+<li><a href="https://www.11ty.dev/">11ty / Eleventy</a></li>
+<li><a href="https://sapper.svelte.dev/">Svelte Sapper</a></li>
+<li><a href="https://nuxtjs.org/">Vue Nuxt</a></li>
+<li><a href="https://vuepress.vuejs.org/">VuePress</a></li>
+</ol>
+<p>With this limited list, I was overwhelmed with the time-consuming complexity of getting up and running with these options. Most are add-ons to allow complex front-end libraries to output static sites. At the moment I don't need that level of engineering for my site.</p>
+<p>However, Eleventy looked purpose built from the ground up to create static sites.
+Giving users the ability to pick whatever templating system works best for them.
+Anything that gives me more choices is great.</p>
+<p>In my case Eleventy was deceptively simple. Which caused me issues because I was expecting more complexity which didn't exist.</p>
+<p>However with the help of <a href="https://www.youtube.com/playlist?list=PLOSLUtJ_J3rrJ1R1qEf8CCEpV3GgbJGNr">Bryan Robinson's 11ty YouTube Tutorial</a>. And, help from friendly developers on GitHub. I was able to wrap my head around how it works under the hood.</p>
+<p>Now I'm very happy with my current site.
+It works and performs the way I want.</p>
+<p>I plan on using Eleventy for this site, other ideas, and client projects in the future.</p>
+</p>
+</div>
+</article>
+
+<!-- end post --></div>
         
         
         <!-- endblock render -->

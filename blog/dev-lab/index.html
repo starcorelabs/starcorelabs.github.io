@@ -8,7 +8,7 @@
         <meta name="description" content="Starcore Labs">
         <meta name="author" content="Starcore Labs">
         <link rel="icon" href="/assets/img/favicon.ico">
-        <title>Starcore Labs</title>
+        <title>Dev Lab</title>
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css.map" type="text/css">
         <link
@@ -72,18 +72,54 @@
         </nav>
         <!-- block render -->
         
-  <!-- pageHeader -->
-  <header>
-    <div class="header-content">
-      <div class="header-content-inner">
-        <h1 class="hero">STARCORE LABS</h1>
-        <p>A blog about technology, design, psychology, and business.</p>
-      </div>
-    </div>
-  </header>
-  <!-- end pageHeader -->
+        <div class="content">
+<!-- post -->
 
-        <div class="content"><!-- index --></div>
+<article class="fullpost" id="post">
+<div>
+  <h1>Dev Lab</h1>
+  <p>2020-07-27</p>
+  <p><p><img src="../../assets/img/post-images/2020-08-19_dev-lab.jpg" alt="img"></p>
+<p>Recently I used Virtual Box and POP OS to build a lab for web and software development.</p>
+<p>Using Virtual Box makes the lab more resilient against issues.
+This setup allows me to take snapshots of the installation and revert back to previous versions if anything goes wrong.
+It also allows me to stop the running POP OS and save its current state like saving a video game.</p>
+<p>This means I can leave my files and editor open, and development server running.
+When I restore the paused VM from a saved state it will return just as I left it.</p>
+<p>I made a YouTube video showing the installation process: <a href="https://www.youtube.com/watch?v=dn81e9OwEgM&amp;t">Dev Lab</a></p>
+<p>Here's the list I followed while setting up my lab.</p>
+<ul>
+<li><a href="https://www.virtualbox.org/">VirtualBox</a></li>
+<li><a href="https://pop.system76.com/">POP OS</a></li>
+<li>VirtualBox Guest Additions</li>
+<li>Set Wallpaper</li>
+<li>Update &amp; Upgrade</li>
+<li>Gnome Tweak</li>
+<li><a href="https://extensions.gnome.org/extension/307/dash-to-dock/">Dash to Dock</a></li>
+<li>Chromium</li>
+<li><a href="https://git-scm.com/download/linux">Install Git</a></li>
+<li><a href="https://tecadmin.net/install-nodejs-with-nvm/">Node.js via NVM</a></li>
+<li><a href="https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-oracle-java-jdk-10-8-on-ubuntu-18-04-ubuntu-17-10.html">Oracle Java JDK</a></li>
+<li>IntelliJ IDEA</li>
+<li><a href="https://www.linuxhelp.com/how-to-install-and-configure-samba-setup-in-linux-mint-18-3">Install and Config Samba</a></li>
+<li><a href="https://vscodium.com/">VSCodium</a></li>
+<li>Take Snap Shot</li>
+</ul>
+<p>If you're a web or software developer. I recommend taking the time to setup your own dev lab.
+The process will take about an hour, depending on your hardware and the OS you use.
+You can use whatever operating system you prefer.</p>
+<p>Once you have your lab setup. Save and shutdown the Virtual Machine.
+Then backup the files to an external drive or local NAS.</p>
+<p>In the event you have to reinstall your main operating system you'll be able to quickly get your dev lab up and running.
+Simply by reinstalling VirtualBox and grabbing the most recent backup of your Virtual Machine.
+Just remember to backup the VM on a regular basis.</p>
+<p>I hope you found this helpful.
+Have a great day!</p>
+</p>
+</div>
+</article>
+
+<!-- end post --></div>
         
         
         <!-- endblock render -->
