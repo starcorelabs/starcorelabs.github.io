@@ -9,6 +9,8 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  background-color: #222;
+  color: #b3b3b3;
 }
 
 .content{
@@ -86,7 +88,7 @@ aside {
 .navbar-default {
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
+  background-color: #472b56;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -96,7 +98,7 @@ aside {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  color: #472b56;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -110,7 +112,7 @@ aside {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
-  color: #222;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -538,14 +540,14 @@ img::-moz-selection {
 }
 
 .item{
-  color: #141414;
+  color: #b3b3b3;
   padding: 20px 0 20px 0;
   text-align: left;
   width: 60%;
 }
 
 .postlist-link{
-  color: #141414;
+  color: #fff;
   text-decoration: none;
 }
 
