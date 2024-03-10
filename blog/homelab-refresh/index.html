@@ -87,32 +87,32 @@
 <p>It took a week for me to sort through 8TB of data. I deleted duplicate files and software I no longer needed.</p>
 <h3>Software and Services</h3>
 <p>I took an inventory of the current state of my homelab and noticed some of my systems were still running slightly older versions of Ubuntu Server. I decided I wanted to use Debian 12 without a GUI as a server OS. Ubuntu Server is based on Debian. It is designed to be run in a data center on enterprise hardware. It adds a lot of features I don't use which can slow down a home server.</p>
-<p>In my opinion, Debian is easier to install, configure, and maintain. I planned on installing <a href="https://casaos.io/">CasaOS</a>, on top of Debian, to create and manage docker continers. After testing CasaOS both Ubuntu Server and Debian on my hardware, I found Debian runs faster and uses less power.</p>
+<p>In my opinion, Debian is easier to install, configure, and maintain. I planned on installing <a href="https://casaos.io/">CasaOS</a>, on top of Debian, to create and manage docker continers. After testing CasaOS with both Ubuntu Server and Debian on my hardware, I found Debian runs faster and uses less power.</p>
 <p>A few years ago I set up a Jellyfin media server using POP!_OS because some configuration and management tasks are easier to do with a GUI. So, I decided not to change it during the refresh. Instead, I updated it to the latest version and cleaned up the files.</p>
 <h3>Website Hosting</h3>
 <p>While CasaOS does have the ability to install docker containers that can host websites. There are many reasons I decided against doing this.</p>
 <ul>
 <li>High electricity cost in my area.</li>
-<li>My internet connection is unreliable which would interrupt access to my sites.</li>
-<li>Thunderstorms in the spring and summer that could damage running hardware.</li>
+<li>My internet connection is unreliable which would interrupt access to my websites.</li>
+<li>Thunderstorms in the spring and summer could damage running hardware.</li>
 <li>Internet service providers frown on using residential internet for hosting websites.</li>
-<li>Residential internet IP addresses change frequently which would break the DNS look for my domain.</li>
+<li>Residential IP addresses change frequently which would break the DNS look for my domain.</li>
 <li>Opening ports in my router to allow web traffic is a security risk for my entire network.</li>
 </ul>
-<p>Instead, I use the <a href="https://www.11ty.dev/">Eleventy Static Site Generator</a> to create a static version for both of my websites locally. Then I host them on <a href="https://pages.github.com/">GitHub Pages</a> for free. Doing it this way eliminates all the problems mentioned above.</p>
+<p>Instead, I use the <a href="https://www.11ty.dev/">Eleventy Static Site Generator</a> to create a static version for both of my websites locally. Then I host them on <a href="https://pages.github.com/">GitHub Pages</a> for free. Doing this eliminates all the problems mentioned above.</p>
 <h3>Names and Static IPs</h3>
 <p>Originally, I used the Greek Gods and Goddesses as a naming convention for all my systems. During this refresh, I decided to change the naming convention to the periodic table of elements because I'm a science nerd!</p>
 <p>I reconfigured the storage across my systems and installed Debian as the server OS on most of them. Then I setup static IP addresses outside my router's DHCP range. I did this to ensure the static IP addresses wouldn't interfere with any dynamic addresses it might assign to other devices.</p>
 <h3>Hardware and network map</h3>
 <p><img src="../../assets/img/post-images/homelab-network.png" alt="img"></p>
-<p>Above is a graphic that shows all my hardware and a map of how they are connected within my network. Note: None of the information in this map will compromise my network security. I'm sharing it to illustrate the amount of work I put into refreshing my homelab.</p>
+<p>Above is a graphic that shows all my hardware and a map of how they are connected within my network. None of the information in this map will compromise my network security. I'm sharing it to illustrate the amount of work I put into refreshing my homelab.</p>
 <p>Below is a list of each system in IP order with a description of its function.</p>
 <ul>
 <li>10 Argon - Gitea hosts git repositories for projects.</li>
 <li>11 Neon - Crafty Controller is a GUI for managing Minecraft servers.</li>
 <li>12 Titanium - Debian with a Samba shared folder. This is my small NAS.</li>
-<li>13 Hydrogen - Jellfin media server.</li>
-<li>14 Oxygen - Proxmox hypervisor. Hosts virtual operating systems.</li>
+<li>13 Hydrogen - Jellyfin media server.</li>
+<li>14 Oxygen - Proxmox hypervisor that hosts virtual operating systems.</li>
 <li>15 Gold - Main desktop workstation.</li>
 <li>16 Silver - Personal Laptop.</li>
 <li>17 Cobalt - Laptop used for secure downloads.</li>
