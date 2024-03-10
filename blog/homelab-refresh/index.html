@@ -1,0 +1,150 @@
+<!-- base.njk -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Starcore Labs">
+        <meta name="author" content="Starcore Labs">
+        <link rel="icon" href="/assets/img/favicon.ico">
+        <title>Homelab Refresh</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css.map" type="text/css">
+        <link
+        rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css"> <!-- Custom Fonts -->
+        <link
+            href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+            rel='stylesheet'
+            type='text/css'>
+        <link
+        href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+            rel='stylesheet'
+            type='text/css'> <!-- Plugin CSS -->
+        <link
+        rel="stylesheet" href="/assets/css/animate.min.css" type="text/css"> <!-- Custom CSS -->
+        <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!-- [if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        
+        <![endif] -->
+    </head>
+    <body id="page-top">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
+            <div
+                class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="/">Starcore Labs</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/starcorelabs">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@rathcat4535/videos">YouTube Gaming</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- block render -->
+        
+        <div class="content">
+<!-- post -->
+
+<article class="fullpost" id="post">
+<div>
+  <h1>Homelab Refresh</h1>
+  <p>2024-03-06</p>
+  <p><p><img src="../../assets/img/post-images/data-center.png" alt="img"></p>
+<h3>How it Started</h3>
+<p>Last month I was working on a design project and wanted to use a specific file I remembered saving. I thought it was on my small NAS. But I didn't find it there. So I checked my large NAS and after a long search, I finally found it.</p>
+<p>During my hunt, I saw many duplicate files across different folders. The disorganization and wasted space bothered me.</p>
+<p>At the same time, one of my media server drives was getting full. I had another unused drive sitting in a different tower. I decided it was time to reorganize my files and refresh my servers to better utilize their resources.</p>
+<p>It took a week for me to sort through 8TB of data. I deleted duplicate files and software I no longer needed.</p>
+<h3>Software and Services</h3>
+<p>I took an inventory of the current state of my homelab and noticed some of my systems were still running slightly older versions of Ubuntu Server. I decided I wanted to use Debian 12 without a GUI as a server OS. Ubuntu Server is based on Debian. It is designed to be run in a data center on enterprise hardware. It adds a lot of features I don't use which can slow down a home server.</p>
+<p>In my opinion, Debian is easier to install, configure, and maintain. I planned on installing <a href="https://casaos.io/">CasaOS</a>, on top of Debian, to create and manage docker continers. After testing CasaOS both Ubuntu Server and Debian on my hardware, I found Debian runs faster and uses less power.</p>
+<p>A few years ago I set up a Jellyfin media server using POP!_OS because some configuration and management tasks are easier to do with a GUI. So, I decided not to change it during the refresh. Instead, I updated it to the latest version and cleaned up the files.</p>
+<h3>Website Hosting</h3>
+<p>While CasaOS does have the ability to install docker containers that can host websites. There are many reasons I decided against doing this.</p>
+<ul>
+<li>High electricity cost in my area.</li>
+<li>My internet connection is unreliable which would interrupt access to my sites.</li>
+<li>Thunderstorms in the spring and summer that could damage running hardware.</li>
+<li>Internet service providers frown on using residential internet for hosting websites.</li>
+<li>Residential internet IP addresses change frequently which would break the DNS look for my domain.</li>
+<li>Opening ports in my router to allow web traffic is a security risk for my entire network.</li>
+</ul>
+<p>Instead, I use the <a href="https://www.11ty.dev/">Eleventy Static Site Generator</a> to create a static version for both of my websites locally. Then I host them on <a href="https://pages.github.com/">GitHub Pages</a> for free. Doing it this way eliminates all the problems mentioned above.</p>
+<h3>Names and Static IPs</h3>
+<p>Originally, I used the Greek Gods and Goddesses as a naming convention for all my systems. During this refresh, I decided to change the naming convention to the periodic table of elements because I'm a science nerd!</p>
+<p>I reconfigured the storage across my systems and installed Debian as the server OS on most of them. Then I setup static IP addresses outside my router's DHCP range. I did this to ensure the static IP addresses wouldn't interfere with any dynamic addresses it might assign to other devices.</p>
+<h3>Hardware and network map</h3>
+<p><img src="../../assets/img/post-images/homelab-network.png" alt="img"></p>
+<p>Above is a graphic that shows all my hardware and a map of how they are connected within my network. Note: None of the information in this map will compromise my network security. I'm sharing it to illustrate the amount of work I put into refreshing my homelab.</p>
+<p>Below is a list of each system in IP order with a description of its function.</p>
+<ul>
+<li>10 Argon - Gitea hosts git repositories for projects.</li>
+<li>11 Neon - Crafty Controller is a GUI for managing Minecraft servers.</li>
+<li>12 Titanium - Debian with a Samba shared folder. This is my small NAS.</li>
+<li>13 Hydrogen - Jellfin media server.</li>
+<li>14 Oxygen - Proxmox hypervisor. Hosts virtual operating systems.</li>
+<li>15 Gold - Main desktop workstation.</li>
+<li>16 Silver - Personal Laptop.</li>
+<li>17 Cobalt - Laptop used for secure downloads.</li>
+<li>18 Nitrogen - Debian with XFCE Desktop. This is my large NAS.</li>
+</ul>
+<h3>Results</h3>
+<p>I'm happy now that <a href="https://www.youtube.com/watch?v=NUnXxh5U25Y">everything is in its right place</a>. I can easily access my servers to find files or use services.</p>
+<p>Due to the high electricity cost in my area I keep my computers turned off unless I'm using them.</p>
+<p>To make my life easier I wrote out all the steps I took to install, setup, and configure the operating systems, software, and services I use in my homelab: <a href="https://github.com/starcorelabs/homelab">Homelab Repo</a>.</p>
+<p>In a few months if I decide to add or update anything I can reference my documentation.</p>
+<p>Running a homelab is a fun hobby. If you're interested in setting up a homelab, I recommend checking out <a href="https://www.youtube.com/watch?v=WpYLPIMxzaU&amp;list=PLhMI0SExGwfD9I-NEzMz2TzW1bew13u5r">DB Tech's CasaOS Playlist on YouTube</a>.</p>
+</p>
+</div>
+</article>
+
+<!-- end post --></div>
+        
+        
+        <!-- endblock render -->
+        <footer class="footer bg-dark">
+            <p class="footer-text-center">Copyright &copy; Starcore Labs 2024</p>
+        </footer>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <!-- Plugin JavaScript-->
+        <script src="/assets/js/jquery.easing.min.js"></script>
+        <script src="/assets/js/jquery.fittext.js"></script>
+        <script src="/assets/js/wow.min.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>
+<!-- end base.njk --></body></html>
