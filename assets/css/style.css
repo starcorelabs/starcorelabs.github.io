@@ -1380,3 +1380,22 @@ line-height: 2;
   color: #fff;
   text-decoration: underline
 }
+
+
+/* Trello */
+
+.trello-title{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.trello{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box{
+  max-width: 800px;
+  margin: 0 10px 0 10px;
+}
