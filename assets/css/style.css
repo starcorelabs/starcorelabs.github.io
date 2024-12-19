@@ -897,8 +897,8 @@ font-size: 20px;
 
 /* Process Section */
 .process{
-  background-color: #fff;
-  color: #333;
+  background-color: #333;
+  color: #fff;
 }
 
 .process h1{
@@ -941,6 +941,11 @@ font-size: 20px;
   place-self: center;
 }
 
+.process-card img{
+  height: auto;
+  width: 200px;
+}
+
 .process-title{
   font-weight: 700;
 }
@@ -968,7 +973,8 @@ font-size: 20px;
 /* Benefits Section */
 
 .benefits{
-  color: #fff;
+  color: #333;
+  background-color: #fff;
 }
 
 .benefits h1{
@@ -1003,7 +1009,6 @@ font-size: 20px;
 .benefits-card{
   display: grid;
   grid-template-columns: 400px;
-  grid-template-rows: 200px;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -1012,6 +1017,10 @@ font-size: 20px;
   width: 400px;
   height: 254px;
   background-color: #fff;
+  border-radius: 5px;
+}
+
+.benefits-card img{
   border-radius: 5px;
 }
 
@@ -1398,4 +1407,11 @@ line-height: 2;
 .content-box{
   max-width: 800px;
   margin: 0 10px 0 10px;
+}
+
+.work-title{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin: 80px 0  30px 0;
 }
