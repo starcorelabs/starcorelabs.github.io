@@ -80,6 +80,8 @@
       behavior: 'smooth'
     });
   });
+  
+  
 
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);

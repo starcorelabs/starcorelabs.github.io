@@ -51,7 +51,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #ffffff;
   font-family: var(--default-font);
 }
 
@@ -211,6 +211,11 @@ h6 {
   }
 }
 
+
+iframe {
+display: block !important;
+visibility: visible !important;
+}
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -752,6 +757,12 @@ section,
   .section {
     scroll-margin-top: 57px;
   }
+}
+
+#contact,
+#contact section,
+#contact .section {
+overflow: visible !important;
 }
 
 /*--------------------------------------------------------------
@@ -2558,4 +2569,8 @@ section,
 .message-success{
   margin: 150px 0 0 0;
   padding: 0 0 159px 0;
+}
+
+.honey{
+  display: none !important;
 }
