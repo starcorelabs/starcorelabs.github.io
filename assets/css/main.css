@@ -1539,6 +1539,7 @@ overflow: visible !important;
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+/*
 #contact{
   margin: 67px 0 125px 0;
 }
@@ -1619,11 +1620,15 @@ overflow: visible !important;
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
-
+*/
 /* Contact Form */
 
 #contact {
-  margin: 124px 20px 86px 20px;
+  margin: 124px 20px 125px 20px;
+}
+
+.greeting{
+  margin: 0 0 60px 0;
 }
 
 .form-control {
@@ -1661,6 +1666,25 @@ overflow: visible !important;
 .contact-area {
   padding: 50px 0 0 0;
 }
+
+.contact-button{
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  border: 2px solid var(--accent-color);
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+
+.button-box{
+  margin: 60px 0 0 0;
+}
+
 
 /*--------------------------------------------------------------
 # Work Details Section
