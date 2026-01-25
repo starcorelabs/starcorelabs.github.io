@@ -1,103 +1,501 @@
-<!-- base.njk -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3J0RVFDZR"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Starcore Labs</title>
+  <meta name="description" content="Starcore Labs Creative Design Agency">
+  <meta name="keywords" content="Graphic Design, UX/UI Design, Digital Products">
 
-        gtag('config', 'G-G3J0RVFDZR');
-    </script>
-    <!-- End Google tag (gtag.js) -->
+  <!-- Favicons -->
+  <link href="/assets/img/logo.ico" rel="icon">
+  <link href="/assets/img/logo.ico" rel="apple-touch-icon">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Research and Design.">
-    <meta name="author" content="Starcore Labs">
-    <link rel="icon" href="/assets/img/favicon.ico">
-    <title>Starcore Labs</title>
-    <!-- Bootstrap Core CSS -->
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css"> <!-- Custom Fonts -->
-    <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
-    <link
-        href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'> <!-- Plugin CSS -->
-    <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css"> <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!-- [if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        
-        <![endif] -->
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">Starcore Labs</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-    <!-- block render -->
-    
-<!-- pageHeader -->
-<header>
-  <div class="header-content">
-    <div>
-      <h1 class="hero">STARCORE LABS</h1>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="/index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+       
+       <img src="/assets/img/logo.svg" alt="logo">
+        <h1 class="sitename">Starcore Labs</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#work">Work</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
     </div>
-  </div>
-</header>
-<!-- end pageHeader -->
+  </header>
+  
 
-    <div class="content"><!-- index --></div>
-    <!-- endblock render -->
-    <footer class="footer bg-dark">
-        <div class="footer-content">
-            <span>Copyright &copy; Starcore Labs 2024</span>
+
+ <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/nebulacity.jpg" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center text-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Starcore Labs</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Creative Design Agency</p>
+        <div data-aos="fade-up" data-aos-delay="300">
+          <!-- <a href="https://youtu.be/ODpB9-MCa5s?si=y0QsdKOfnvi59gGJ" class="glightbox pulsating-play-btn"></a> -->
+          <img src="assets/img/logo.svg" class="hero-logo" alt="logo">
         </div>
-    </footer>
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript-->
-    <script src="/assets/js/jquery.easing.min.js"></script>
-    <script src="/assets/js/jquery.fittext.js"></script>
-    <script src="/assets/js/wow.min.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="/assets/js/script.js"></script>
-</body>
+      </div>
 
-</html>
-<!-- end base.njk --></body>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              We are a <strong>Creative Design Agency</strong> that loves solving problems through clear user flows, smart layouts, and thoughtful prototypes. We ask the right questions, focus on real user needs, and pay close attention to details that matter. With a strong background in both design and front-end development, we understand how design and technology work together. We help small and mid-sized businesses turn ideas into simple, easy-to-use digital experiences that work beautifully in the real world.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-search"></i>
+              </div>
+                <h3>Design Research</h3>
+              <p>We start every project with careful research. We learn about your users, your market, and your business goals. This helps us understand the real problems that need to be solved and what success looks like for your business. Our research creates a strong plan to follow, so every design choice is clear, thoughtful, and based on real needs, not guesswork.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-heart"></i>
+              </div>
+                <h3>Branding and Logo Design</h3>
+              <p>We create clear and memorable brand identities that show who you are and what you stand for. From logos to complete visual styles, our designs help your business look professional, build trust, and stand out from the competition. Every brand we design is easy to recognize and consistent across all platforms, so your audience remembers you and feels confident choosing you.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+                <h3>Sitemaps and User Flows</h3>
+              <p>We create clear sitemaps and user flows that show how people move through your website or product. These simple visual maps organize content, guide users step by step, and make sure everything is easy to find and use. This planning creates a smooth, natural experience that makes sense to your users and supports your business goals.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-diagram-3"></i>
+              </div>
+                <h3>Wireframes</h3>
+              <p>Wireframes are simple layout plans that show where content, buttons, and features will go. They define the structure of each page and show how everything works before visual design begins. This step ensures the layout is clear, easy to use, and built around real user needs.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-circle"></i>
+              </div>
+                <h3>Full-Color Prototypes</h3>
+              <p>We create detailed, full-color prototypes that show exactly how your product will look and work. These interactive designs let you see and test the experience before development begins, helping you feel confident, spot issues early, and move forward with clarity.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-star"></i>
+              </div>
+                <h3>Custom Design Projects</h3>
+              <p>We create custom design solutions tailored to your business. Each project is carefully planned to align with your goals, solve real problems, and support long-term growth. From start to finish, we focus on clear visuals, smart structure, and designs that work seamlessly for your audience.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Free Video Consultation</h3>
+            <p>Schedule a free 30-minute Zoom call to talk about your goals and see how we can help create effective design solutions for your business.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://calendly.com/starcorelabs/new-meeting">Schedule Now!</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section dark-background">
+      <div class="container">
+        <div class="row gy-4">
+        <div class="">
+          <h2>How It Works<h2>
+        </div>
+
+          <div class="col-lg-12 order-lg-1">
+
+            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-camera-video flex-shrink-0"></i>
+              <div>
+                <h4>1. Initial Consultation</h4>
+                <p>We begin with a free 30-minute Zoom meeting to learn about your business, goals, and design needs. During this call, we ask clear questions, listen carefully, and make sure we fully understand what you want to achieve. We also review our pricing packages together so you can choose the option that best fits your project, timeline, and budget. This meeting helps ensure everyone is aligned before any design work begins.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-compass flex-shrink-0"></i>
+              <div>
+                <h4>2. Planning and Strategy</h4>
+                <p>We plan every project before work begins using a clear step-by-step approach. First, we gather all goals, requirements, and important details. Then we create a simple project plan that outlines the scope, key milestones, and final deliverables. This roadmap keeps the project organized and ensures the work stays focused from start to finish.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-brush flex-shrink-0"></i>
+              <div>
+                <h4>3. Design Phase</h4>
+                <p>During the design phase, we create the graphics and visuals outlined in your project plan. You will receive draft designs by email to review at each step. You can approve the work or request changes, and we will make updates as needed until everything meets your expectations. We follow the agreed timeline, stick to the project scope, and provide clear progress updates so you always know what stage the project is in. Our goal is to deliver high-quality designs on time while keeping the process simple, organized, and stress-free.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4>4. Verification and Revisions</h4>
+                <p>After the design phase is complete, you review the drafts and note any changes you want. All feedback is collected at once, and then we make the requested updates in a single, organized revision round. This process helps ensure accuracy, saves time, and delivers a polished final result.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="600">
+              <i class="bi bi-file-zip flex-shrink-0"></i>
+              <div>
+                <h4>5. Final Delivery</h4>
+                <p>Once all designs and revisions are finished, we schedule a final review meeting to make sure everything looks correct and meets your goals. After you approve the work, we prepare the final files in the agreed formats. All deliverables, including the original source files, are neatly organized and packaged into one ZIP file so you can easily download and use them.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+
+    <!-- Work Section -->
+    <section id="work" class="work section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Work</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 work-item isotope-item filter-app">
+              <img src="assets/img/masonry-work/allpaid.png" class="img-fluid" alt="">
+              <div class="work-info">
+                <h4>AllPaid</h4>
+                <p>Portal for local government payments</p>
+                <a href="assets/img/masonry-work/allpaid.png" title="AllPaid" data-gallery="work-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="#work" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Work Item -->
+
+            <div class="col-lg-4 col-md-6 work-item isotope-item filter-product">
+              <img src="assets/img/masonry-work/govpaynet.png" class="img-fluid" alt="">
+              <div class="work-info">
+                <h4>GovPayNet</h4>
+                <p>Internal tool for management</p>
+                <a href="assets/img/masonry-work/govpaynet.png" title="GovPayNet" data-gallery="work-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="#work" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Work Item -->
+
+            <div class="col-lg-4 col-md-6 work-item isotope-item filter-branding">
+              <img src="assets/img/masonry-work/jpay.png" class="img-fluid" alt="">
+              <div class="work-info">
+                <h4>JPay</h4>
+                <p>Mobile app for cash transfers to incarcerated individuals</p>
+                <a href="assets/img/masonry-work/jpay.png" title="JPay" data-gallery="work-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="#work" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Work Item -->
+
+            <div class="col-lg-4 col-md-6 work-item isotope-item filter-app">
+              <img src="assets/img/masonry-work/bluesky-office.png" class="img-fluid" alt="">
+              <div class="work-info">
+                <h4>Bluesky eCommerce</h4>
+                <p>My Vet Store</p>
+                <a href="assets/img/masonry-work/bluesky-office.png" title="Bluesky eCommerce" data-gallery="work-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="#work" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Work Item -->
+
+            <div class="col-lg-4 col-md-6 work-item isotope-item filter-product">
+              <img src="assets/img/masonry-work/navient.png" class="img-fluid" alt="">
+              <div class="work-info">
+                <h4>Navient</h4>
+                <p>Student Loan Repayment Portal</p>
+                <a href="assets/img/masonry-work/navient.png" title="Navient" data-gallery="work-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="#work" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Work Item -->
+
+            <div class="col-lg-4 col-md-6 work-item isotope-item filter-branding">
+              <img src="assets/img/masonry-work/hccmis.png" class="img-fluid" alt="">
+              <div class="work-info">
+                <h4>HCCMIS</h4>
+                <p>Travel Insurance for outside the US</p>
+                <a href="assets/img/masonry-work/hccmis.png" title="HCCMIS" data-gallery="work-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="#work" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Work Item -->
+
+           
+
+          </div><!-- End Work Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Work Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-item bronze">
+              <h3>Bronze</h3>
+              <h4><sup>$</sup>999.00</h4>
+              <ul>
+                <li>5 Days</li>
+                <li>Design Research</li>
+                <li>Branding and Logo</li>
+                <li>Template Editing for 3 Page Site</li>
+                <li>1 Revision</li>
+                <li class="na">Social Media Design Package<</li>
+                <li class="na">Custom Web Forms</li>
+                <li class="na">Custom Design Project</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://calendly.com/starcorelabs/new-meeting" class="btn-buy">Schedule Now!</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-item silver">
+              <h3>Silver</h3>
+              <h4><sup>$</sup>1,999.00</h4>
+              <ul>
+                <li>10 Days</li>
+                <li>Design Research</li>
+                <li>Branding and Logo</li>
+                <li>Template Editing for 4 Page Site</li>
+                <li>2 Revisions</li>
+                <li>Social Media Design Package</li>
+                <li class="na">Custom Web Forms</li>
+                <li class="na">Custom Design Project</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://calendly.com/starcorelabs/new-meeting" class="btn-buy">Schedule Now!</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-item gold recommended">
+              <span class="recommended-badge">Recommended</span>
+              <h3>Gold</h3>
+              <h4><sup>$</sup>2,999.00</h4>
+              <ul>
+                <li>20 Days</li>
+                <li>Design Research</li>
+                <li>Branding and Logo</li>
+                <li>Template Editing for 6 Page Site</li>
+                <li>3 Revisions</li>
+                <li>Social Media Design Package</li>
+                <li>Custom Web Forms</li>
+                <li class="na">Custom Design Project</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://calendly.com/starcorelabs/new-meeting" class="btn-buy">Schedule Now!</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-item platinum">
+              <h3>Platinum</h3>
+              <h4><sup>$</sup>3,999.00</h4>
+              <ul>
+                <li>30 Days</li>
+                <li>Design Research</li>
+                <li>Branding and Logo</li>
+                <li>Template Editing for 8 Page Site</li>
+                <li>4 Revisions</li>
+                <li>Social Media Design Package</li>
+                <li>Custom Web Forms</li>
+                <li>Custom Design Project</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://calendly.com/starcorelabs/new-meeting" class="btn-buy">Schedule Now!</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+<div id="alternatives" class="alternatives">
+  <div class="container">
+  <p>If our pricing packages don't fit your needs, look at these <a href="/alternatives">Alternatives</a>.</p>
+  </div>
+</div>
+   
+  </main>
+
+<!-- index -->
+
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Starcore Labs</h3>
+      <div class="social-links d-flex justify-content-center">
+        <a href="/"><i class="bi bi-twitter-x"></i></a>
+        <a href="/"><i class="bi bi-facebook"></i></a>
+        <a href="/"><i class="bi bi-instagram"></i></a>
+        <a href="/"><i class="bi bi-pinterest"></i></a>
+        <a href="/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+        <span>Copyright</span> <strong class="px-1 sitename">Starcore Labs</strong> <span>All Rights Reserved</span><span class="s-links"></span>
+        </div>
+      <div class="container"> 
+        <div class="service-links"
+          <span><a href="/terms-of-service">Terms of Service</a></span>
+          <span><a href="/privacy-policy">Privacy Policy</a></span>
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
 
 </html>
