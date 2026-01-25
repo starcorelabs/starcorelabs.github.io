@@ -157,6 +157,8 @@ h6 {
 
 /* PHP Email Form Messages
 ------------------------------*/
+
+/*
 .php-email-form .error-message {
   display: none;
   background: #df1529;
@@ -166,6 +168,8 @@ h6 {
   margin-bottom: 24px;
   font-weight: 600;
 }
+
+*/
 
 .php-email-form .sent-message {
   display: none;
